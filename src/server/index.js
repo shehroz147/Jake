@@ -3,10 +3,15 @@ import express from 'express';
 import exphbs from 'express-handlebars';
 import React from 'react';
 import { match, RouterContext } from 'react-router';
-import { Provider } from 'react-dom/server';
+import { Provider } from 'react-redux';
+import { renderToString } from 'react-dom/server';
 import { resolve } from 'path';
 
+import Routes from '../shared/Routes';
+import createStore from '../shared/store/createStore';
+
 const server = express();
+
 
 server.engine('handlebars', exphbs({
   defaultLayout: 'default',
@@ -18,5 +23,37 @@ server.set('view engine', 'handlebars');
 server.set('views', resolve(__dirname, './views'));
 
 server.use(express.static(resolve(__dirname, '../../static')));
+
+server.use((req, res, next) => {
+  match({ routes: Routes, location: req.originalUrl }, (err, redirect, props) => {
+    if (err) {
+      return next(err);
+    } else if (redirect) {
+      return res.redirect(302, redirect.pathname + redirect.search);
+    } else if (props) {
+      const store = createStore();
+
+      store.dispatch({
+        type: 'USERS',
+        payload: [{ _id: '1', name: 'Luke' }],
+      });
+
+      console.log(store.getState());
+
+      const markup = renderToString(
+        <Provider store={store}>
+          <RouterContext {...props} />
+        </Provider>
+      );
+
+      return res.render('index', {
+        markup,
+        state: JSON.stringify(store.getState()),
+      });
+    }
+
+    return res.status(404).send('Not Found.');
+  });
+});
 
 server.listen(8001, () => console.log('Listening on port 8001'));
