@@ -1,0 +1,26 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "Health Index",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alucidisland/health.git"
+  },
+  "author": "LFI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alucidisland/health/issues"
+  },
+  "homepage": "https://github.com/Alucidisland/health#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "nodemon": "^1.11.0"
+  }
+}
