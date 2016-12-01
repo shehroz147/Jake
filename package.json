@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alucidisland/health.git"
+    "url": "git+https://github.com/LouFreyInstitute/health.git"
   },
   "author": "LFI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alucidisland/health/issues"
+    "url": "https://github.com/LouFreyInstitute/health/issues"
   },
-  "homepage": "https://github.com/Alucidisland/health#readme",
+  "homepage": "https://github.com/LouFreyInstitute/health#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babelify": "^7.3.0",
@@ -30,5 +30,9 @@
     "nodemon": "^1.11.0",
     "parallelshell": "^2.0.0",
     "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-router": "^3.0.0"
   }
 }
