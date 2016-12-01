@@ -11,7 +11,7 @@
     "start": "parallelshell 'npm run demon' 'npm run styles' 'npm run scripts'",
     "demon": "nodemon src/server/index.js",
     "styles": "node-sass styles/styles.scss static/styles.scss --watch",
-    "scripts": "watchify -t babelify -g [ envify --NODE_ENV development ] --extension=.jsx -o static/build.js --verbose"
+    "scripts": "watchify -t babelify src/client -o static/build.js --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,14 +25,19 @@
   "homepage": "https://github.com/LouFreyInstitute/health#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
     "babelify": "^7.3.0",
+    "envify": "^4.0.0",
     "node-sass": "^3.13.0",
     "nodemon": "^1.11.0",
     "parallelshell": "^2.0.0",
     "watchify": "^3.7.0"
   },
   "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
     "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "react-router": "^3.0.0"
   }
 }
