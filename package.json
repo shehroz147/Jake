@@ -1,0 +1,38 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "Health Index",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parallelshell 'npm run demon' 'npm run styles' 'npm run scripts'",
+    "demon": "nodemon src/server/index.js",
+    "styles": "node-sass styles/styles.scss static/styles.scss --watch",
+    "scripts": "watchify -t babelify -g [ envify --NODE_ENV development ] --extension=.jsx -o static/build.js --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouFreyInstitute/health.git"
+  },
+  "author": "LFI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouFreyInstitute/health/issues"
+  },
+  "homepage": "https://github.com/LouFreyInstitute/health#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babelify": "^7.3.0",
+    "node-sass": "^3.13.0",
+    "nodemon": "^1.11.0",
+    "parallelshell": "^2.0.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-router": "^3.0.0"
+  }
+}
