@@ -7,7 +7,11 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parallelshell 'npm run demon' 'npm run styles' 'npm run scripts'",
+    "demon": "nodemon src/server/index.js",
+    "styles": "node-sass styles/styles.scss static/styles.scss --watch",
+    "scripts": "watchify -t babelify -g [ envify --NODE_ENV development ] --extension=.jsx -o static/build.js --verbose"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,7 @@
     "babelify": "^7.3.0",
     "node-sass": "^3.13.0",
     "nodemon": "^1.11.0",
+    "parallelshell": "^2.0.0",
     "watchify": "^3.7.0"
   }
 }
