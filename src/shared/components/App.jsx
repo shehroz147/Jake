@@ -1,8 +1,15 @@
 import React from 'react';
 
-const App = () => (
+import Navigation from './Navigation';
+import Footer from './Footer';
+
+const App = props => (
   <div>
-    <h1>App</h1>
+    <Navigation changeState={props.changeState} state={props.state} />
+
+    <h1>Civic Health</h1>
+
+    <Footer />
   </div>
 );
 

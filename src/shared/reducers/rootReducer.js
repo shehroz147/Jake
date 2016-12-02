@@ -1,12 +1,16 @@
 import { combineReducers } from 'redux';
 
-const users = (state = [], action) => {
-  switch (action.type) {
-    case 'USERS': return [...state, ...action.payload];
-    default: return state;
-  }
-};
+import snapshots from './snapshots';
+import state from './state';
 
 export default combineReducers({
-  users,
+  snapshots,
+  state,
 });
+
+// const users = (state = [], action) => {
+//   switch (action.type) {
+//     case 'USERS': return [...state, ...action.payload];
+//     default: return state;
+//   }
+// };

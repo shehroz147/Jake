@@ -7,8 +7,10 @@
     "js": "babel-node",
     "jsx": "babel-node"
   },
+  "ext": "js,jsx,handlebars",
   "verbose": false,
   "watch": [
-    "src/"
+    "src/shared",
+    "src/server"
   ]
 }
