@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children, PropTypes } from 'react';
 
 import Navigation from './Navigation';
 import Footer from './Footer';
@@ -9,10 +9,16 @@ const App = props => (
 
     <h1>Civic Health</h1>
 
+    {Children.only(props.children)}
+
     <Footer />
   </div>
 );
 
-App.propTypes = {};
+App.propTypes = {
+  changeState: PropTypes.func.isRequired,
+  children: PropTypes.object.isRequired,
+  state: PropTypes.string.isRequired,
+};
 
 export default App;

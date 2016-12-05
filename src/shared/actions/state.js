@@ -1,4 +1,4 @@
 export const changeState = state => ({
-  type: 'fuck Luke',
+  type: 'CHANGE STATE',
   payload: state,
 });

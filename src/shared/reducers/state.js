@@ -1,6 +1,6 @@
-export default (state = 'florida', action) => {
+export default (state = '9', action) => {
   switch (action.type) {
-    case 'fuck Luke': return action.payload;
+    case 'CHANGE STATE': return action.payload;
     default: return state;
   }
 };
