@@ -1,0 +1,10 @@
+.c-navbar {
+  background-color: darken($color-ui-white, 5);
+  padding-bottom: $spacing;
+  padding-top: $spacing;
+}
+
+.c-navbar--fixed {
+  margin-bottom: none;
+  position: fixed;
+}

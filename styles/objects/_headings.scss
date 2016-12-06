@@ -1,0 +1,16 @@
+.o-heading-main {
+  font-size: $font-size * 2;
+  font-weight: $font-weight--semibold;
+  margin-bottom: $spacing;
+  margin-top: $spacing;
+}
+
+.o-heading-sub {
+  font-size: $font-size * 1.5;
+}
+
+.o-heading-section {
+  font-size: $font-size * 1.25;
+  font-weight: $font-weight--bold;
+  margin-bottom: $spacing--small;
+}

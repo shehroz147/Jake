@@ -1,0 +1,133 @@
+$background: #f7f7f7;
+$border: #666;
+
+/* Graph Colors */
+$red: #FF0C3E;
+$yellow: #FFCD40;
+$green: #01E472;
+$orange: #FFA500;
+$blue: #40C8FF;
+
+/* Graph Sizes */
+$height: 40px;
+$padding: 4px;
+$width: 400px;
+$endLow: 25;
+$endMiddle: 50;
+
+$height-vertical: 400px;
+$width-vertical: 80px;
+
+.c-bar{
+  border: 3px solid $border;
+  margin: 10px 0;
+  position: relative;
+  width: $width;
+}
+
+.c-bar .c-graph{
+  height: $height;
+  padding: 0;
+  margin: 0;
+}
+
+.c-graph{
+  background-color: $color-ui-medium;
+}
+
+.c-bar .c-grid{
+  background: darken($background, 8%);
+  height: $height + (2 * $padding);
+  position: absolute;
+  top: 0px;
+  width: 1px;
+  z-index: -1;
+}
+
+@for $i from 1 through 100 {
+  .c-bar .c-graph[data-percentage="#{$i}"] {
+    width: percentage($i/100);
+
+    @if $i < $endLow {
+      background-color: $red;
+    } @else if $i < $endMiddle {
+      background-color: $yellow;
+    } @else {
+      background-color: $green;
+    }
+  }
+}
+
+
+
+// ~~~~`=`=`=`=`=`=`=`=`=`=`=`
+.c-bar-vertical{
+  border-top: 3px solid $border;
+  height: $height-vertical;
+  margin: 10px 0;
+  position: relative;
+  width: $width-vertical;
+}
+
+.c-bar-vertical .c-graph-vertical{
+  height: $height-vertical;
+  padding: 0;
+  margin: 0;
+}
+
+.c-bar-vertical .c-grid-vertical{
+  background: darken($background, 8%);
+  height: $height-vertical + (2 * $padding);
+  position: absolute;
+  bottom: 0px;
+  width: 1px;
+  z-index: -1;
+}
+
+@for $i from 1 through 100 {
+  .c-bar-vertical__nation .c-graph-vertical[data-percentage="#{$i}"] {
+    height: percentage($i/100);
+    position: absolute;
+    bottom: 0;
+    width: $width-vertical;
+
+    background-color: $blue;
+  }
+}
+
+@for $i from 1 through 100 {
+  .c-bar-vertical__florida .c-graph-vertical[data-percentage="#{$i}"] {
+    height: percentage($i/100);
+    position: absolute;
+    bottom: 0;
+    width: $width-vertical;
+
+    background-color: $orange;
+  }
+}
+
+
+.c-graph-text {
+  padding-left: $spacing;
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
+.nationBox {
+  background-color: $blue;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.floridaBox {
+  background-color: $orange;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+}

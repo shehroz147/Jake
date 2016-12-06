@@ -1,0 +1,15 @@
+.o-split__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+  .o-split__item--left,
+  .o-split__item:first-child {
+    text-align: left;
+  }
+
+  .o-split__item--right,
+  .o-split__item:last-child {
+    text-align: right;
+  }

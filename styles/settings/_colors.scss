@@ -1,0 +1,14 @@
+$color-ui-white: #fff;
+$color-ui-light: #eee;
+$color-ui-medium: #999;
+$color-ui-dark: #333;
+
+$color-primary: blue;
+
+$color-background: $color-ui-light;
+
+$color-type: $color-ui-dark;
+$color-type--inverse: $color-ui-light;
+
+$color-status-success: mix(#3c6, $color-primary, 75);
+$color-status-error: mix(#f33, $color-primary, 75);

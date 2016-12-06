@@ -1,0 +1,66 @@
+.c-button {
+  background-color: $color-ui-light;
+  border: 0;
+  border-radius: $base-radius;
+  cursor: pointer;
+  font: inherit;
+  font-size: $font-size--small;
+  font-weight: $font-weight--bold;
+  padding: $spacing--small $spacing;
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus,
+  &:hover {
+    background-color: darken($color-ui-light, 5);
+  }
+
+  .c-button-group & {
+    margin-right: $spacing--small;
+  }
+
+  .c-button-group--right & {
+    margin-left: $spacing--small;
+    margin-right: 0;
+  }
+}
+
+.c-button--tiny {
+  font-size: $font-size--tiny;
+  padding: $spacing--tiny $spacing--small;
+}
+
+.c-button--small {
+  font-size: $font-size--small;
+  padding: $spacing--tiny $spacing--small;
+}
+
+.c-button--block {
+  display: block;
+  margin-bottom: $spacing--small;
+  text-align: center;
+  width: 100%;
+}
+
+.c-ghost-button {
+  background-color: transparent;
+  border: 1px solid transparentize($color-ui-white, 0.2);
+  border-radius: $base-radius;
+  color: transparentize($color-ui-white, 0.2);
+  cursor: pointer;
+  font: inherit;
+  font-size: $font-size--small;
+  font-weight: $font-weight--semibold;
+  padding: $spacing--small $spacing;
+  text-align: center;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    border-color: $color-ui-white;
+    color: $color-ui-white;
+  }
+}

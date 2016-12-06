@@ -6,13 +6,13 @@ import Select from './Select';
 const Navigation = props => (
   <nav>
     <div>
-      <Select changeState={props.changeState} />
       <ul>
         <li>
           <Link to="/">Home </Link>
           <Link to="/snapshot">Snapshot</Link>
         </li>
       </ul>
+      <Select changeState={props.changeState} />
     </div>
   </nav>
 );

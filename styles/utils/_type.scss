@@ -1,0 +1,25 @@
+.u-text-center { text-align: center; }
+.u-text-left { text-align: left; }
+.u-text-right { text-align: right; }
+
+.u-text-muted { color: $color-ui-medium; }
+
+.u-text-- { font-size: $font-size--tiny; }
+.u-text- { font-size: $font-size--small; }
+.u-text\+ { font-size: $font-size--large; }
+.u-text\+\+ { font-size: $font-size--huge; }
+
+.u-color--inverse {
+  color: $color-type--inverse;
+}
+
+.u-text--inverse { color: $color-type--inverse; }
+.u-text--success { color: $color-status-success; }
+.u-text--error { color: $color-status-error; }
+
+.u-text-truncate {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

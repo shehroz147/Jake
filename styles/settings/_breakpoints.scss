@@ -1,0 +1,16 @@
+// Media breakpoints in 'em' allow the page to adjust when a browzer's zoom feature is used.
+// Calculate breakpoints based on the html/body font-size.
+// palm: <= 767px
+// lap: >= 768px <= 1023px
+// lap-and-up: >= 1024px
+// portable: <= 1023px
+// desk: >= 1024px
+// retina: for retina display ¯\_(ツ)_/¯
+$breakpoints: (
+  'palm' 'screen and (max-width: 38.35em)',
+  'lap' 'screen and (min-width: 38.4) and (max-width: 51.15em)',
+  'lap-and-up' 'screen and (min-width: 51.2em)',
+  'portable' 'screen and (max-width: 51.15em)',
+  'desk' 'screen and (min-width: 51.2em)',
+  'retina' '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)'
+);

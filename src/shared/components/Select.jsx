@@ -3,6 +3,7 @@ import React, { PropTypes } from 'react';
 const Select = props => (
   <div>
     <select
+      className="c-select"
       onChange={(event) => {
         const state = event.target.value;
         props.changeState(state);
@@ -61,7 +62,6 @@ const Select = props => (
       <option value="49">Wisconsin</option>
       <option value="50">Wyoming</option>
       <option value="51">National Average</option>
-
     </select>
   </div>
 );

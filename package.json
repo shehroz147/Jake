@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parallelshell 'npm run demon' 'npm run styles' 'npm run scripts'",
     "demon": "nodemon src/server/index.js",
-    "styles": "node-sass styles/styles.scss static/styles.scss --watch",
+    "styles": "node-sass styles/styles.scss static/styles.css --watch",
     "scripts": "watchify -t babelify --extension=.jsx src/client -o static/build.js --verbose"
   },
   "repository": {

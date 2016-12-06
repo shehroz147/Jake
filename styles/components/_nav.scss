@@ -1,0 +1,17 @@
+.c-nav__link {
+  color: $color-ui-white;
+  font-size: $font-size--small;
+  font-weight: $font-weight--bold;
+  margin-right: $spacing;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $color-ui-medium;
+  }
+
+  .c-nav--right & {
+    margin-left: $spacing;
+    margin-right: 0;
+  }
+}

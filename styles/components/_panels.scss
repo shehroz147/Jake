@@ -1,0 +1,37 @@
+.c-panel {
+  margin-bottom: $spacing;
+}
+
+.c-panel__head {
+  background-color: $color-ui-medium;
+  border-top-left-radius: $base-radius;
+  border-top-right-radius: $base-radius;
+  color: $color-ui-white;
+  padding: $spacing;
+
+  .c-panel--small & { padding: $spacing--small; }
+  .c-panel--large & { padding: $spacing--large; }
+}
+
+.c-panel__heading {
+  font-size: $font-size * 1.25;
+  font-weight: $font-weight--bold;
+  margin: 0;
+}
+
+.c-panel__content {
+  background-color: $color-ui-white;
+  padding: $spacing;
+
+  .c-panel--small & { padding: $spacing--small; }
+  .c-panel--large & { padding: $spacing--large; }
+}
+
+.c-panel__content--alt {
+  background-color: $color-ui-light;
+}
+
+.c-panel__content:last-child {
+  border-bottom-left-radius: $base-radius;
+  border-bottom-right-radius: $base-radius;
+}
