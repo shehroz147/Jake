@@ -20,7 +20,7 @@ const Graph = (props) => {
 };
 
 Graph.propTypes = {
-  percentage: PropTypes.sting,
+  percentage: PropTypes.number,
 };
 
 export default Graph;

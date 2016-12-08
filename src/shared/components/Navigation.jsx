@@ -1,9 +1,9 @@
 import Link from 'react-router/lib/Link';
 import React, { PropTypes } from 'react';
 
-import TrendSelect from './TrendSelect';
-import StateSelect from './StateSelect';
-import YearSelect from './YearSelect';
+// import TrendSelect from './TrendSelect';
+// import StateSelect from './StateSelect';
+// import YearSelect from './YearSelect';
 
 const Navigation = props => (
   <nav>
@@ -15,10 +15,9 @@ const Navigation = props => (
           <Link to="/trend">Trends</Link>
         </li>
       </ul>
-      <TrendSelect changeTrend={props.changeTrend} trend={props.trend} />
+      {/* <TrendSelect changeTrend={props.changeTrend} trend={props.trend} />
       <StateSelect changeState={props.changeState} state={props.state} />
-      <YearSelect changeYear={props.changeYear} year={props.year} />
-
+      <YearSelect changeYear={props.changeYear} year={props.year} /> */}
     </div>
   </nav>
 );

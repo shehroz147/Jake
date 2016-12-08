@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 
-import snapshots from './snapshots';
+import data from './data';
 import options from './options';
 
 export default combineReducers({
-  snapshots,
+  data,
   options,
 });
 

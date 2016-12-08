@@ -1,4 +1,3 @@
-
 import express from 'express';
 import exphbs from 'express-handlebars';
 import React from 'react';
@@ -7,8 +6,10 @@ import { Provider } from 'react-redux';
 import { renderToString } from 'react-dom/server';
 import { resolve } from 'path';
 
+import data from '../shared/data/json/data.json';
 import Routes from '../shared/Routes';
 import createStore from '../shared/store/createStore';
+import { retrieveData } from '../shared/actions/data';
 
 const server = express();
 
@@ -33,12 +34,7 @@ server.use((req, res, next) => {
     } else if (props) {
       const store = createStore();
 
-      store.dispatch({
-        type: 'USERS',
-        payload: [{ _id: '1', name: 'Luke' }],
-      });
-
-      console.log(store.getState());
+      store.dispatch(retrieveData(data));
 
       const markup = renderToString(
         <Provider store={store}>

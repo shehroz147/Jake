@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import App from '../components/App';
+import Trend from '../components/Trend';
 
 import {
   changeTrend,
@@ -20,4 +20,4 @@ const mapStateToProps = state => ({
   year: yearSelector(state),
 });
 
-export default connect(mapStateToProps, { changeTrend, changeState, changeYear })(App);
+export default connect(mapStateToProps, { changeTrend, changeState, changeYear })(Trend);
