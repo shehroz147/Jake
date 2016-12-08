@@ -10,5 +10,6 @@ export default (
   <Route component={AppContainer} path="/">
     <IndexRoute component={Index} />
     <Route component={SnapshotContainer} path="snapshot" />
+    <Route component={TrendContainer} path="trend" />
   </Route>
 );

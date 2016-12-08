@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const Select = props => (
+const StateSelect = props => (
   <div>
     <select
       className="c-select"
@@ -10,6 +10,7 @@ const Select = props => (
       }}
       value={props.state}
     >
+      {/* {states.map(s => <option key={s.state} value={s.state}>{s.state}</option>)} */}
       <option value="0">Alabama</option>
       <option value="1">Alaska</option>
       <option value="2">Arizona</option>
@@ -66,9 +67,9 @@ const Select = props => (
   </div>
 );
 
-Select.propTypes = {
+StateSelect.propTypes = {
   changeState: PropTypes.func,
   state: PropTypes.string,
 };
 
-export default Select;
+export default StateSelect;

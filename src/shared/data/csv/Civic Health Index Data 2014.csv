@@ -1,4 +1,4 @@
-State,Year,Percent Volunteered,Volunteered_Rank,Hours Volunteered per capita,Hours Volunteered_rank,Percent Attended a Public Meeting,Percent Attended a Public Meeting_rank,Percent Worked with Neighbors to Fix a Community Problem,Worked with Neighbors to Fix a Community Problem_rank,Percent Donated Money to a Charity,Donated Money to a Charity_rank,Percent Voted,Voted_rank,Percent Registered to Vote,Registered to Vote_rank
+state,year,volunteerPercent,volunteerRank,volunteerHours,volunteerHoursRank,meetingPercent,meetingRank,communityPercent,communityRank,donatedPercent,donatedRank,votePercent,voteRank,registeredPercent,registeredRank,contactedPercent,contactedRank,productPercent,productRank,groupPercent,groupRank,organizationPercent,organizationRank
 Alabama,2014,22.5,37,26.47,18,7.6,31,7.2,34,51.1,32,42.5,28,67.2,20
 Alaska,2014,31.1,10,28.23,14,17.8,2,16.5,2,54.1,18,50.7,9,66.8,23
 Arizona,2014,22.1,40,25.89,20,6.7,42,7,36,51,33,40.6,36,62.3,41

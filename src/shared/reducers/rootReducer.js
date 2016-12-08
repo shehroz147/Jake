@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
 import snapshots from './snapshots';
-import state from './state';
+import options from './options';
 
 export default combineReducers({
   snapshots,
-  state,
+  options,
 });
 
 // const users = (state = [], action) => {

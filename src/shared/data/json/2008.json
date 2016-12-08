@@ -1,7 +1,7 @@
 [
   {
-    "State": "Alabama",
-    "Year": 2008,
+    "state": "Alabama",
+    "year": 2008,
     "volunteerPercent": 24,
     "volunteerRank": 32,
     "volunteerHours": 26.41,
@@ -26,8 +26,8 @@
     "organizationRank": 46
   },
   {
-    "State": "Alaska",
-    "Year": 2008,
+    "state": "Alaska",
+    "year": 2008,
     "volunteerPercent": 34.6,
     "volunteerRank": 7,
     "volunteerHours": 43.72,
@@ -52,8 +52,8 @@
     "organizationRank": 5
   },
   {
-    "State": "Arizona",
-    "Year": 2008,
+    "state": "Arizona",
+    "year": 2008,
     "volunteerPercent": 22.6,
     "volunteerRank": 39,
     "volunteerHours": 25.33,
@@ -78,8 +78,8 @@
     "organizationRank": 39
   },
   {
-    "State": "Arkansas",
-    "Year": 2008,
+    "state": "Arkansas",
+    "year": 2008,
     "volunteerPercent": 18.9,
     "volunteerRank": 48,
     "volunteerHours": 15.38,
@@ -104,8 +104,8 @@
     "organizationRank": 48
   },
   {
-    "State": "California",
-    "Year": 2008,
+    "state": "California",
+    "year": 2008,
     "volunteerPercent": 23.9,
     "volunteerRank": 34,
     "volunteerHours": 27.55,
@@ -130,8 +130,8 @@
     "organizationRank": 49
   },
   {
-    "State": "Colorado",
-    "Year": 2008,
+    "state": "Colorado",
+    "year": 2008,
     "volunteerPercent": 30.7,
     "volunteerRank": 15,
     "volunteerHours": 29.73,
@@ -156,8 +156,8 @@
     "organizationRank": 16
   },
   {
-    "State": "Connecticut",
-    "Year": 2008,
+    "state": "Connecticut",
+    "year": 2008,
     "volunteerPercent": 30.9,
     "volunteerRank": 13,
     "volunteerHours": 30.92,
@@ -182,8 +182,8 @@
     "organizationRank": 11
   },
   {
-    "State": "DC",
-    "Year": 2008,
+    "state": "DC",
+    "year": 2008,
     "volunteerPercent": 23.9,
     "volunteerRank": 33,
     "volunteerHours": 29.95,
@@ -208,8 +208,8 @@
     "organizationRank": 27
   },
   {
-    "State": "Delaware",
-    "Year": 2008,
+    "state": "Delaware",
+    "year": 2008,
     "volunteerPercent": 24.6,
     "volunteerRank": 29,
     "volunteerHours": 29.17,
@@ -234,8 +234,8 @@
     "organizationRank": 24
   },
   {
-    "State": "Florida",
-    "Year": 2008,
+    "state": "Florida",
+    "year": 2008,
     "volunteerPercent": 20.1,
     "volunteerRank": 45,
     "volunteerHours": 23.46,
@@ -260,8 +260,8 @@
     "organizationRank": 43
   },
   {
-    "State": "Georgia",
-    "Year": 2008,
+    "state": "Georgia",
+    "year": 2008,
     "volunteerPercent": 23.2,
     "volunteerRank": 38,
     "volunteerHours": 23.22,
@@ -286,8 +286,8 @@
     "organizationRank": 39
   },
   {
-    "State": "Hawaii",
-    "Year": 2008,
+    "state": "Hawaii",
+    "year": 2008,
     "volunteerPercent": 21.3,
     "volunteerRank": 44,
     "volunteerHours": 24.07,
@@ -312,8 +312,8 @@
     "organizationRank": 38
   },
   {
-    "State": "Idaho",
-    "Year": 2008,
+    "state": "Idaho",
+    "year": 2008,
     "volunteerPercent": 30.5,
     "volunteerRank": 16,
     "volunteerHours": 38.4,
@@ -338,8 +338,8 @@
     "organizationRank": 30
   },
   {
-    "State": "Illinois",
-    "Year": 2008,
+    "state": "Illinois",
+    "year": 2008,
     "volunteerPercent": 23.4,
     "volunteerRank": 37,
     "volunteerHours": 22.52,
@@ -364,8 +364,8 @@
     "organizationRank": 31
   },
   {
-    "State": "Indiana",
-    "Year": 2008,
+    "state": "Indiana",
+    "year": 2008,
     "volunteerPercent": 28.4,
     "volunteerRank": 19,
     "volunteerHours": 32.13,
@@ -390,8 +390,8 @@
     "organizationRank": 7
   },
   {
-    "State": "Iowa",
-    "Year": 2008,
+    "state": "Iowa",
+    "year": 2008,
     "volunteerPercent": 35.9,
     "volunteerRank": 3,
     "volunteerHours": 30.19,
@@ -416,8 +416,8 @@
     "organizationRank": 6
   },
   {
-    "State": "Kansas",
-    "Year": 2008,
+    "state": "Kansas",
+    "year": 2008,
     "volunteerPercent": 34.9,
     "volunteerRank": 6,
     "volunteerHours": 33.35,
@@ -442,8 +442,8 @@
     "organizationRank": 24
   },
   {
-    "State": "Kentucky",
-    "Year": 2008,
+    "state": "Kentucky",
+    "year": 2008,
     "volunteerPercent": 24.1,
     "volunteerRank": 31,
     "volunteerHours": 2.34,
@@ -468,8 +468,8 @@
     "organizationRank": 39
   },
   {
-    "State": "Louisiana",
-    "Year": 2008,
+    "state": "Louisiana",
+    "year": 2008,
     "volunteerPercent": 18.6,
     "volunteerRank": 49,
     "volunteerHours": 15.61,
@@ -494,8 +494,8 @@
     "organizationRank": 46
   },
   {
-    "State": "Maine",
-    "Year": 2008,
+    "state": "Maine",
+    "year": 2008,
     "volunteerPercent": 29.9,
     "volunteerRank": 17,
     "volunteerHours": 38.7,
@@ -520,8 +520,8 @@
     "organizationRank": 16
   },
   {
-    "State": "Maryland",
-    "Year": 2008,
+    "state": "Maryland",
+    "year": 2008,
     "volunteerPercent": 28.9,
     "volunteerRank": 18,
     "volunteerHours": 38.31,
@@ -546,8 +546,8 @@
     "organizationRank": 15
   },
   {
-    "State": "Massachusetts",
-    "Year": 2008,
+    "state": "Massachusetts",
+    "year": 2008,
     "volunteerPercent": 22.5,
     "volunteerRank": 40,
     "volunteerHours": 24.09,
@@ -572,8 +572,8 @@
     "organizationRank": 28
   },
   {
-    "State": "Michigan",
-    "Year": 2008,
+    "state": "Michigan",
+    "year": 2008,
     "volunteerPercent": 26.5,
     "volunteerRank": 26,
     "volunteerHours": 32.53,
@@ -598,8 +598,8 @@
     "organizationRank": 32
   },
   {
-    "State": "Minnesota",
-    "Year": 2008,
+    "state": "Minnesota",
+    "year": 2008,
     "volunteerPercent": 35.5,
     "volunteerRank": 4,
     "volunteerHours": 32.65,
@@ -624,8 +624,8 @@
     "organizationRank": 22
   },
   {
-    "State": "Mississippi",
-    "Year": 2008,
+    "state": "Mississippi",
+    "year": 2008,
     "volunteerPercent": 18.2,
     "volunteerRank": 50,
     "volunteerHours": 21.04,
@@ -650,8 +650,8 @@
     "organizationRank": 33
   },
   {
-    "State": "Missouri",
-    "Year": 2008,
+    "state": "Missouri",
+    "year": 2008,
     "volunteerPercent": 26.7,
     "volunteerRank": 25,
     "volunteerHours": 27.28,
@@ -676,8 +676,8 @@
     "organizationRank": 23
   },
   {
-    "State": "Montana",
-    "Year": 2008,
+    "state": "Montana",
+    "year": 2008,
     "volunteerPercent": 31.9,
     "volunteerRank": 11,
     "volunteerHours": 32.88,
@@ -702,8 +702,8 @@
     "organizationRank": 8
   },
   {
-    "State": "Nebraska",
-    "Year": 2008,
+    "state": "Nebraska",
+    "year": 2008,
     "volunteerPercent": 37.7,
     "volunteerRank": 2,
     "volunteerHours": 39.48,
@@ -728,8 +728,8 @@
     "organizationRank": 16
   },
   {
-    "State": "Nevada",
-    "Year": 2008,
+    "state": "Nevada",
+    "year": 2008,
     "volunteerPercent": 19.9,
     "volunteerRank": 47,
     "volunteerHours": 24.17,
@@ -754,8 +754,8 @@
     "organizationRank": 51
   },
   {
-    "State": "New Hampshire",
-    "Year": 2008,
+    "state": "New Hampshire",
+    "year": 2008,
     "volunteerPercent": 27.4,
     "volunteerRank": 24,
     "volunteerHours": 24.46,
@@ -780,8 +780,8 @@
     "organizationRank": 10
   },
   {
-    "State": "New Jersey",
-    "Year": 2008,
+    "state": "New Jersey",
+    "year": 2008,
     "volunteerPercent": 20,
     "volunteerRank": 46,
     "volunteerHours": 18.68,
@@ -806,8 +806,8 @@
     "organizationRank": 37
   },
   {
-    "State": "New Mexico",
-    "Year": 2008,
+    "state": "New Mexico",
+    "year": 2008,
     "volunteerPercent": 27.7,
     "volunteerRank": 22,
     "volunteerHours": 27.14,
@@ -832,8 +832,8 @@
     "organizationRank": 35
   },
   {
-    "State": "New York",
-    "Year": 2008,
+    "state": "New York",
+    "year": 2008,
     "volunteerPercent": 17.7,
     "volunteerRank": 51,
     "volunteerHours": 22.91,
@@ -858,8 +858,8 @@
     "organizationRank": 44
   },
   {
-    "State": "North Carolina",
-    "Year": 2008,
+    "state": "North Carolina",
+    "year": 2008,
     "volunteerPercent": 22.2,
     "volunteerRank": 42,
     "volunteerHours": 23.63,
@@ -884,8 +884,8 @@
     "organizationRank": 39
   },
   {
-    "State": "North Dakota",
-    "Year": 2008,
+    "state": "North Dakota",
+    "year": 2008,
     "volunteerPercent": 33.3,
     "volunteerRank": 9,
     "volunteerHours": 26.08,
@@ -910,8 +910,8 @@
     "organizationRank": 3
   },
   {
-    "State": "Ohio",
-    "Year": 2008,
+    "state": "Ohio",
+    "year": 2008,
     "volunteerPercent": 28,
     "volunteerRank": 21,
     "volunteerHours": 23.76,
@@ -936,8 +936,8 @@
     "organizationRank": 16
   },
   {
-    "State": "Oklahoma",
-    "Year": 2008,
+    "state": "Oklahoma",
+    "year": 2008,
     "volunteerPercent": 26.4,
     "volunteerRank": 27,
     "volunteerHours": 34.15,
@@ -962,8 +962,8 @@
     "organizationRank": 12
   },
   {
-    "State": "Oregon",
-    "Year": 2008,
+    "state": "Oregon",
+    "year": 2008,
     "volunteerPercent": 32.4,
     "volunteerRank": 10,
     "volunteerHours": 32.34,
@@ -988,8 +988,8 @@
     "organizationRank": 14
   },
   {
-    "State": "Pennsylvania",
-    "Year": 2008,
+    "state": "Pennsylvania",
+    "year": 2008,
     "volunteerPercent": 25.6,
     "volunteerRank": 28,
     "volunteerHours": 27.45,
@@ -1014,8 +1014,8 @@
     "organizationRank": 26
   },
   {
-    "State": "Rhode Island",
-    "Year": 2008,
+    "state": "Rhode Island",
+    "year": 2008,
     "volunteerPercent": 23.5,
     "volunteerRank": 36,
     "volunteerHours": 21.98,
@@ -1040,8 +1040,8 @@
     "organizationRank": 34
   },
   {
-    "State": "South Carolina",
-    "Year": 2008,
+    "state": "South Carolina",
+    "year": 2008,
     "volunteerPercent": 24.3,
     "volunteerRank": 30,
     "volunteerHours": 23.08,
@@ -1066,8 +1066,8 @@
     "organizationRank": 45
   },
   {
-    "State": "South Dakota",
-    "Year": 2008,
+    "state": "South Dakota",
+    "year": 2008,
     "volunteerPercent": 35.2,
     "volunteerRank": 5,
     "volunteerHours": 31.18,
@@ -1092,8 +1092,8 @@
     "organizationRank": 2
   },
   {
-    "State": "Tennessee",
-    "Year": 2008,
+    "state": "Tennessee",
+    "year": 2008,
     "volunteerPercent": 22.3,
     "volunteerRank": 41,
     "volunteerHours": 22.61,
@@ -1118,8 +1118,8 @@
     "organizationRank": 36
   },
   {
-    "State": "Texas",
-    "Year": 2008,
+    "state": "Texas",
+    "year": 2008,
     "volunteerPercent": 21.3,
     "volunteerRank": 43,
     "volunteerHours": 23.13,
@@ -1144,8 +1144,8 @@
     "organizationRank": 49
   },
   {
-    "State": "Utah",
-    "Year": 2008,
+    "state": "Utah",
+    "year": 2008,
     "volunteerPercent": 44.3,
     "volunteerRank": 1,
     "volunteerHours": 61.14,
@@ -1170,8 +1170,8 @@
     "organizationRank": 20
   },
   {
-    "State": "Vermont",
-    "Year": 2008,
+    "state": "Vermont",
+    "year": 2008,
     "volunteerPercent": 33.8,
     "volunteerRank": 8,
     "volunteerHours": 31.36,
@@ -1196,8 +1196,8 @@
     "organizationRank": 1
   },
   {
-    "State": "Virginia",
-    "Year": 2008,
+    "state": "Virginia",
+    "year": 2008,
     "volunteerPercent": 27.6,
     "volunteerRank": 23,
     "volunteerHours": 27.67,
@@ -1222,8 +1222,8 @@
     "organizationRank": 28
   },
   {
-    "State": "Washington",
-    "Year": 2008,
+    "state": "Washington",
+    "year": 2008,
     "volunteerPercent": 31.5,
     "volunteerRank": 12,
     "volunteerHours": 37.61,
@@ -1248,8 +1248,8 @@
     "organizationRank": 12
   },
   {
-    "State": "West Virginia",
-    "Year": 2008,
+    "state": "West Virginia",
+    "year": 2008,
     "volunteerPercent": 23.7,
     "volunteerRank": 35,
     "volunteerHours": 32.83,
@@ -1274,8 +1274,8 @@
     "organizationRank": 21
   },
   {
-    "State": "Wisconsin",
-    "Year": 2008,
+    "state": "Wisconsin",
+    "year": 2008,
     "volunteerPercent": 30.7,
     "volunteerRank": 14,
     "volunteerHours": 26.4,
@@ -1300,8 +1300,8 @@
     "organizationRank": 9
   },
   {
-    "State": "Wyoming",
-    "Year": 2008,
+    "state": "Wyoming",
+    "year": 2008,
     "volunteerPercent": 28.1,
     "volunteerRank": 20,
     "volunteerHours": 29.75,
@@ -1326,8 +1326,8 @@
     "organizationRank": 3
   },
   {
-    "State": "National Average",
-    "Year": 2008,
+    "state": "National Average",
+    "year": 2008,
     "volunteerPercent": 24.8,
     "volunteerRank": "",
     "volunteerHours": 23.79,

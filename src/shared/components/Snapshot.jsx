@@ -5,13 +5,14 @@ import data from './../data/json/2008.json';
 import Graph from './Graph';
 
 const Snapshot = (props) => {
+  console.log(props.state);
   const obj = data[props.state];
 
   return (
     <div>
       <div className="c-panel">
         <div className="c-panel__head">
-          <h1 className="o-heading-sub">{obj.State} - {obj.Year}</h1>
+          <h1 className="o-heading-sub">{obj.state} - {obj.year}</h1>
         </div>
         <div className="c-panel__content">
           <div className="c-panel">
