@@ -3,6 +3,7 @@ import React, { PropTypes } from 'react';
 import Graph from './Graph';
 
 const Group = props => {
+  const { data } = props;
   return (
     <div className="c-panel">
       <div className="c-panel__head">

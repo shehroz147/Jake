@@ -14,7 +14,7 @@ const trendReducer = (state, action) => {
 
 const yearReducer = (state, action) => {
   switch (action.type) {
-    case 'CHANGE YEAR': return parseInt(action.payload, 10);
+    case 'CHANGE YEAR': return action.payload;
     default: return state;
   }
 };
@@ -22,7 +22,7 @@ const yearReducer = (state, action) => {
 const initialState = {
   state: 'Florida',
   trend: 'volunteer',
-  year: 2012,
+  year: '2012',
 };
 
 export default (state = initialState, action) => ({

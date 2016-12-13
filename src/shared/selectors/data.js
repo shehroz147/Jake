@@ -11,5 +11,8 @@ export const dataSelector = state => state.data;
 
 export const filteredDataSelector = createSelector(
   [stateSelector, trendSelector, yearSelector, dataSelector],
-  (state, trend, year, data) => find(data, { year, state }),
+  (state, trend, year, data) => {
+    const filteredData = find(data, { year, state });
+    return filteredData || [];
+  },
 );
