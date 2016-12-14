@@ -53,6 +53,7 @@ const Snapshot = (props) => {
 
   console.log(data);
 
+
   return (
     <div className="container">
       <div className="c-panel">
@@ -76,7 +77,10 @@ Snapshot.propTypes = {
   changeTrend: PropTypes.func,
   changeState: PropTypes.func,
   changeYear: PropTypes.func,
-  data: PropTypes.func,
+  data: PropTypes.shape({
+    meetingPercent: PropTypes.number.isRequired,
+    meetingRank: PropTypes.number.isRequired,
+  }),
   state: PropTypes.string,
   trend: PropTypes.string,
   year: PropTypes.string,

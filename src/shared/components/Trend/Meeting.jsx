@@ -4,6 +4,11 @@ import Graph from '../Graph';
 
 const Meeting = (props) => {
   const { data } = props;
+
+  if (!data.meetingPercent) {
+    return <p>No Data</p>;
+  }
+
   return (
     <div className="c-panel">
       <div className="c-panel__head">
@@ -20,7 +25,10 @@ const Meeting = (props) => {
 };
 
 Meeting.propTypes = {
-  data: PropTypes.obj,
+  data: PropTypes.shape({
+    meetingPercent: PropTypes.number.isRequired,
+    meetingRank: PropTypes.number.isRequired,
+  }),
 };
 
 export default Meeting;

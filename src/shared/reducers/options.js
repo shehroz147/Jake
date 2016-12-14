@@ -22,7 +22,7 @@ const yearReducer = (state, action) => {
 const initialState = {
   state: 'Florida',
   trend: 'volunteer',
-  year: '2012',
+  year: '2014',
 };
 
 export default (state = initialState, action) => ({
