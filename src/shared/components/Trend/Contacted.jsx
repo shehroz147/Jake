@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
-import Graph from './Graph';
+import Graph from '../Graph';
 
-const Contacted = props => {
+const Contacted = (props) => {
   const { data } = props;
   return (
     <div className="c-panel">
@@ -19,6 +19,8 @@ const Contacted = props => {
   );
 };
 
-Contacted.propTypes = {};
+Contacted.propTypes = {
+  data: PropTypes.obj,
+};
 
 export default Contacted;

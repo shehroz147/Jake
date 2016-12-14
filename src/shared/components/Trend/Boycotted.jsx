@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
-import Graph from './Graph';
+import Graph from '../Graph';
 
-const Boycotted = props => {
+const Boycotted = (props) => {
   const { data } = props;
   return (
     <div className="c-panel">
@@ -19,6 +19,8 @@ const Boycotted = props => {
   );
 };
 
-Boycotted.propTypes = {};
+Boycotted.propTypes = {
+  data: PropTypes.obj,
+};
 
 export default Boycotted;

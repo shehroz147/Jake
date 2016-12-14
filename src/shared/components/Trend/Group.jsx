@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
-import Graph from './Graph';
+import Graph from '../Graph';
 
-const Group = props => {
+const Group = (props) => {
   const { data } = props;
   return (
     <div className="c-panel">
@@ -19,6 +19,8 @@ const Group = props => {
   );
 };
 
-Group.propTypes = {};
+Group.propTypes = {
+  data: PropTypes.obj,
+};
 
 export default Group;

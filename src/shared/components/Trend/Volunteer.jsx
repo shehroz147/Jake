@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
-import Graph from './Graph';
+import Graph from '../Graph';
 
-const Volunteer = props => {
+const Volunteer = (props) => {
   const { data } = props;
   return (
     <div>
@@ -33,6 +33,8 @@ const Volunteer = props => {
   );
 };
 
-Volunteer.propTypes = {};
+Volunteer.propTypes = {
+  data: PropTypes.obj,
+};
 
 export default Volunteer;
