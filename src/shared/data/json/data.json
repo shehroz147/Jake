@@ -1326,7 +1326,7 @@
     "organizationRank": 3
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2008",
     "volunteerPercent": 24.8,
     "volunteerRank": "",
@@ -2679,7 +2679,7 @@
     "organizationRank": ""
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2009",
     "volunteerPercent": 25.3,
     "volunteerRank": "",
@@ -4032,7 +4032,7 @@
     "organizationRank": 8
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2010",
     "volunteerPercent": 24.9,
     "volunteerRank": "",
@@ -5385,7 +5385,7 @@
     "organizationRank": ""
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2011",
     "volunteerPercent": 25.1,
     "volunteerRank": "",
@@ -6891,7 +6891,7 @@
     "Registered to Vote_rank": ""
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2012",
     "volunteerPercent": 24.9,
     "volunteerRank": "",
@@ -8247,7 +8247,7 @@
     "organizationRank": ""
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2013",
     "volunteerPercent": 23.9,
     "volunteerRank": "",
@@ -9600,7 +9600,7 @@
     "organizationRank": ""
   },
   {
-    "state": "National Average",
+    "average": "National Average",
     "year": "2014",
     "volunteerPercent": 23.7,
     "volunteerRank": "",

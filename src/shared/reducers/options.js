@@ -20,6 +20,7 @@ const yearReducer = (state, action) => {
 };
 
 const initialState = {
+  average: 'National Average',
   state: 'Florida',
   trend: 'volunteer',
   year: '2014',

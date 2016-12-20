@@ -10,7 +10,7 @@ import createStore from '../shared/store/createStore';
 
 const store = createStore(window.INITIAL_STATE);
 
-console.log(store.getState());
+
 
 render(
   <Provider store={store}>

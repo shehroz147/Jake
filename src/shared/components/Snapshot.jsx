@@ -18,6 +18,7 @@ import Meeting from './Trend/Meeting';
 import Organization from './Trend/Organization';
 import Registered from './Trend/Registered';
 import Volunteer from './Trend/Volunteer';
+import VolunteerHours from './Trend/VolunteerHours';
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 const getTrendComponent = (props) => {
@@ -31,6 +32,7 @@ const getTrendComponent = (props) => {
     case 'organization': return <Organization {...props} />;
     case 'registered': return <Registered {...props} />;
     case 'volunteer': return <Volunteer {...props} />;
+    case 'volunteerHours': return <VolunteerHours {...props} />;
     default: return (<p>Select a trend.</p>);
   }
 };
@@ -51,9 +53,9 @@ const Snapshot = (props) => {
     <div className="container">
       <div className="c-panel">
         <div className="row">
-          <Trend className="col small-third" changeTrend={changeTrend} trend={trend} />
-          <State className="col small-third" changeState={changeState} state={state} />
-          <Year className="col small-third" changeYear={changeYear} year={year} />
+          <Trend className="" changeTrend={changeTrend} trend={trend} />
+          <State className="" changeState={changeState} state={state} />
+          <Year className="" changeYear={changeYear} year={year} />
           <button>
             Click it!
           </button>

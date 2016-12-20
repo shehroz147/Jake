@@ -2,9 +2,9 @@ import Link from 'react-router/lib/Link';
 import React, { PropTypes } from 'react';
 
 const Navigation = props => (
-  <nav>
+  <nav className="c-navbar" >
     <div>
-      <ul>
+      <ul className="o-list-inline c-nav">
         <li>
           <Link to="/">Home </Link>
           <Link to="/snapshot">Snapshot</Link>

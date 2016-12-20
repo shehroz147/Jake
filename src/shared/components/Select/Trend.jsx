@@ -12,7 +12,8 @@ const Trend = props => (
         }}
         value={props.trend}
       >
-        <option value="volunteer">Volunteering</option>
+        <option value="volunteer">Volunteered</option>
+        <option value="volunteerHours">Volunteer Hours per Capita</option>
         <option value="meeting">Attended a Public Meeting</option>
         <option value="community">Worked with Neighbors to Fix Community Problem</option>
         <option value="donated">Donated Money to a Charity</option>
