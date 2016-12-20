@@ -40,8 +40,8 @@ const Volunteer = (props) => {
 
 Volunteer.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    volunteerPercent: PropTypes.number.isRequired,
+    volunteerRank: PropTypes.number.isRequired,
   }),
 };
 

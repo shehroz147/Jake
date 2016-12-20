@@ -8,7 +8,7 @@ const Navigation = props => (
         <li>
           <Link to="/">Home </Link>
           <Link to="/snapshot">Snapshot</Link>
-          <Link to="/compare">Compare</Link>
+          <Link to="/reports">Reports</Link>
         </li>
       </ul>
     </div>

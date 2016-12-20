@@ -26,8 +26,8 @@ const Contacted = (props) => {
 
 Contacted.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    contactedPercent: PropTypes.number.isRequired,
+    contactedRank: PropTypes.number.isRequired,
   }),
 };
 

@@ -1,10 +1,5 @@
 import React, { PropTypes } from 'react';
 
-// Graphs
-// # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Graph from './Graph';
-// # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 // Selects
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import Trend from './Select/Trend';
@@ -27,18 +22,19 @@ import Volunteer from './Trend/Volunteer';
 
 const getTrendComponent = (props) => {
   switch (props.trend) {
-    case 'volunteer': return <Volunteer {...props} />;
-    case 'meeting': return <Meeting {...props} />;
-    case 'community': return <Community {...props} />;
-    case 'donated': return <Donated {...props} />;
     case 'boycotted': return <Boycotted {...props} />;
-    case 'registered': return <Registered {...props} />;
+    case 'community': return <Community {...props} />;
     case 'contacted': return <Contacted {...props} />;
+    case 'donated': return <Donated {...props} />;
     case 'group': return <Group {...props} />;
+    case 'meeting': return <Meeting {...props} />;
     case 'organization': return <Organization {...props} />;
+    case 'registered': return <Registered {...props} />;
+    case 'volunteer': return <Volunteer {...props} />;
     default: return (<p>Select a trend.</p>);
   }
 };
+
 
 const Snapshot = (props) => {
   const {
@@ -51,9 +47,6 @@ const Snapshot = (props) => {
     year,
   } = props;
 
-  console.log(data);
-
-
   return (
     <div className="container">
       <div className="c-panel">
@@ -61,6 +54,9 @@ const Snapshot = (props) => {
           <Trend className="col small-third" changeTrend={changeTrend} trend={trend} />
           <State className="col small-third" changeState={changeState} state={state} />
           <Year className="col small-third" changeYear={changeYear} year={year} />
+          <button>
+            Click it!
+          </button>
         </div>
         <div className="c-panel__head">
           <h1 className="o-heading-sub">{data.state} - {data.year}</h1>

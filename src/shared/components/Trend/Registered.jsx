@@ -26,8 +26,8 @@ const Registered = (props) => {
 
 Registered.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    votePercent: PropTypes.number.isRequired,
+    voteRank: PropTypes.number.isRequired,
   }),
 };
 

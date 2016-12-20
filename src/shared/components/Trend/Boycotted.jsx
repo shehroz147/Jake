@@ -27,8 +27,8 @@ const Boycotted = (props) => {
 
 Boycotted.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    productPercent: PropTypes.number.isRequired,
+    productRank: PropTypes.number.isRequired,
   }),
 };
 

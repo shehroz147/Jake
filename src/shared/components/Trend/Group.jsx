@@ -26,8 +26,8 @@ const Group = (props) => {
 
 Group.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    groupPercent: PropTypes.number.isRequired,
+    groupRank: PropTypes.number.isRequired,
   }),
 };
 

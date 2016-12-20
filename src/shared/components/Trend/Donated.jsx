@@ -26,8 +26,8 @@ const Donated = (props) => {
 
 Donated.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    donatedPercent: PropTypes.number.isRequired,
+    donatedRank: PropTypes.number.isRequired,
   }),
 };
 

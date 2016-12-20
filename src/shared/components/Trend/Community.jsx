@@ -26,8 +26,8 @@ const Community = (props) => {
 
 Community.propTypes = {
   data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
+    communityPercent: PropTypes.number.isRequired,
+    communityRank: PropTypes.number.isRequired,
   }),
 };
 
