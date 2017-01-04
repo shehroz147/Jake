@@ -10,8 +10,6 @@ import createStore from '../shared/store/createStore';
 
 const store = createStore(window.INITIAL_STATE);
 
-
-
 render(
   <Provider store={store}>
     <Router history={browserHistory} routes={Routes} />

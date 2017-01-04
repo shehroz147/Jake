@@ -1,10 +1,8 @@
 import React, { PropTypes } from 'react';
 
-// Selects
+// Select
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Trend from './Select/Trend';
-import State from './Select/State';
-import Year from './Select/Year';
+import SnapShotSelect from './Select/SnapShotSelect';
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 // Trends
@@ -40,25 +38,14 @@ const getTrendComponent = (props) => {
 
 const Snapshot = (props) => {
   const {
-    changeState,
-    changeTrend,
-    changeYear,
     data,
-    state,
-    trend,
-    year,
   } = props;
 
   return (
     <div className="container">
       <div className="c-panel">
         <div className="row">
-          <Trend className="" changeTrend={changeTrend} trend={trend} />
-          <State className="" changeState={changeState} state={state} />
-          <Year className="" changeYear={changeYear} year={year} />
-          <button>
-            Click it!
-          </button>
+          <SnapShotSelect {...props} />
         </div>
         <div className="c-panel__head">
           <h1 className="o-heading-sub">{data.state} - {data.year}</h1>
@@ -72,16 +59,7 @@ const Snapshot = (props) => {
 };
 
 Snapshot.propTypes = {
-  changeTrend: PropTypes.func,
-  changeState: PropTypes.func,
-  changeYear: PropTypes.func,
-  data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
-  }),
-  state: PropTypes.string,
-  trend: PropTypes.string,
-  year: PropTypes.string,
+  data: PropTypes.shape({}),
 };
 
 export default Snapshot;

@@ -1,7 +1,7 @@
 import Link from 'react-router/lib/Link';
 import React, { PropTypes } from 'react';
 
-const Navigation = props => (
+const Navigation = () => (
   <nav className="c-navbar" >
     <div>
       <ul className="o-list-inline c-nav">
@@ -9,6 +9,7 @@ const Navigation = props => (
           <Link to="/">Home </Link>
           <Link to="/snapshot">Snapshot</Link>
           <Link to="/reports">Reports</Link>
+          <Link to="/compare">Compare</Link>
         </li>
       </ul>
     </div>

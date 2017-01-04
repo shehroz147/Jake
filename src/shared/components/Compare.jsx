@@ -1,44 +1,60 @@
 import React, { PropTypes } from 'react';
 
-// Selects
+import CompareSelect from './Select/CompareSelect';
+
+// Trends
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Trend from './Select/Trend';
-import State from './Select/State';
-import Year from './Select/Year';
+import Boycotted from './Trend/Boycotted';
+import Community from './Trend/Community';
+import Contacted from './Trend/Contacted';
+import Donated from './Trend/Donated';
+import Group from './Trend/Group';
+import Meeting from './Trend/Meeting';
+import Organization from './Trend/Organization';
+import Registered from './Trend/Registered';
+import Volunteer from './Trend/Volunteer';
+import VolunteerHours from './Trend/VolunteerHours';
+// # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+import Snapshot from './Snapshot';
+
+const getTrendComponent = (props) => {
+  switch (props.trend) {
+    case 'boycotted': return <Boycotted {...props} />;
+    case 'community': return <Community {...props} />;
+    case 'contacted': return <Contacted {...props} />;
+    case 'donated': return <Donated {...props} />;
+    case 'group': return <Group {...props} />;
+    case 'meeting': return <Meeting {...props} />;
+    case 'organization': return <Organization {...props} />;
+    case 'registered': return <Registered {...props} />;
+    case 'volunteer': return <Volunteer {...props} />;
+    case 'volunteerHours': return <VolunteerHours {...props} />;
+    default: return (<p>Select a trend.</p>);
+  }
+};
 
 const Compare = (props) => {
   const {
-    changeState,
-    changeTrend,
-    changeYear,
     data,
-    state,
-    trend,
-    year,
   } = props;
+
   return (
     <div>
       <div>
-        <Trend className="col small-third" changeTrend={changeTrend} trend={trend} />
-        <State className="col small-third" changeState={changeState} state={state} />
-        <Year className="col small-third" changeYear={changeYear} year={year} />
-
-        <Trend className="col small-third" changeTrend={changeTrend} trend={trend} />
-        <State className="col small-third" changeState={changeState} state={state} />
-        <Year className="col small-third" changeYear={changeYear} year={year} />
+        <h1>Compare</h1>
+        <CompareSelect {...props} />
+        <div className="c-panel__content">
+          <Snapshot {...props} />
+          <Snapshot {...props} />
+        </div>
       </div>
     </div>
   );
 };
 
 Compare.propTypes = {
-  changeTrend: PropTypes.func,
-  changeState: PropTypes.func,
-  changeYear: PropTypes.func,
-  data: PropTypes.obj,
-  state: PropTypes.string,
-  trend: PropTypes.string,
-  year: PropTypes.string,
+  data: PropTypes.shape({}),
 };
 
 export default Compare

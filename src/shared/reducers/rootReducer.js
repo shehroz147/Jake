@@ -2,8 +2,10 @@ import { combineReducers } from 'redux';
 
 import data from './data';
 import options from './options';
+import compare from './compare';
 
 export default combineReducers({
+  compare,
   data,
   options,
 });

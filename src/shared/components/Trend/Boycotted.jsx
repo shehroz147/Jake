@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 
 import Graph from '../Graph';
 
-
 const Boycotted = (props) => {
   const { data } = props;
 
