@@ -26,8 +26,8 @@ const CompareSelect = (props) => {
       <div className="c-panel">
         <div className="row">
           <Trend className="" changeTrend={changeTrend} trend={trend} />
-          <State className="" changeState={changeState1} state1={state1} />
-          <State className="" changeState={changeState2} state2={state2} />
+          <State className="" changeState={changeState1} state={state1} />
+          <State className="" changeState={changeState2} state={state2} />
           <Year className="" changeYear={changeYear} year={year} />
         </div>
       </div>
@@ -40,10 +40,7 @@ CompareSelect.propTypes = {
   changeState2: PropTypes.func,
   changeTrend: PropTypes.func,
   changeYear: PropTypes.func,
-  data: PropTypes.shape({
-    meetingPercent: PropTypes.number.isRequired,
-    meetingRank: PropTypes.number.isRequired,
-  }),
+  data: PropTypes.shape({}),
   state1: PropTypes.string,
   state2: PropTypes.string,
   trend: PropTypes.string,

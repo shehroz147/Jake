@@ -12,6 +12,7 @@ const State = props => (
         value={props.state}
       >
         {/* {states.map(s => <option key={s.state} value={s.state}>{s.state}</option>)} */}
+        <option value="National Average">National Average</option>
         <option value="Alabama">Alabama</option>
         <option value="Alaska">Alaska</option>
         <option value="Arizona">Arizona</option>

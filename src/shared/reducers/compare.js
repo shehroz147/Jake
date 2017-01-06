@@ -28,13 +28,11 @@ const stateReducer2 = (state, action) => {
 };
 
 const initialState = {
-  average: 'National Average',
   state1: 'Florida',
-  state2: 'Alaska',
+  state2: 'National Average',
   trend: 'volunteer',
   year: '2014',
 };
-
 
 export default (state = initialState, action) => ({
   state1: stateReducer1(state.state1, action),
