@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { render } from 'react-dom';
 
 import Routes from '../shared/Routes';
-import createStore from '../shared/store/createStore';
+import createStore from '../shared/Redux/createStore';
 
 const store = createStore(window.INITIAL_STATE);
 

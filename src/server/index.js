@@ -6,10 +6,10 @@ import { Provider } from 'react-redux';
 import { renderToString } from 'react-dom/server';
 import { resolve } from 'path';
 
-import data from '../shared/data/json/data.json';
+import data from '../shared/Data/data.json';
 import Routes from '../shared/Routes';
-import createStore from '../shared/store/createStore';
-import { retrieveData } from '../shared/actions/data';
+import createStore from '../shared/Redux/createStore';
+import { retrieveData } from '../shared/Data/action';
 
 const server = express();
 
