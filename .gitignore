@@ -33,3 +33,7 @@ logs
 build
 static
 uploads
+babel_cache
+
+
+NOTES
