@@ -1,15 +1,13 @@
 import React from 'react';
 
-class IndexPage extends React.Component {
-  render() {
-    return (
+const IndexPage = () => {
+  return (
+    <div className="">
       <div className="">
-        <div className="">
-          <h1>Civic Health Index</h1>
-        </div>
+        <h1>Civic Health Index</h1>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default IndexPage;

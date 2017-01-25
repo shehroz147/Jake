@@ -1,7 +1,7 @@
 import Link from 'react-router/lib/Link';
 import React from 'react';
 
-export default class Navigation extends React.Component {
+export default class Layout extends React.Component {
   render() {
     return (
       <div className="o-wrapper">

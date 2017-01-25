@@ -7,6 +7,9 @@ import { match, RouterContext } from 'react-router';
 import routes from '../shared/routes';
 import NotFoundPage from '../shared/App/NotFoundPage';
 
+const ROOT_DIR = path.resolve(__dirname, '../..');
+const STATIC_DIR = path.resolve(ROOT_DIR, 'static');
+
 // initialize the server and configure support for ejs templates
 const app = new Express();
 const server = new Server(app);
@@ -14,14 +17,13 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 // define the folder that will be used for static assets
-app.use(Express.static(path.join(__dirname, 'static')));
+app.use(Express.static(STATIC_DIR));
 
 // universal routing and rendering
 app.use((req, res) => {
   match(
     { routes, location: req.url },
     (err, redirectLocation, renderProps) => {
-
       // in case of error display the error message
       if (err) {
         return res.status(500).send(err.message);
