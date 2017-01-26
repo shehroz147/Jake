@@ -3,10 +3,9 @@
 }
 
 .c-panel__head {
-  background-color: $color-ui-medium;
-  border-top-left-radius: $base-radius;
-  border-top-right-radius: $base-radius;
-  color: $color-ui-white;
+  // background-color: $color-secondary;
+  border-left: 3px solid $color-primary;
+  color: $color-secondary;
   padding: $spacing;
 
   .c-panel--small & { padding: $spacing--small; }
@@ -20,7 +19,7 @@
 }
 
 .c-panel__content {
-  background-color: $color-ui-white;
+  background-color: $color-ui-light;
   padding: $spacing;
 
   .c-panel--small & { padding: $spacing--small; }

@@ -4,7 +4,7 @@ const IndexPage = () => {
   return (
     <div className="">
       <div className="">
-        <h1>Civic Health Index</h1>
+        <h1>Welcome to The Civic Health Index</h1>
       </div>
     </div>
   );

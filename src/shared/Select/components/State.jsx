@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
 const states = [
   'Alabama',
@@ -54,32 +54,34 @@ const states = [
   'National Average',
 ];
 
-const Compare = (props) => {
-  return (
-    <div className="">
-      <div className="">
-        <h1 className="">Compare States</h1>
-      </div>
-      <div>
-        <div>
-          <select
-            className="c-select"
-            name="state"
-            value={props.state}
+const State = props => (
+  <div className="container">
+    <div className="col small-third">
+      <select
+        className="c-select"
+        name="state"
+        onChange={(event) => {
+          const state = event.target.value;
+          props.changeState(state);
+        }}
+        value={props.state}
+      >
+        {states.map(state => (
+          <option
+            key={state}
+            value={state}
           >
-            {states.map(state => (
-              <option
-                key={state}
-                value={state}
-              >
-                {state}
-              </option>
-              ))}
-          </select>
-        </div>
-      </div>
+            {state}
+          </option>
+          ))}
+      </select>
     </div>
-  );
-}
+  </div>
+);
 
-export default Compare;
+State.propTypes = {
+  changeState: PropTypes.func,
+  state: PropTypes.string,
+};
+
+export default State;

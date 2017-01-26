@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+.o-wrapper--main {
+  background-color: $color-ui-white;
+  height:100%;
+}
+
 @include media-query('lap-and-up') {
   .o-wrapper {
     max-width: 42.67em;

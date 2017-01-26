@@ -1,5 +1,5 @@
 .c-nav__link {
-  color: $color-ui-white;
+  color: $color-ui-dark;
   font-size: $font-size--small;
   font-weight: $font-weight--bold;
   margin-right: $spacing;
@@ -7,7 +7,7 @@
 
   &:hover,
   &:focus {
-    color: $color-ui-medium;
+    color: $color-primary;
   }
 
   .c-nav--right & {
