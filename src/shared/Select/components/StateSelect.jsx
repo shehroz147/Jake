@@ -54,9 +54,9 @@ const states = [
   'National Average',
 ];
 
-const State = props => (
-  <div className="container">
-    <div className="col small-third">
+const StateSelect = props => (
+  <div className="">
+    <div className="">
       <select
         className="c-select"
         name="state"
@@ -79,9 +79,9 @@ const State = props => (
   </div>
 );
 
-State.propTypes = {
+StateSelect.propTypes = {
   changeState: PropTypes.func,
   state: PropTypes.string,
 };
 
-export default State;
+export default StateSelect;

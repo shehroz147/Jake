@@ -5,7 +5,7 @@
 .c-panel__head {
   // background-color: $color-secondary;
   border-left: 3px solid $color-primary;
-  color: $color-secondary;
+  color: $color-type;
   padding: $spacing;
 
   .c-panel--small & { padding: $spacing--small; }

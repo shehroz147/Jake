@@ -8,6 +8,9 @@
   </head>
   <body>
     <div id="main"><%- markup -%></div>
+    <script type="text/javascript">
+      window.INITIAL_STATE = <%- state -%>;
+    </script>
     <script src="http://localhost:3333/js/bundle.js"></script>
   </body>
 </html>

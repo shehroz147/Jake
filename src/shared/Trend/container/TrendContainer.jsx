@@ -30,18 +30,17 @@ const getTrendComponent = (props) => {
   }
 };
 
-const Trend = (props) => {
-  return (
-    <div className="container">
-      <div className="c-panel">
-        <div className="c-panel__content">
-          {getTrendComponent(props)}
-        </div>
+const TrendContainer = props => (
+  <div className="container">
+    <div className="c-panel">
+      <div className="c-panel__content">
+        {getTrendComponent(props)}
       </div>
     </div>
-  );
-};
+  </div>
+);
 
-Trend.propTypes = {};
 
-export default Trend;
+TrendContainer.propTypes = {};
+
+export default TrendContainer;

@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react';
 
-const Year = props => (
-  <div className="container">
-    <div className="col small-third">
+const YearSelect = props => (
+  <div className="">
+    <div className="">
       <select
-        className="col small-half c-select"
+        className="c-select"
         onChange={(event) => {
           const year = event.target.value;
           props.changeYear(year);
@@ -23,9 +23,9 @@ const Year = props => (
   </div>
 );
 
-Year.propTypes = {
-  changeYear: PropTypes.func,
-  year: PropTypes.string,
+YearSelect.propTypes = {
+  changeYear: PropTypes.func.isRequired,
+  year: PropTypes.string.isRequired,
 };
 
-export default Year;
+export default YearSelect;

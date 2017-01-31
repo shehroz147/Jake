@@ -2,9 +2,9 @@ import React, { PropTypes } from 'react';
 
 // Selects
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Trend from './Trend';
-import State from './State';
-import Year from './Year';
+import TrendSelect from './TrendSelect';
+import StateSelect from './StateSelect';
+import YearSelect from './YearSelect';
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 const CompareSelect = (props) => {
@@ -20,13 +20,28 @@ const CompareSelect = (props) => {
   } = props;
 
   return (
-    <div className="container">
+    <div className="">
       <div className="c-panel">
-        <div className="row">
-          <Trend className="" changeTrend={changeTrend} trend={trend} />
-          <State className="" changeState={changeState} state={state} />
-          <State className="" changeState={changeCompare} state={compare} />
-          <Year className="" changeYear={changeYear} year={year} />
+        <div className="">
+          <label htmlFor="trendSelect">
+            Trend Select
+            <TrendSelect className="" changeTrend={changeTrend} trend={trend} />
+          </label>
+          <label htmlFor="state1Select">
+            State One Select
+            <StateSelect className="" changeState={changeState} state={state} />
+          </label>
+          <label htmlFor="state2Select">
+            State Two Select
+            <StateSelect className="" changeState={changeCompare} state={compare} />
+          </label>
+          <label
+            className=""
+            htmlFor="yearSelect"
+          >
+            Year Select
+            <YearSelect className="" changeYear={changeYear} year={year} />
+          </label>
         </div>
       </div>
     </div>
@@ -34,14 +49,14 @@ const CompareSelect = (props) => {
 };
 
 CompareSelect.propTypes = {
-  changeCompare: PropTypes.func,
-  changeState: PropTypes.func,
-  changeTrend: PropTypes.func,
-  changeYear: PropTypes.func,
-  compare: PropTypes.string,
-  state: PropTypes.string,
-  trend: PropTypes.string,
-  year: PropTypes.string,
+  changeCompare: PropTypes.func.isRequired,
+  changeState: PropTypes.func.isRequired,
+  changeTrend: PropTypes.func.isRequired,
+  changeYear: PropTypes.func.isRequired,
+  compare: PropTypes.string.isRequired,
+  state: PropTypes.string.isRequired,
+  trend: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
 };
 
 export default CompareSelect;
