@@ -1,12 +1,14 @@
 .c-panel {
-  margin-bottom: $spacing;
+  margin: 0 0 $spacing 0;
+  padding-top: $spacing;
 }
 
 .c-panel__head {
   // background-color: $color-secondary;
   border-left: 3px solid $color-primary;
+  background-color: white;
   color: $color-type;
-  padding: $spacing;
+  padding: $spacing--small ;
 
   .c-panel--small & { padding: $spacing--small; }
   .c-panel--large & { padding: $spacing--large; }
@@ -20,7 +22,7 @@
 
 .c-panel__content {
   background-color: $color-ui-light;
-  padding: $spacing;
+  padding: 0 0 $spacing--small 0;
 
   .c-panel--small & { padding: $spacing--small; }
   .c-panel--large & { padding: $spacing--large; }
@@ -33,4 +35,8 @@
 .c-panel__content:last-child {
   border-bottom-left-radius: $base-radius;
   border-bottom-right-radius: $base-radius;
+}
+
+.c-select-panel{
+  padding: $spacing--small;
 }

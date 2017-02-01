@@ -21,7 +21,7 @@ const CompareSelect = (props) => {
 
   return (
     <div className="">
-      <div className="c-panel">
+      <div className="c-select-panel">
         <div className="">
           <label htmlFor="trendSelect">
             Trend Select
