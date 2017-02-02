@@ -1,21 +1,24 @@
 .c-button {
-  background-color: $color-ui-light;
+  color: $color-ui-light;
+  cursor: pointer;
+  background-color: $color-secondary;
   border: 0;
   border-radius: $base-radius;
-  cursor: pointer;
   font: inherit;
   font-size: $font-size--small;
   font-weight: $font-weight--bold;
+  
   padding: $spacing--small $spacing;
   text-decoration: none;
+  width: 50%;
+
 
   &:focus {
     outline: none;
   }
 
-  &:focus,
   &:hover {
-    background-color: darken($color-ui-light, 5);
+    background-color: darken($color-secondary, 5);
   }
 
   .c-button-group & {

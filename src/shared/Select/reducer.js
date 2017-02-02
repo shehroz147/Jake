@@ -1,17 +1,3 @@
-const compareReducer = (state, action) => {
-  switch (action.type) {
-    case 'CHANGE COMPARE': return action.payload;
-    default: return state;
-  }
-};
-
-const stateReducer = (state, action) => {
-  switch (action.type) {
-    case 'CHANGE STATE': return action.payload;
-    default: return state;
-  }
-};
-
 const trendReducer = (state, action) => {
   switch (action.type) {
     case 'CHANGE TREND': return action.payload;
@@ -26,16 +12,30 @@ const yearReducer = (state, action) => {
   }
 };
 
+const stateReducer1 = (state, action) => {
+  switch (action.type) {
+    case 'CHANGE STATE 1': return action.payload;
+    default: return state;
+  }
+};
+
+const stateReducer2 = (state, action) => {
+  switch (action.type) {
+    case 'CHANGE STATE 2': return action.payload;
+    default: return state;
+  }
+};
+
 const initialState = {
-  compare: 'Texas',
-  state: 'Florida',
+  state1: 'Florida',
+  state2: 'Texas',
   trend: 'volunteer',
   year: '2014',
 };
 
 export default (state = initialState, action) => ({
-  compare: compareReducer(state.compare, action),
-  state: stateReducer(state.state, action),
+  state1: stateReducer1(state.state1, action),
+  state2: stateReducer2(state.state2, action),
   trend: trendReducer(state.trend, action),
   year: yearReducer(state.year, action),
 });

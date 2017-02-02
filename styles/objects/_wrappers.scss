@@ -1,14 +1,16 @@
 .o-wrapper {
   margin-left: auto;
   margin-right: auto;
-  padding-left: $spacing;
-  padding-right: $spacing;
+  padding-left: $spacing--large;
+  padding-right: $spacing--large;
   width: 100%;
 }
 
 .o-wrapper--main {
   background-color: $color-ui-white;
   height:100%;
+  padding-left: $spacing--large;
+  padding-right: $spacing--large;
 }
 
 @include media-query('lap-and-up') {

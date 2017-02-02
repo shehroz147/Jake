@@ -32,8 +32,8 @@ const getTrendComponent = (props) => {
 
 const TrendContainer = props => (
   <div className="container">
-    <div className="c-panel">
-      <div className="c-panel__content">
+    <div className="">
+      <div className="">
         {getTrendComponent(props)}
       </div>
     </div>
@@ -41,6 +41,8 @@ const TrendContainer = props => (
 );
 
 
-TrendContainer.propTypes = {};
+TrendContainer.propTypes = {
+  trend: PropTypes.string.isRequired,
+};
 
 export default TrendContainer;

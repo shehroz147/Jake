@@ -4,11 +4,11 @@ import BarGraph from '../../Graph/components/BarGraph';
 
 const Contacted = (props) => {
   const {
-    compareData,
-    data,
+    state1,
+    state2,
   } = props;
 
-  if (!data.contactedPercent) {
+  if (!state1.contactedPercent || !state2.contactedPercent) {
     return (
       <div className="c-panel__head">
         <p className="c-panel__heading">
@@ -19,27 +19,58 @@ const Contacted = (props) => {
   }
 
   return (
-    <div>
-      <div className="c-panel">
-        <div className="c-panel__content">
+    <div className="o-layout">
+      <div className="o-layout__item">
+        <div className="c-panel">
+
           <div className="c-panel__head">
-            <h2 className="c-panel__heading">{data.state}</h2>
+            <h1 className="c-panel__heading">
+              National Average
+            </h1>
           </div>
-          <BarGraph
-            percentage={data.contactedPercent}
-          />
-          <h3 className="c-panel__heading">Rank - {data.contactedRank}</h3>
+
+          <div className="c-panel__content">
+            <BarGraph percentage={state1.contactedPercent} />
+          </div>
+
         </div>
       </div>
-      <div>
+
+      <div className="o-layout__item u-1/2">
         <div className="c-panel">
-          <div className="c-panel__content">
-            <div className="c-panel__head">
-              <h2 className="c-panel__heading">{compareData.state}</h2>
-            </div>
-            {compareData && <BarGraph percentage={compareData.contactedPercent} />}
-            <h3 className="c-panel__heading">Rank - {compareData.contactedRank}</h3>
+
+          <div className="c-panel__head">
+            <h2 className="c-panel__heading">
+              {state1.state}
+            </h2>
           </div>
+
+          <div className="c-panel__content">
+            <BarGraph percentage={state1.contactedPercent} />
+            <h3 className="c-panel__heading">
+              Rank - {state1.contactedRank}
+            </h3>
+          </div>
+
+        </div>
+      </div>
+
+      <div className="o-layout__item u-1/2">
+        <div className="c-panel">
+
+          <div className="c-panel__head">
+            <h2 className="c-panel__heading">
+              {state2.state}
+            </h2>
+          </div>
+
+          <div className="c-panel__content">
+            {state2 && <BarGraph percentage={state2.contactedPercent} />}
+            <h3 className="c-panel__heading">
+              Rank - {state2.contactedRank}
+            </h3>
+          </div>
+
         </div>
       </div>
     </div>
@@ -47,11 +78,11 @@ const Contacted = (props) => {
 };
 
 Contacted.propTypes = {
-  compareData: PropTypes.shape({
+  state1: PropTypes.shape({
     contactedPercent: PropTypes.number.isRequired,
     contactedRank: PropTypes.number.isRequired,
   }).isRequired,
-  data: PropTypes.shape({
+  state2: PropTypes.shape({
     contactedPercent: PropTypes.number.isRequired,
     contactedRank: PropTypes.number.isRequired,
   }).isRequired,

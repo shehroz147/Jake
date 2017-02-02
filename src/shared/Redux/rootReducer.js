@@ -1,13 +1,12 @@
 import { combineReducers } from 'redux';
 
 import data from '../Data/reducer';
-import options from '../Select/reducer';
-import compare from '../Compare/reducer';
+import selection from '../Select/reducer';
+
 
 export default combineReducers({
-  compare,
   data,
-  options,
+  selection,
 });
 
 // const users = (state = [], action) => {

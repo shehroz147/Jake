@@ -4,11 +4,11 @@ import BarGraph from '../../Graph/components/BarGraph';
 
 const Volunteer = (props) => {
   const {
-    compareData,
-    data,
+    state1,
+    state2,
   } = props;
 
-  if (!data.volunteerPercent || !compareData.volunteerPercent) {
+  if (!state1.volunteerPercent || !state2.volunteerPercent) {
     return (
       <div className="c-panel__head">
         <p className="c-panel__heading">
@@ -19,27 +19,58 @@ const Volunteer = (props) => {
   }
 
   return (
-    <div>
-      <div className="c-panel">
-        <div className="c-panel__content">
+    <div className="o-layout">
+      <div className="o-layout__item">
+        <div className="c-panel">
+
           <div className="c-panel__head">
-            <h2 className="c-panel__heading">{data.state}</h2>
+            <h1 className="c-panel__heading">
+              National Average
+            </h1>
           </div>
-          <BarGraph
-            percentage={data.volunteerPercent}
-          />
-          <h3 className="c-panel__heading">Rank - {data.volunteerRank}</h3>
+
+          <div className="c-panel__content">
+            <BarGraph percentage={state1.volunteerPercent} />
+          </div>
+
         </div>
       </div>
-      <div>
+
+      <div className="o-layout__item u-1/2">
         <div className="c-panel">
-          <div className="c-panel__content">
-            <div className="c-panel__head">
-              <h2 className="c-panel__heading">{compareData.state}</h2>
-            </div>
-            {compareData && <BarGraph percentage={compareData.volunteerPercent} />}
-            <h3 className="c-panel__heading">Rank - {compareData.volunteerRank}</h3>
+
+          <div className="c-panel__head">
+            <h2 className="c-panel__heading">
+              {state1.state}
+            </h2>
           </div>
+
+          <div className="c-panel__content">
+            <BarGraph percentage={state1.volunteerPercent} />
+            <h3 className="c-panel__heading">
+              Rank - {state1.volunteerRank}
+            </h3>
+          </div>
+
+        </div>
+      </div>
+
+      <div className="o-layout__item u-1/2">
+        <div className="c-panel">
+
+          <div className="c-panel__head">
+            <h2 className="c-panel__heading">
+              {state2.state}
+            </h2>
+          </div>
+
+          <div className="c-panel__content">
+            {state2 && <BarGraph percentage={state2.volunteerPercent} />}
+            <h3 className="c-panel__heading">
+              Rank - {state2.volunteerRank}
+            </h3>
+          </div>
+
         </div>
       </div>
     </div>
@@ -47,13 +78,13 @@ const Volunteer = (props) => {
 };
 
 Volunteer.propTypes = {
-  compareData: PropTypes.shape({
-    productPercent: PropTypes.number.isRequired,
-    productRank: PropTypes.number.isRequired,
-  }).isRequired,
-  data: PropTypes.shape({
+  state1: PropTypes.shape({
     volunteerPercent: PropTypes.number.isRequired,
     volunteerRank: PropTypes.number.isRequired,
+  }).isRequired,
+  state2: PropTypes.shape({
+    productPercent: PropTypes.number.isRequired,
+    productRank: PropTypes.number.isRequired,
   }).isRequired,
 };
 

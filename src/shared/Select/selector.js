@@ -1,7 +1,7 @@
-export const compareSelector = state => state.options.compare;
-export const trendSelector = state => state.options.trend;
-export const stateSelector = state => state.options.state;
-export const yearSelector = state => state.options.year;
+export const state1Selector = state => state.selection.state1;
+export const state2Selector = state => state.selection.state2;
+export const trendSelector = state => state.selection.trend;
+export const yearSelector = state => state.selection.year;
 
 // export const stateOptionsSelector = createSelector(
 //   [trendSelector, yearSelector, dataSelector],

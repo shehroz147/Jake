@@ -16,7 +16,7 @@ export default class Layout extends React.Component {
                 <h1 className="o-heading-nav">Civic Health Index</h1>
               </li>
               <div className="o-flex-layout__item">
-                <ul className="o-list-inline c-nav c-nav--right">
+                <ul className="o-list-inline c-nav c-nav--right u-text-right">
 
 
                   <li className="o-list-inline__item">

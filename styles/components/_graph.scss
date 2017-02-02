@@ -20,9 +20,9 @@ $width-vertical: 80px;
 
 .c-bar{
   border: 3px solid $border;
-  margin: 10px 0;
   position: relative;
-  width: $width;
+  width: 100%;
+  margin-bottom: $spacing--small;
 }
 
 .c-bar .c-graph{

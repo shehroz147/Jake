@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 
 const BarGraph = (props) => (
   <div>
-    <div className="c-panel__content">
+    <div className="">
       <div className="c-bar">
         <div
           className="c-graph"
@@ -19,7 +19,7 @@ const BarGraph = (props) => (
 
 
 BarGraph.propTypes = {
-  percentage: PropTypes.number,
+  percentage: PropTypes.number.isRequired,
 };
 
 export default BarGraph;
