@@ -13,8 +13,7 @@ const CompareSelect = (props) => {
     changeState2,
     changeTrend,
     changeYear,
-    state1,
-    state2,
+    state,
     trend,
     year,
   } = props;
@@ -43,14 +42,14 @@ const CompareSelect = (props) => {
           <div className="o-layout__item u-1/2">
             <label htmlFor="state1Select">
               State One Select
-              <StateSelect className="" changeState={changeState1} state={state1} />
+              <StateSelect className="" changeState={changeState1} state={state} />
             </label>
           </div>
 
           <div className="o-layout__item u-1/2">
             <label htmlFor="state2Select">
               State Two Select
-              <StateSelect className="" changeState={changeState2} state={state2} />
+              <StateSelect className="" changeState={changeState2} state={state} />
             </label>
           </div>
 
@@ -67,8 +66,7 @@ CompareSelect.propTypes = {
   changeState2: PropTypes.func.isRequired,
   changeTrend: PropTypes.func.isRequired,
   changeYear: PropTypes.func.isRequired,
-  state1: PropTypes.shape({}).isRequired,
-  state2: PropTypes.shape({}).isRequired,
+  state: PropTypes.shape({}).isRequired,
   trend: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
 };

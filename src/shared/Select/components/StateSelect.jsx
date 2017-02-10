@@ -80,7 +80,7 @@ const StateSelect = props => (
 );
 
 StateSelect.propTypes = {
-  state: PropTypes.shape({}).isRequired,
+  state: PropTypes.string.isRequired,
 };
 
 export default StateSelect;

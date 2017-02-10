@@ -1,3 +1,0 @@
-ROOT_DIR
-STATIC_DIR
-...

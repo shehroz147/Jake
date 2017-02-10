@@ -11,7 +11,9 @@
   border: 1px solid $color-ui-medium;
   border-radius: $base-radius;
   display: block;
-  font: inherit;
+  font-size: $font-size--huge;
+  font-weight: $font-weight--semibold;
+  text-align: center;
   line-height: normal;
   overflow: hidden;
   position: relative;

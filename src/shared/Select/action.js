@@ -3,6 +3,11 @@ export const changeTrend = trend => ({
   payload: trend,
 });
 
+export const changeNation = state => ({
+  type: 'CHANGE STATE',
+  payload: state,
+});
+
 export const changeState1 = state1 => ({
   type: 'CHANGE STATE 1',
   payload: state1,

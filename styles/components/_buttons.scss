@@ -4,13 +4,10 @@
   background-color: $color-secondary;
   border: 0;
   border-radius: $base-radius;
-  font: inherit;
   font-size: $font-size--small;
   font-weight: $font-weight--bold;
-  
   padding: $spacing--small $spacing;
   text-decoration: none;
-  width: 50%;
 
 
   &:focus {
@@ -30,6 +27,8 @@
     margin-right: 0;
   }
 }
+
+
 
 .c-button--tiny {
   font-size: $font-size--tiny;
