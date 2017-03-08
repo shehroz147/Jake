@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 var entry = [
+  'babel-polyfill',
   path.resolve(__dirname, 'src/client/client.jsx'),
 ];
 

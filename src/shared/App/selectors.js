@@ -13,7 +13,7 @@ import {
   state2Selector,
   trendSelector,
   yearSelector,
-} from '../Select/selector';
+} from '../Select/selectors';
 
 export const dataSelector = state => state.data;
 
@@ -44,8 +44,7 @@ export const filteredState2Selector = createSelector(
 export const chartSelector = createSelector(
   [state1Selector, state2Selector, dataSelector],
   (state1, state2, data) => {
-    const chartData = data
-      .filter((d) => {
+    const chartData = filter(data, (d) => {
         if (d.state === state1) {
           return true;
         }

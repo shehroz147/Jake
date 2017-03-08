@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import BarGraph from '../../Graph/components/BarGraph';
-import StateSelect from '../../Select/components/StateSelect';
 
-import data from '../../Data/data.json';
+import BarGraph from '../../Graph/components/BarGraph';
+import Chart from '../../Graph/components/Chart';
+import NoTrend from './NoTrend';
+import StateSelect from '../../Select/components/StateSelect';
 
 const TREND_PERCENT = {
   volunteer: 'volunteerPercent',
@@ -47,72 +47,18 @@ const Trend = (props) => {
   //   console.log('Yo:', i)
   // });
 
-  // console.log(chart);
+  console.log("chart", chart);
 
   if (!state1[TREND_PERCENT[trend]] || !state2[TREND_PERCENT[trend]]) {
     return (
-      <div className="o-layout">
-        <div className="o-layout__item u-1/2">
-          <div className="c-panel">
-            <div className="c-panel__head">
-              <div className="c-panel__heading">
-                <StateSelect
-                  changeState={changeState1}
-                  state={state1.state}
-                />
-              </div>
-            </div>
-            <div className="c-panel__content">
-              <p className="o-layout__item u-text-center">
-                No data
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="o-layout__item u-1/2">
-          <div className="c-panel">
-            <div className="c-panel__head">
-              <div className="c-panel__heading">
-                <StateSelect
-                  changeState={changeState2}
-                  state={state2.state}
-                />
-              </div>
-            </div>
-            <div className="c-panel__content">
-              <p className="o-layout__item u-text-center">
-                No data
-              </p>
-            </div>
-          </div>
-        </div>
-        <h1 className="o-layout__item o-heading-sub u-text-center">
-          Try Selecting another State or Trend
-        </h1>
-      </div>
+      <NoTrend {...props} />
     );
   }
 
   return (
     <div className="o-layout">
       <div className="o-layout__item">
-
-        <LineChart
-          data={chart}
-          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-          height={300}
-          width={600}
-        >
-          <XAxis dataKey="year" />
-          <YAxis />
-          <CartesianGrid strokeDasharray="1 1" />
-          <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey={`${TREND_PERCENT[trend]}1`} stroke="#D9534F" name={state1.state} />
-          <Line type="monotone" dataKey={`${TREND_PERCENT[trend]}2`} stroke="#F0AD4E" name={state2.state} />
-          <Line type="monotone" dataKey={`${TREND_PERCENT[trend]}n`} stroke="#337AB7" name="National Average" />
-        </LineChart>
-
+        <Chart {...props} />
       </div>
       <div className="o-layout__item">
         <div className="c-panel">

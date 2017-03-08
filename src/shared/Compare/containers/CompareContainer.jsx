@@ -7,21 +7,21 @@ import {
   changeState1,
   changeState2,
   changeYear,
-} from '../../Select/action';
+} from '../../Select/actions';
 
 import {
   trendSelector,
   state1Selector,
   state2Selector,
   yearSelector,
-} from '../../Select/selector';
+} from '../../Select/selectors';
 
 import {
   filteredStateSelector,
   filteredState1Selector,
   filteredState2Selector,
   chartSelector,
-} from '../../App/selector';
+} from '../../App/selectors';
 
 const mapStateToProps = state => ({
   state: filteredStateSelector(state),

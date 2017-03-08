@@ -1,0 +1,57 @@
+.c-text-input {
+  background-color: $color-ui-white;
+  border: 1px solid $color-ui-light;
+  border-radius: $base-radius;
+  display: block;
+  font: inherit;
+  line-height: normal;
+  padding: $spacing--small;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus,
+  &:hover {
+    border-color: darken($color-ui-light, 10);
+  }
+}
+
+// .c-text-input--valid {
+//   border-color: $color-status-success;
+//
+//   &:focus,
+//   &:hover {
+//     border-color: darken($color-status-success, 10);
+//   }
+// }
+//
+// .c-text-input--error {
+//   border-color: $color-status-error;
+//
+//   &:focus,
+//   &:hover {
+//     border-color: darken($color-status-error, 10);
+//   }
+// }
+//
+// .c-text-input--tiny {
+//   font-size: $font-size--tiny;
+//   padding: $spacing--tiny;
+// }
+//
+// .c-text-input--small {
+//   font-size: $font-size--small;
+//   padding: $spacing--small;
+// }
+//
+// .c-text-input--large {
+//   font-size: $font-size--large;
+//   padding: $spacing--large;
+// }
+//
+// .c-text-input--huge {
+//   font-size: $font-size--huge;
+//   padding: $spacing--huge;
+// }

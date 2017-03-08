@@ -1,0 +1,84 @@
+import React, { PropTypes } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+
+const TREND_PERCENT = {
+  volunteer: 'volunteerPercent',
+  volunteerHours: 'volunteerHours',
+  meeting: 'meetingPercent',
+  community: 'communityPercent',
+  donated: 'donatedPercent',
+  voted: 'votePercent',
+  boycotted: 'productPercent',
+  registered: 'registeredPercent',
+  group: 'groupPercent',
+  organization: 'organizationPercent',
+};
+
+// const TREND_RANK = {
+//   volunteer: 'volunteerRank',
+//   volunteerHours: 'volunteerHoursRank',
+//   meeting: 'meetingRank',
+//   community: 'communityRank',
+//   donated: 'donatedRank',
+//   voted: 'voteRank',
+//   boycotted: 'productRank',
+//   registered: 'registeredRank',
+//   group: 'groupRank',
+//   organization: 'organizationRank',
+// };
+
+const Chart = (props) => {
+  const {
+    trend,
+    state,
+    state1,
+    state2,
+    chart,
+  } = props;
+
+  return (
+    <LineChart
+      data={chart}
+      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+      height={300}
+      width={700}
+    >
+      <XAxis dataKey="year" />
+      <YAxis />
+      <CartesianGrid strokeDasharray="1 1" />
+      <Tooltip />
+      <Legend align="center" />
+      <Line
+        dataKey={`${TREND_PERCENT[trend]}1`}
+        legendType="square"
+        name={state1.state}
+        stroke="#D9534F"
+        type="monotone"
+      />
+      <Line
+        dataKey={`${TREND_PERCENT[trend]}2`}
+        legendType="square"
+        name={state2.state}
+        stroke="#F0AD4E"
+        type="monotone"
+      />
+      <Line
+        dataKey={`${TREND_PERCENT[trend]}n`}
+        legendType="square"
+        name={state.state}
+        stroke="#337AB7"
+        type="monotone"
+      />
+    </LineChart>
+  );
+};
+
+Chart.propTypes = {
+  chart: PropTypes.arrayOf.isRequired,
+  state: PropTypes.shape({}).isRequired,
+  state1: PropTypes.shape({}).isRequired,
+  state2: PropTypes.shape({}).isRequired,
+  trend: PropTypes.string.isRequired,
+};
+
+export default Chart;

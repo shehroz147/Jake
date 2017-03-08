@@ -2,6 +2,13 @@ import React from 'react';
 
 const Reports = () => (
   <div className="o-layout">
+    {/* {reports.map(report => (
+      <Report
+        url={report.url}
+        title={report.title}
+        src={report.thumbnail}
+      />
+    ))} */}
 
     <div className="o-layout__item u-1/2">
       <div className="c-panel">

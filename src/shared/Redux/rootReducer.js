@@ -1,17 +1,11 @@
 import { combineReducers } from 'redux';
 
-import data from '../Data/reducer';
-import selection from '../Select/reducer';
-
+import data from '../Data/reducers';
+import selection from '../Select/reducers';
+import uploader from '../Admin/Uploader/reducers';
 
 export default combineReducers({
   data,
+  uploader,
   selection,
 });
-
-// const users = (state = [], action) => {
-//   switch (action.type) {
-//     case 'USERS': return [...state, ...action.payload];
-//     default: return state;
-//   }
-// };
