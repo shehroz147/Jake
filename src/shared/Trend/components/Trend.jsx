@@ -4,6 +4,10 @@ import BarGraph from '../../Graph/components/BarGraph';
 import Chart from '../../Graph/components/Chart';
 import NoTrend from './NoTrend';
 import StateSelect from '../../Select/components/StateSelect';
+import YearSelect from '../../Select/components/YearSelect';
+import TrendSelect from '../../Select/components/TrendSelect';
+
+import AllChart from '../../Graph/components/AllChart';
 
 const TREND_PERCENT = {
   volunteer: 'volunteerPercent',
@@ -31,7 +35,6 @@ const TREND_RANK = {
   organization: 'organizationRank',
 };
 
-
 const Trend = (props) => {
   const {
     trend,
@@ -43,12 +46,6 @@ const Trend = (props) => {
     chart,
   } = props;
 
-  // data.forEach(function (i) {
-  //   console.log('Yo:', i)
-  // });
-
-  console.log("chart", chart);
-
   if (!state1[TREND_PERCENT[trend]] || !state2[TREND_PERCENT[trend]]) {
     return (
       <NoTrend {...props} />
@@ -58,7 +55,18 @@ const Trend = (props) => {
   return (
     <div className="o-layout">
       <div className="o-layout__item">
+        <h2 className="u-mb-">Change the year below to see other results</h2>
+        <YearSelect {...props} />
+      </div>
+      <div className="o-layout__item">
+        <h2 className="u-mb-">Change the trend below to see more results</h2>
+        <TrendSelect {...props} />
+      </div>
+      <div className="o-layout__item">
         <Chart {...props} />
+      </div>
+      <div className="o-layout__item">
+        <AllChart {...props} />
       </div>
       <div className="o-layout__item">
         <div className="c-panel">
@@ -68,17 +76,14 @@ const Trend = (props) => {
               National Average
             </h1>
           </div>
-
           <div className="c-panel__content">
             <BarGraph percentage={state[TREND_PERCENT[trend]]} />
           </div>
-
         </div>
       </div>
-
-      <div className="o-layout__item u-1/2">
+      <h3 className="o-layout__item">Change States with drop downs</h3>
+      <div className="o-layout__item">
         <div className="c-panel">
-
           <div className="c-panel__head">
             <h2 className="c-panel__heading">
               <StateSelect
@@ -87,7 +92,6 @@ const Trend = (props) => {
               />
             </h2>
           </div>
-
           <div className="c-panel__content">
             <BarGraph percentage={state1[TREND_PERCENT[trend]]} />
             <h3 className="c-panel__heading">
@@ -97,10 +101,8 @@ const Trend = (props) => {
 
         </div>
       </div>
-
-      <div className="o-layout__item u-1/2">
+      <div className="o-layout__item">
         <div className="c-panel">
-
           <div className="c-panel__head">
             <h2 className="c-panel__heading">
               <StateSelect
@@ -109,14 +111,12 @@ const Trend = (props) => {
               />
             </h2>
           </div>
-
           <div className="c-panel__content">
             {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
             <h3 className="c-panel__heading">
               Rank - {state2[TREND_RANK[trend]]}
             </h3>
           </div>
-
         </div>
       </div>
     </div>

@@ -36,10 +36,17 @@ server.set('views', path.join(__dirname, 'views'));
 server.use(express.static(STATIC_DIR));
 
 server.use(bodyParser.json());
-server.use(bodyParser.urlencoded());
+server.use(bodyParser.urlencoded({
+  extended: true,
+}));
 server.use(cookieParser());
 server.use(session({
   secret: 'yo mama',
+  name: 'SomeSecret',
+  // store: sessionStore,
+  proxy: true,
+  resave: true,
+  saveUninitialized: true,
 }));
 server.use(passport.initialize());
 server.use(passport.session());
@@ -63,11 +70,11 @@ const authenticate = (req, res, next) => {
 };
 
 
-server.post('/login', login.process);
-
-server.post('/signup', signup.process);
-
-server.get('/logout', logout.process);
+// server.post('/login', login.process);
+//
+// server.post('/signup', signup.process);
+//
+// server.get('/logout', logout.process);
 
 server.use((req, res, next) => {
   match({ routes: Routes, location: req.originalUrl }, (err, redirect, props) => {
@@ -78,9 +85,9 @@ server.use((req, res, next) => {
     } else if (props) {
       const store = createStore();
 
-      // if (req.isAuthenticated()) {
-      //   store.dispatch(login(req.user));
-      // }
+      if (req.isAuthenticated()) {
+        store.dispatch(login(req.user));
+      }
 
       store.dispatch(retrieveData(data));
 

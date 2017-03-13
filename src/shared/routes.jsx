@@ -6,10 +6,12 @@ import IndexPage from './App/components/IndexPage';
 import Reports from './Reports/components/Reports';
 import CompareContainer from './Compare/containers/CompareContainer';
 import NotFoundPage from './App/components/NotFoundPage';
-import Login from './Admin/Login/components/Login';
-import Signup from './Admin/Signup/components/Signup';
+
+// ADMIN
 import Dashboard from './Admin/Dashboard/components/Dashboard';
-import Uploader from './Admin/Uploader/containers/UploaderContainer';
+import Login from './Admin/Forms/Login/components/Login';
+import SignupContainer from './Admin/Forms/Signup/containers/SignupContainer';
+import Uploader from './Admin/Forms/Uploader/containers/UploaderContainer';
 
 const routes = (
   <Route path="/" component={Layout}>
@@ -18,7 +20,7 @@ const routes = (
     <Route path="/dashboard" component={Dashboard} />
     <Route path="/uploader" component={Uploader} />
     <Route path="/login" component={Login} />
-    <Route path="/signup" component={Signup} />
+    <Route path="/signup" component={SignupContainer} />
     <Route path="/compare" component={CompareContainer} />
     <Route path="*" component={NotFoundPage} />
   </Route>

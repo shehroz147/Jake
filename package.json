@@ -28,6 +28,7 @@
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.4.7",
     "body-parser": "^1.16.1",
+    "classnames": "^2.2.5",
     "cookie-parser": "^1.4.3",
     "d3": "^3.5.17",
     "ejs": "^2.5.1",
@@ -53,6 +54,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-polyfill": "^6.23.0",
     "envify": "^4.0.0",
     "eslint": "^3.14.0",
