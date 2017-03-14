@@ -3,7 +3,6 @@ import React, { PropTypes } from 'react';
 // Selects
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import TrendSelect from './TrendSelect';
-import StateSelect from './StateSelect';
 import YearSelect from './YearSelect';
 // # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -26,30 +25,16 @@ const CompareSelect = (props) => {
         <div className="o-layout">
 
           <div className="o-layout__item">
-            <label htmlFor="trendSelect">
-              Trend Select
-              <TrendSelect className="" changeTrend={changeTrend} trend={trend} />
-            </label>
-          </div>
-
-          <div className="o-layout__item">
             <label htmlFor="yearSelect">
               Year Select
               <YearSelect className="" changeYear={changeYear} year={year} />
             </label>
           </div>
 
-          <div className="o-layout__item u-1/2">
-            <label htmlFor="state1Select">
-              State One Select
-              <StateSelect className="" changeState={changeState1} state={state} />
-            </label>
-          </div>
-
-          <div className="o-layout__item u-1/2">
-            <label htmlFor="state2Select">
-              State Two Select
-              <StateSelect className="" changeState={changeState2} state={state} />
+          <div className="o-layout__item">
+            <label htmlFor="trendSelect">
+              Trend Select
+              <TrendSelect className="" changeTrend={changeTrend} trend={trend} />
             </label>
           </div>
 

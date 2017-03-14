@@ -7,6 +7,7 @@ const Login = () => {
     this.props.validate('login', field, value, rules, asyncRules);
   };
 
+
   const handleChange = (field, value, rules, asyncRules) => {
     if (this.timeout) clearTimeout(this.timeout);
     this.timeout = setTimeout(() => {
@@ -25,89 +26,90 @@ const Login = () => {
 
   const hasError = (typeof error === 'object') && (Object.keys(error).length > 0);
 
-  return (
-    <div className="o-wrapper o-wrapper--narrow">
-      <div className="c-panel">
-        <div className="c-panel__head u-pv">
-          <h1 className="c-panel__heading u-text-center">Login</h1>
-        </div>
-        <div className="c-panel__content u-p+">
-          {hasError && !error.success && (
-            <p>{error.message}</p>
-          )}
+    return (
+      <div className="o-wrapper o-wrapper--narrow">
+        <div className="c-panel">
+          <div className="c-panel__head u-pv">
+            <h1 className="c-panel__heading u-text-center">Login</h1>
+          </div>
+          <div className="c-panel__content u-p+">
+            {hasError && !error.success && (
+              <p>{error.message}</p>
+            )}
 
-          {!this.state.local && (
-            <div>
-              <button
-                className="c-button c-button--facebook c-button--block"
-                onClick={() => this.props.loginWithFacebook()}
-              >
-                Login with Facebook
-              </button>
-              <button
-                className="c-button c-button--google c-button--block"
-                onClick={() => this.props.loginWithGoogle()}
-              >
-                Login with Google
-              </button>
-              <button
-                className="c-button c-button--primary c-button--block"
-                onClick={() => { this.setState({ local: true }); }}
-              >
-                Login with Email
-              </button>
-            </div>
-          )}
-
-          {this.state.local && (
-            <form
-              onSubmit={(event) => {
-                event.preventDefault();
-                this.props.loginWithEmail();
-              }}
-            >
-              <TextInput
-                errors={errors.email}
-                handleBlur={handleBlur}
-                handleChange={handleChange}
-                label="Email"
-                name="email"
-                rules={['required', 'email']}
-                validating={validating.email}
-                value={loginValues.email}
-              />
-              <TextInput
-                errors={errors.password}
-                handleBlur={handleBlur}
-                handleChange={handleChange}
-                hidden
-                label="Password"
-                name="password"
-                rules={['required']}
-                validating={validating.password}
-                value={loginValues.password}
-              />
-              <div className="c-button-group c-button-group--right">
+            {!this.state.local && (
+              <div>
                 <button
-                  className="c-button"
-                  onClick={() => { this.setState({ local: false }); }}
-                  type="reset"
+                  className="c-button c-button--facebook c-button--block"
+                  onClick={() => this.props.loginWithFacebook()}
                 >
-                  Back
+                  Login with Facebook
                 </button>
                 <button
-                  className="c-button c-button--primary"
-                  disabled={!this.props.isLocalValid}
-                  type="submit"
+                  className="c-button c-button--google c-button--block"
+                  onClick={() => this.props.loginWithGoogle()}
                 >
-                  Login
+                  Login with Google
+                </button>
+                <button
+                  className="c-button c-button--primary c-button--block"
+                  onClick={() => { this.setState({ local: true }); }}
+                >
+                  Login with Email
                 </button>
               </div>
-            </form>
-        )}
+            )}
+
+            {this.state.local && (
+              <form
+                onSubmit={(event) => {
+                  event.preventDefault();
+                  this.props.loginWithEmail();
+                }}
+              >
+                <TextInput
+                  errors={errors.email}
+                  handleBlur={handleBlur}
+                  handleChange={handleChange}
+                  label="Email"
+                  name="email"
+                  rules={['required', 'email']}
+                  validating={validating.email}
+                  value={loginValues.email}
+                />
+                <TextInput
+                  errors={errors.password}
+                  handleBlur={handleBlur}
+                  handleChange={handleChange}
+                  hidden
+                  label="Password"
+                  name="password"
+                  rules={['required']}
+                  validating={validating.password}
+                  value={loginValues.password}
+                />
+                <div className="c-button-group c-button-group--right">
+                  <button
+                    className="c-button"
+                    onClick={() => { this.setState({ local: false }); }}
+                    type="reset"
+                  >
+                    Back
+                  </button>
+                  <button
+                    className="c-button c-button--primary"
+                    disabled={!this.props.isLocalValid}
+                    type="submit"
+                  >
+                    Login
+                  </button>
+                </div>
+              </form>
+          )}
+          </div>
         </div>
       </div>
-    </div>
+>>>>>>> 38bfb3e0f4a466fa0a0dbb258859d04bb3e81aa5
     );
 };
 

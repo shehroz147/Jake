@@ -8,7 +8,7 @@ const states = [
   'California',
   'Connecticut',
   'Delaware',
-  'District of Columbia',
+  // 'District of Columbia',
   'Florida',
   'Georgia',
   'Hawaii',

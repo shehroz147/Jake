@@ -1,6 +1,7 @@
 import React from 'react';
 
 import StateSelect from '../../Select/components/StateSelect';
+import CompareSelect from '../../Select/components/CompareSelect';
 
 const NoTrend = (props) => {
   const {
@@ -12,6 +13,10 @@ const NoTrend = (props) => {
 
   return (
     <div className="o-layout">
+      <CompareSelect
+        className="o-layout__item"
+        {...props}
+      />
       <div className="o-layout__item u-1/2">
         <div className="c-panel">
           <div className="c-panel__head">

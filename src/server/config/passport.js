@@ -4,11 +4,11 @@ import { Strategy as LocalStrategy } from 'passport-local';
 import User from '../models/User';
 
 passport.serializeUser((user, done) =>
-  done(null, user._id));
+  done(null, user.id));
 
 passport.deserializeUser((userId, done) => {
   User.findById(userId)
-    .select('_id email role')
+    .select('id email role')
     .then(user => done(null, user))
     .catch(error => done(error));
 });
