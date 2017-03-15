@@ -1,3 +1,4 @@
+/* eslint no-console: ["error", { allow: ["warn", "error", "log", "info"] }] */
 import User from '../models/User';
 
 export default {
@@ -7,11 +8,11 @@ export default {
 
   process: (req, res, next) => {
     User.create(req.body)
-    .then((user) => {
-      res.render('index', { user });
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+      .then((user) => {
+        res.render('index', { user });
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   },
 };

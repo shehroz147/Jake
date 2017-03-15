@@ -4,6 +4,12 @@
   padding-top: $spacing;
 }
 
+.c-navbar--inverse {
+  background-color: $color-ui-white;
+  padding-bottom: $spacing;
+  padding-top: $spacing;
+}
+
 .c-navbar--fixed {
   margin-bottom: none;
   position: fixed;

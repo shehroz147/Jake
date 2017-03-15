@@ -11,7 +11,12 @@ const Nav = () => (
 
 
         <li className="o-flex-layout__item">
-          <h1 className="o-heading-nav">Civic Health Index</h1>
+          <Link
+            className="o-heading-nav"
+            to="/"
+          >
+            CHI
+          </Link>
         </li>
 
         <div className="o-flex-layout__item">
@@ -47,39 +52,11 @@ const Nav = () => (
             <li className="o-list-inline__item">
               <Link
                 className="c-nav__link"
-                to="admin"
+                to="dashboard"
               >
                 Admin
               </Link>
             </li>
-
-            <li className="o-list-inline__item">
-              <Link
-                className="c-nav__link"
-                to="uploader"
-              >
-                Upload
-              </Link>
-            </li>
-
-            <li className="o-list-inline__item">
-              <Link
-                className="c-nav__link"
-                to="login"
-              >
-                Login
-              </Link>
-            </li>
-
-            <li className="o-list-inline__item">
-              <Link
-                className="c-nav__link"
-                to="signup"
-              >
-                Signup
-              </Link>
-            </li>
-
           </ul>
         </div>
 

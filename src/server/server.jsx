@@ -1,15 +1,17 @@
+/* eslint no-console: ["error", { allow: ["warn", "error", "log", "info"] }] */
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
-import express from 'express';
-import React from 'react';
+import Express from 'express';
+import hbs from 'express-handlebars';
 import mongoose from 'mongoose';
-import path from 'path';
 import passport from 'passport';
-import session from 'express-session';
-
+import { Provider } from 'react-redux';
+import path from 'path';
+import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { match, RouterContext } from 'react-router';
-import { Provider } from 'react-redux';
+import session from 'express-session';
+
 import NotFoundPage from '../shared/App/components/NotFoundPage';
 
 import data from '../shared/Data/data.json';
@@ -17,33 +19,37 @@ import Routes from '../shared/Routes';
 import createStore from '../shared/Redux/createStore';
 import { retrieveData } from '../shared/Data/actions';
 
+import { handlebars } from './config';
 import login from './controllers/login';
 import logout from './controllers/logout';
+import profile from './controllers/profile';
 import signup from './controllers/signup';
 
 const ROOT_DIR = path.resolve(__dirname, '../..');
 const STATIC_DIR = path.resolve(ROOT_DIR, 'static');
 
-mongoose.connect('localhost/health');
+const COOKIE_SECRET = 'cookieMonsta';
+const COOKIE_NAME = 'oreos';
 
-// initialize the server and configure support for ejs templates
-const server = express();
+mongoose.connect('localhost/boilerplate');
 
-server.set('view engine', 'ejs');
+const server = new Express();
+
+server.engine('.hbs', hbs(handlebars));
 server.set('views', path.join(__dirname, 'views'));
+server.set('view engine', 'hbs');
 
-// define the folder that will be used for static assets
-server.use(express.static(STATIC_DIR));
+server.use(Express.static(STATIC_DIR));
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({
   extended: true,
 }));
+
 server.use(cookieParser());
 server.use(session({
-  secret: 'yo mama',
-  name: 'SomeSecret',
-  // store: sessionStore,
+  secret: COOKIE_SECRET,
+  name: COOKIE_NAME,
   proxy: true,
   resave: true,
   saveUninitialized: true,
@@ -51,12 +57,13 @@ server.use(session({
 server.use(passport.initialize());
 server.use(passport.session());
 
-// passport middleware
 server.use((req, res, next) => {
-  res.locals.authenticated = false;
+  const responce = res;
+
+  responce.locals.authenticated = false;
 
   if (req.isAuthenticated()) {
-    res.locals.authenticated = true;
+    responce.locals.authenticated = true;
   }
 
   next();
@@ -66,15 +73,23 @@ const authenticate = (req, res, next) => {
   if (!req.isAuthenticated()) {
     return res.redirect('/login');
   }
+
   return next();
 };
 
+// server.get('/', (req, res) => {
+//   res.render('index');
+// });
 
-// server.post('/login', login.process);
-//
-// server.post('/signup', signup.process);
-//
-// server.get('/logout', logout.process);
+// server.get('/login', login.view);
+server.post('/login', login.process);
+
+// server.get('/signup', signup.view);
+server.post('/signup', signup.process);
+
+server.get('/profile', authenticate, profile.view);
+
+server.get('/logout', logout.process);
 
 server.use((req, res, next) => {
   match({ routes: Routes, location: req.originalUrl }, (err, redirect, props) => {
@@ -85,16 +100,12 @@ server.use((req, res, next) => {
     } else if (props) {
       const store = createStore();
 
-      if (req.isAuthenticated()) {
-        store.dispatch(login(req.user));
-      }
-
       store.dispatch(retrieveData(data));
 
       const markup = renderToString(
         <Provider store={store}>
           <RouterContext {...props} />
-        </Provider>
+        </Provider>,
       );
 
       return res.render('index', {
@@ -107,14 +118,13 @@ server.use((req, res, next) => {
   });
 });
 
-
 // start the server
 const port = process.env.PORT || 3000;
 const env = process.env.NODE_ENV || 'production';
 
-server.listen(port, err => {
+server.listen(port, (err) => {
   if (err) {
     return console.error(err);
   }
-  console.info(`Server running on http://localhost:${port} [${env}]`);
+  return console.info(`Server running on http://localhost:${port} [${env}]`);
 });

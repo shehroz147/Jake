@@ -1,3 +1,4 @@
+/* eslint no-console: ["error", { allow: ["warn", "error", "log", "info"] }] */
 import passport from 'passport';
 
 export default {
@@ -19,10 +20,13 @@ export default {
         if (err) {
           return next(err);
         }
-
-        return res.json({
-          user,
-        });
+        if (user) {
+          res.render('profile', { user });
+          console.log('user', user);
+        }
+        // return res.json({
+        //   user,
+        // });
       });
     })(req, res, next);
   },

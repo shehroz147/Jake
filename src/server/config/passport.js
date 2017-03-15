@@ -1,14 +1,16 @@
+/* eslint no-underscore-dangle: ["error", { "allow": ["_id"] }]*/
+
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
 
 import User from '../models/User';
 
 passport.serializeUser((user, done) =>
-  done(null, user.id));
+  done(null, user._id));
 
 passport.deserializeUser((userId, done) => {
   User.findById(userId)
-    .select('id email role')
+    .select('_id email role')
     .then(user => done(null, user))
     .catch(error => done(error));
 });

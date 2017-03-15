@@ -8,20 +8,26 @@ import CompareContainer from './Compare/containers/CompareContainer';
 import NotFoundPage from './App/components/NotFoundPage';
 
 // ADMIN
-import Dashboard from './Admin/Dashboard/components/Dashboard';
+import MainDashboard from './Admin/Dashboards/components/MainDashboard';
+import RegistrationDashboard from './Admin/Dashboards/components/RegistrationDashboard';
+import UploaderDashboard from './Admin/Dashboards/components/UploaderDashboard';
 import Login from './Admin/Forms/Login/components/Login';
-import SignupContainer from './Admin/Forms/Signup/containers/SignupContainer';
+import Signup from './Admin/Forms/Signup/components/Signup';
 import Uploader from './Admin/Forms/Uploader/containers/UploaderContainer';
+import Profile from './Admin/Profile/components/Profile';
 
 const routes = (
   <Route path="/" component={Layout}>
     <IndexRoute component={IndexPage} />
-    <Route path="/reports" component={Reports} />
-    <Route path="/dashboard" component={Dashboard} />
-    <Route path="/uploader" component={Uploader} />
-    <Route path="/login" component={Login} />
-    <Route path="/signup" component={SignupContainer} />
     <Route path="/compare" component={CompareContainer} />
+    <Route path="/dashboard" component={MainDashboard} />
+    <Route path="/registration" component={RegistrationDashboard} />
+    <Route path="/login" component={Login} />
+    <Route path="/signup" component={Signup} />
+    <Route path="/upload" component={UploaderDashboard} />
+    <Route path="/uploader" component={Uploader} />
+    <Route path="/profile" component={Profile} />
+    <Route path="/reports" component={Reports} />
     <Route path="*" component={NotFoundPage} />
   </Route>
 );
