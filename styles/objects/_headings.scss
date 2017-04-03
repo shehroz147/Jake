@@ -7,6 +7,8 @@
 
 .o-heading-sub {
   font-size: $font-size * 1.5;
+  font-weight: $font-weight--semibold;
+  margin-bottom: $spacing;
 }
 
 .o-heading-section {
@@ -16,8 +18,10 @@
 }
 
 .o-heading-nav {
-  font-size: $font-size * 1.25;
+  font-size: $font-size * 1.5;
   font-weight: $font-weight--bold;
   margin-bottom: $spacing--small;
   color: $color-primary;
+  margin-right: $spacing;
+  text-decoration: none;
 }

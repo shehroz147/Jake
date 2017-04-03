@@ -1,22 +1,4 @@
 .c-nav__link {
-  color: $color-ui-light;
-  font-size: $font-size--small;
-  font-weight: $font-weight--bold;
-  margin-right: $spacing;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    color: $color-primary;
-  }
-
-  .c-nav--right & {
-    margin-left: $spacing;
-    margin-right: 0;
-  }
-}
-
-.c-nav__link--inverse {
   color: $color-ui-dark;
   font-size: $font-size--small;
   font-weight: $font-weight--bold;

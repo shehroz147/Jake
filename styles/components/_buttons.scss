@@ -1,68 +1,25 @@
 .c-button {
-  color: $color-ui-light;
-  cursor: pointer;
-  background-color: $color-secondary;
+  background: $color-accent;
   border: 0;
-  border-radius: $base-radius;
-  font-size: $font-size--small;
-  font-weight: $font-weight--bold;
-  padding: $spacing--small $spacing;
-  text-decoration: none;
-
+  color: $color-type--inverse;
+  cursor: pointer;
+  font-size: $font-size;
+  outline: 0;
+  margin-top: $spacing;
+  padding: $spacing;
+  text-transform: uppercase;
+  transition: all 0.3 ease;
+  width: 100%;
+  -webkit-transition: all 0.3 ease;
 
   &:focus {
     outline: none;
   }
 
   &:hover {
-    background-color: darken($color-secondary, 5);
-  }
-
-  .c-button-group & {
-    margin-right: $spacing--small;
-  }
-
-  .c-button-group--right & {
-    margin-left: $spacing--small;
-    margin-right: 0;
+    background-color: darken($color-accent, 7);
   }
 }
-
-
-
-.c-button--tiny {
-  font-size: $font-size--tiny;
-  padding: $spacing--tiny $spacing--small;
-}
-
-.c-button--small {
-  font-size: $font-size--small;
-  padding: $spacing--tiny $spacing--small;
-}
-
-.c-button--block {
-  display: block;
-  margin-bottom: $spacing--small;
-  text-align: center;
-  width: 100%;
-}
-
-.c-ghost-button {
-  background-color: transparent;
-  border: 1px solid transparentize($color-ui-white, 0.2);
-  border-radius: $base-radius;
-  color: transparentize($color-ui-white, 0.2);
-  cursor: pointer;
-  font: inherit;
-  font-size: $font-size--small;
-  font-weight: $font-weight--semibold;
-  padding: $spacing--small $spacing;
-  text-align: center;
-  text-decoration: none;
-
-  &:focus,
-  &:hover {
-    border-color: $color-ui-white;
-    color: $color-ui-white;
-  }
-}
+ .c-button__file {
+   width: 300px;
+ }

@@ -1,0 +1,23 @@
+.c-select {
+  background-color: $color-ui-white;
+  border: 1px solid $color-ui-medium;
+  border-radius: $base-radius;
+  display: block;
+  font: inherit;
+  line-height: normal;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: $spacing;
+  margin-top: $spacing;
+  margin-bottom: $spacing;
+
+  &:focus{
+    outline: none;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $color-ui-light;
+  }
+}

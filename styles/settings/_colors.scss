@@ -1,33 +1,16 @@
-$color-ui-white: #FFFFFF;
-$color-ui-light: #E6E6E6;
-$color-ui-medium: #CCCCCC;
-$color-ui-dark: #2D2D32;
+$color-ui-white: #F7F7F7;
+$color-ui-light: #E5E5E5;
+$color-ui-medium: #BFBFBF;
+$color-ui-dark: #404040;
+$color-ui-black: #222222;
 
-$color-primary: #00AFF0;
+$color-primary: #2A78FF;
+$color-secondary: #FFC944;
+$color-accent: #44CBFF;
 
-$color-secondary: #00AFF0;
-// $color-accent: #82FFCA;
+$color-background: $color-ui-light;
 
+$color-type: $color-ui-black;
+$color-type--inverse: $color-ui-white;
 
-$color-background: $color-ui-dark;
-
-$color-type: $color-ui-dark;
-$color-type--inverse: $color-ui-light;
-
-$color-status-success: mix(#3c6, $color-primary, 75);
-$color-status-error: mix(#f33, $color-primary, 75);
-
-// Midnight blue - #124471
-// AI mb - #0E83E6
-//
-// Bleu De France - #1D85E3
-// AI bfd - #5EE1F3
-//
-// Turquoise Blue - #65E1F1
-// AI - #B2BCCC
-//
-// Cadet Blue - #B2BCCC
-//
-// Black - #222222
-//
-// White - #f2f2f2
+// #E8A50F

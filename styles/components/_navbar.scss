@@ -1,16 +1,23 @@
 .c-navbar {
-  background-color: $color-ui-dark;
-  padding-bottom: $spacing;
-  padding-top: $spacing;
-}
-
-.c-navbar--inverse {
+  display: inline-block;
   background-color: $color-ui-white;
+  color: $color-primary;
+  border-radius: 3px;
+  border-top: 3px solid $color-secondary;
+  width: 100%;
   padding-bottom: $spacing;
   padding-top: $spacing;
 }
 
-.c-navbar--fixed {
-  margin-bottom: none;
+.c-navbar-side {
+  list-style: none;
+  background: #111;
+  width: 100%;
+  height: 100%;
   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
 }

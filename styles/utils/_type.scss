@@ -9,17 +9,6 @@
 .u-text\+ { font-size: $font-size--large; }
 .u-text\+\+ { font-size: $font-size--huge; }
 
-.u-color--inverse {
+.u-text--inverse {
   color: $color-type--inverse;
-}
-
-.u-text--inverse { color: $color-type--inverse; }
-.u-text--success { color: $color-status-success; }
-.u-text--error { color: $color-status-error; }
-
-.u-text-truncate {
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }

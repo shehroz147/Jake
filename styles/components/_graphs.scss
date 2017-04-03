@@ -1,39 +1,42 @@
-$background: #f2f2f2;
+$background: #f7f7f7;
 $border: #666;
 
 /* Graph Colors */
-$red: #D9534F;
-$yellow: #F0AD4E;
-$green: #5CB85C;
+$red: #DA4F49;
+$yellow: #FFCD40;
+$green: #5BB75B;
 $orange: #FFA500;
-$blue: #5BC0DE;
+$blue: #40C8FF;
 
 /* Graph Sizes */
 $height: 40px;
 $padding: 4px;
-$width: 400px;
+$width: 100%;
 $endLow: 25;
-$endMiddle: 50;
+$endMiddle: 45;
 
 $height-vertical: 400px;
 $width-vertical: 80px;
 
+$border-radius: 8px;
+
 .c-bar{
   border: 3px solid $border;
+  border-radius: $border-radius + 4px;
+  margin: 10px 0;
   position: relative;
-  width: 100%;
-  margin-bottom: $spacing--small;
+  width: $width;
 }
 
 .c-bar .c-graph{
+  border-radius: $border-radius;
   height: $height;
   padding: 0;
   margin: 0;
 }
 
 .c-graph{
-  // background-color: $color-primary;
-  color: $color-ui-dark;
+  background-color: $background;
 }
 
 .c-bar .c-grid{
@@ -109,7 +112,7 @@ $width-vertical: 80px;
 
 
 .c-graph-text {
-  padding-left: $spacing;
+  padding-left: 0;
 }
 
 .right {

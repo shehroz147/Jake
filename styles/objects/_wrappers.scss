@@ -9,24 +9,18 @@
 .o-wrapper--main {
   background-color: $color-ui-white;
   height:100%;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: $spacing--large;
   padding-right: $spacing--large;
+  position: relative;
+  z-index: 0;
+  transition: width 2s;
 }
 
-@include media-query('lap-and-up') {
-  .o-wrapper {
-    max-width: 42.67em;
-  }
-
-  .o-wrapper--tiny {
-    max-width: (480 / ($base-size / 1px)) * 1em;
-  }
-
-  .o-wrapper--narrow {
-    max-width: 35.55em;
-  }
-
-  .o-wrapper--wide {
-    max-width: 56.89em;
-  }
+.o-wrapper--sidenav {
+  background-color: $color-ui-white;
+  width: 25%;
+  padding-left: $spacing--large;
+  padding-right: $spacing--large;
 }
