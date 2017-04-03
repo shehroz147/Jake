@@ -27,14 +27,14 @@ const CompareSelect = (props) => {
           <div className="o-layout__item">
             <label htmlFor="yearSelect">
               Year Select
-              <YearSelect className="" changeYear={changeYear} year={year} />
+              <YearSelect className="c-select" changeYear={changeYear} year={year} />
             </label>
           </div>
 
           <div className="o-layout__item">
             <label htmlFor="trendSelect">
               Trend Select
-              <TrendSelect className="" changeTrend={changeTrend} trend={trend} />
+              <TrendSelect className="c-select" changeTrend={changeTrend} trend={trend} />
             </label>
           </div>
 

@@ -1,17 +1,20 @@
 import Link from 'react-router/lib/Link';
-import React from 'react';
+import React, { Children, PropTypes } from 'react';
 
+import Footer from './Footer';
 import Nav from './Nav';
 
-const Layout = props => (
-  <div>
-    <nav className="c-navbar">
-      <div className="">
-        <Nav />
+const Layout = ({ authenticated, children, logout }) => (
+  <div className="o-wrapper">
+    <div className="">
+      <Nav
+        authenticated={authenticated}
+        logout={logout}
+      />
+      <div className="o-wrapper--main">
+        {Children.only(children)}
       </div>
-    </nav>
-    <div className="o-wrapper o-wrapper--main">
-      {props.children}
+      <Footer />
     </div>
   </div>
 );

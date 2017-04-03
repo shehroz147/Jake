@@ -55,11 +55,11 @@ const Trend = (props) => {
   return (
     <div className="o-layout">
       <div className="o-layout__item">
-        <h2 className="u-mb-">Change the year below to see other results</h2>
+        <h2 className="u-mb-">Change the year below to see other results by Year</h2>
         <YearSelect {...props} />
       </div>
       <div className="o-layout__item">
-        <h2 className="u-mb-">Change the trend below to see more results</h2>
+        <h2 className="u-mb-">Change the trend below to see more results by Trend</h2>
         <TrendSelect {...props} />
       </div>
       <div className="o-layout__item">

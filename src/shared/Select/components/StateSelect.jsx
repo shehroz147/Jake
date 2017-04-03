@@ -80,6 +80,7 @@ const StateSelect = props => (
 );
 
 StateSelect.propTypes = {
+  changeState: PropTypes.func.isRequired,
   state: PropTypes.string.isRequired,
 };
 

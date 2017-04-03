@@ -1,41 +1,49 @@
 import Link from 'react-router/lib/Link';
 import React, { PropTypes } from 'react';
+import { FileUpload } from 'redux-file-upload';
 // import Dropzone from 'react-dropzone';
 
 const Uploader = (props) => {
   const { handleUpload } = props;
 
   return (
-    <div className="c-panel">
-      <h1 className="o-heading-sub u-text-center">Uploader</h1>
-      <form
-        action="/uploader"
-        encType="multipart/form-data"
-        onSubmit={handleUpload}
-        method="post"
-      >
-        <p>
-          <input type="text" />
-        </p>
-        <p>
-          <input type="file" name="upload" />
-        </p>
-        <p>
-          <button
-            type="submit"
+    <div className="">
+      <div className="c-panel">
+        <div className="c-panel__head">
+          <h1 className="o-heading-sub">Uploader</h1>
+        </div>
+        <div className="c-panel__content">
+          <FileUpload
+            url="/uploader"
+            dropzoneId="fileUpload"
           >
-            Upload
-          </button>
-        </p>
-      </form>
+            {/* <p>
+              <input className="c-form-input" type="text" placeholder="Report Title" />
+            </p>
+            <p>
+              <input className="" type="file" name="upload" />
+            </p> */}
+            <button>
+              Click or Drag here to Upload
+            </button>
+          </FileUpload>
+          <p>
+            <button
+              className="c-button"
+              type="submit"
+            >
+                Upload
+              </button>
+          </p>
 
-      <h1>Preview</h1>
-      {/* <img src={file.preview} /> */}
+          <h1>Preview</h1>
+          {/* <img src={file.preview} /> */}
 
-      <p>
-        <Link to="admin">Back</Link>
-      </p>
-
+          <p>
+            <Link to="dashboard">Back</Link>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

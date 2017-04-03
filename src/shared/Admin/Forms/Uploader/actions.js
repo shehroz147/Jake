@@ -1,5 +1,5 @@
-import { CALL_API } from '../../Redux/middleware/api';
-import { uploadSchema } from '../../../server/models/Uploads';
+import { CALL_API } from '../../../utils/apiUrl';
+import { uploadSchema } from '../../../../server/models/Uploads';
 import * as UploadTypes from './constants';
 
 export const getUploads = () => ({

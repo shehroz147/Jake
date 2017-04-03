@@ -1,23 +1,30 @@
 import React from 'react';
 import Link from 'react-router/lib/Link';
 
-const UploaderDashboard = () => (
-  <div>
+const Dashboard = () => (
+  <div className="o-wrapper--sidenav">
     <div>
       <div>
         <ul>
           <li>
             <Link
-              to="/uploader"
+              to="/login"
             >
-              Upload Reports
+              Login
             </Link>
           </li>
           <li>
             <Link
-              to="dashboard/uploader"
+              to="/signup"
             >
-              Upload Trend Data
+              Signup
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/uploader"
+            >
+              Uploader
             </Link>
           </li>
         </ul>
@@ -26,4 +33,4 @@ const UploaderDashboard = () => (
   </div>
 );
 
-export default UploaderDashboard;
+export default Dashboard;

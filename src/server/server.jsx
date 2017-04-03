@@ -31,7 +31,7 @@ const STATIC_DIR = path.resolve(ROOT_DIR, 'static');
 const COOKIE_SECRET = 'cookieMonsta';
 const COOKIE_NAME = 'oreos';
 
-mongoose.connect('localhost/boilerplate');
+mongoose.connect('localhost/health');
 
 const server = new Express();
 

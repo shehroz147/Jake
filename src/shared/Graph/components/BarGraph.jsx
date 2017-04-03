@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 
 const BarGraph = props => (
   <div>
-    <div className="">
+    <div>
       <div className="c-bar">
         <div
           className="c-graph"
