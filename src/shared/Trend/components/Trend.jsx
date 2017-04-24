@@ -76,7 +76,7 @@ const Trend = (props) => {
               National Average
             </h1>
           </div>
-          <div className="c-panel__content">
+          <div className="">
             <BarGraph percentage={state[TREND_PERCENT[trend]]} />
           </div>
         </div>
@@ -92,7 +92,7 @@ const Trend = (props) => {
               />
             </h2>
           </div>
-          <div className="c-panel__content">
+          <div className="">
             <BarGraph percentage={state1[TREND_PERCENT[trend]]} />
             <h3 className="c-panel__heading">
               Rank - {state1[TREND_RANK[trend]]}
@@ -111,7 +111,7 @@ const Trend = (props) => {
               />
             </h2>
           </div>
-          <div className="c-panel__content">
+          <div className="">
             {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
             <h3 className="c-panel__heading">
               Rank - {state2[TREND_RANK[trend]]}

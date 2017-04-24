@@ -3,17 +3,15 @@ import React, { Children, PropTypes } from 'react';
 
 import Footer from './Footer';
 import Nav from './Nav';
-import Header from './Header';
 
 const Layout = ({ authenticated, children, logout }) => (
-  <div className="o-wrapper">
+  <div className="">
     <div className="">
-      <Header />
       <Nav
         authenticated={authenticated}
         logout={logout}
       />
-      <div className="">
+      <div className="o-wrapper">
         {Children.only(children)}
       </div>
       <Footer />

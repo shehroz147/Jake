@@ -4,7 +4,7 @@ import React from 'react';
 import SideNav from '../../Navigation/components/SideNav';
 
 const Footer = ({ authenticated, logout }) => (
-  <div className="o-wrapper">
+  <div className="">
     <div className="c-footer">
       <ul>
         {/* <div className="o-flex-layout__item">

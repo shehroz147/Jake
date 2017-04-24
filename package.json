@@ -12,6 +12,9 @@
     "styles": "node-sass styles/styles.scss static/css/styles.css --watch",
     "build": "NODE_ENV=production node_modules/.bin/webpack -p"
   },
+  "engines": {
+    "node": "6.10.2"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
