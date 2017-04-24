@@ -31,7 +31,6 @@ logs
 # Directories
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 build
-static
 uploads
 babel_cache
 
