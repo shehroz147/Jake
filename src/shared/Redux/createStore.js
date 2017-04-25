@@ -7,7 +7,7 @@ import rootReducer from './rootReducer';
 // import uploadSaga from './Sagas/uploadSaga';
 
 // const sagaMiddleware = createSagaMiddleware();
-const middleware = [thunk, logger];
+const middleware = [thunk];
 
 export default (initialState = {}) => {
   const store = createStore(

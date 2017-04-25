@@ -3,9 +3,9 @@ import React from 'react';
 import Trend from '../../Trend/components/Trend';
 
 const Compare = props => (
-  <div className="">
+  <div className="o-wrapper">
     <div className="c-panel">
-      <h1 className="o-heading-main">Comparison System</h1>
+      <h1 className="o-heading-main">Compare Civic Health</h1>
       <Trend {...props} />
     </div>
   </div>

@@ -60,6 +60,20 @@ body {
   vertical-align: bottom;
   overflow-x: hidden; }
 
+html,
+body,
+#main,
+.root {
+  height: 100%; }
+
+.root {
+  display: table;
+  width: 100%; }
+
+.c-footer {
+  display: table-row;
+  height: 1px; }
+
 h1,
 h2,
 h3,
@@ -206,15 +220,6 @@ img[height] {
 
 .c-button__file {
   width: 300px; }
-
-.c-footer {
-  position: fixed;
-  height: 25px;
-  background-color: #BFBFBF;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px; }
 
 .c-form {
   background: #E5E5E5;
@@ -2150,8 +2155,8 @@ img[height] {
   z-index: 0; }
 
 .c-panel {
-  margin: 0 0 16px 0;
-  padding-top: 16px;
+  margin: 16px 0;
+  padding: 16px 0;
   position: relative; }
 
 .c-panel__head {
@@ -2241,6 +2246,282 @@ img[height] {
     left: 200px; }
   #sidebartoggler .page-content {
     padding-left: 180px; }
+
+.u-p {
+  padding: 16px; }
+
+.u-pv {
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.u-ph {
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.u-pt {
+  padding-top: 16px; }
+
+.u-pb {
+  padding-bottom: 16px; }
+
+.u-pl {
+  padding-left: 16px; }
+
+.u-pr {
+  padding-right: 16px; }
+
+.u-p0 {
+  padding: 0; }
+
+.u-pv0 {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.u-ph0 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.u-pt0 {
+  padding-top: 0; }
+
+.u-pb0 {
+  padding-bottom: 0; }
+
+.u-pl0 {
+  padding-left: 0; }
+
+.u-pr0 {
+  padding-right: 0; }
+
+.u-p-- {
+  padding: 4px; }
+
+.u-pv-- {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.u-ph-- {
+  padding-left: 4px;
+  padding-right: 4px; }
+
+.u-pt-- {
+  padding-top: 4px; }
+
+.u-pb-- {
+  padding-bottom: 4px; }
+
+.u-pl-- {
+  padding-left: 4px; }
+
+.u-pr-- {
+  padding-right: 4px; }
+
+.u-p- {
+  padding: 8px; }
+
+.u-pv- {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.u-ph- {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.u-pt- {
+  padding-top: 8px; }
+
+.u-pb- {
+  padding-bottom: 8px; }
+
+.u-pl- {
+  padding-left: 8px; }
+
+.u-pr- {
+  padding-right: 8px; }
+
+.u-p\+ {
+  padding: 32px; }
+
+.u-pv\+ {
+  padding-top: 32px;
+  padding-bottom: 32px; }
+
+.u-ph\+ {
+  padding-left: 32px;
+  padding-right: 32px; }
+
+.u-pt\+ {
+  padding-top: 32px; }
+
+.u-pb\+ {
+  padding-bottom: 32px; }
+
+.u-pl\+ {
+  padding-left: 32px; }
+
+.u-pr\+ {
+  padding-right: 32px; }
+
+.u-p\+\+ {
+  padding: 64px; }
+
+.u-pv\+\+ {
+  padding-top: 64px;
+  padding-bottom: 64px; }
+
+.u-ph\+\+ {
+  padding-left: 64px;
+  padding-right: 64px; }
+
+.u-pt\+\+ {
+  padding-top: 64px; }
+
+.u-pb\+\+ {
+  padding-bottom: 64px; }
+
+.u-pl\+\+ {
+  padding-left: 64px; }
+
+.u-pr\+\+ {
+  padding-right: 64px; }
+
+.u-m {
+  margin: 16px; }
+
+.u-mv {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+.u-mh {
+  margin-left: 16px;
+  margin-right: 16px; }
+
+.u-mt {
+  margin-top: 16px; }
+
+.u-mb {
+  margin-bottom: 16px; }
+
+.u-ml {
+  margin-left: 16px; }
+
+.u-mr {
+  margin-right: 16px; }
+
+.u-m0 {
+  margin: 0; }
+
+.u-mv0 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.u-mh0 {
+  margin-left: 0;
+  margin-right: 0; }
+
+.u-mt0 {
+  margin-top: 0; }
+
+.u-mb0 {
+  margin-bottom: 0; }
+
+.u-ml0 {
+  margin-left: 0; }
+
+.u-mr0 {
+  margin-right: 0; }
+
+.u-m-- {
+  margin: 4px; }
+
+.u-mv-- {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+.u-mh-- {
+  margin-left: 4px;
+  margin-right: 4px; }
+
+.u-mt-- {
+  margin-top: 4px; }
+
+.u-mb-- {
+  margin-bottom: 4px; }
+
+.u-ml-- {
+  margin-left: 4px; }
+
+.u-mr-- {
+  margin-right: 4px; }
+
+.u-m- {
+  margin: 8px; }
+
+.u-mv- {
+  margin-top: 8px;
+  margin-bottom: 8px; }
+
+.u-mh- {
+  margin-left: 8px;
+  margin-right: 8px; }
+
+.u-mt- {
+  margin-top: 8px; }
+
+.u-mb- {
+  margin-bottom: 8px; }
+
+.u-ml- {
+  margin-left: 8px; }
+
+.u-mr- {
+  margin-right: 8px; }
+
+.u-m\+ {
+  margin: 32px; }
+
+.u-mv\+ {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+.u-mh\+ {
+  margin-left: 32px;
+  margin-right: 32px; }
+
+.u-mt\+ {
+  margin-top: 32px; }
+
+.u-mb\+ {
+  margin-bottom: 32px; }
+
+.u-ml\+ {
+  margin-left: 32px; }
+
+.u-mr\+ {
+  margin-right: 32px; }
+
+.u-m\+\+ {
+  margin: 64px; }
+
+.u-mv\+\+ {
+  margin-top: 64px;
+  margin-bottom: 64px; }
+
+.u-mh\+\+ {
+  margin-left: 64px;
+  margin-right: 64px; }
+
+.u-mt\+\+ {
+  margin-top: 64px; }
+
+.u-mb\+\+ {
+  margin-bottom: 64px; }
+
+.u-ml\+\+ {
+  margin-left: 64px; }
+
+.u-mr\+\+ {
+  margin-right: 64px; }
 
 .u-text-center {
   text-align: center; }
