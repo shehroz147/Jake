@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "run-p prod start-dev styles demon",
+    "start": "run-p start-dev styles demon",
     "demon": "nodemon src/server/server.jsx",
-    "prod": "NODE_ENV=production node_modules/.bin/babel-node --watch --presets 'react,es2015' src/server/server.jsx",
+    "prod": "NODE_ENV=production babel-node src/server/server.jsx",
     "start-dev": "npm run start-dev-hmr",
     "start-dev-hmr": "webpack-dev-server --progress --inline --hot --port 3333",
     "styles": "node-sass styles/styles.scss static/css/styles.css --watch",
@@ -52,6 +52,7 @@
     "recharts": "^0.20.8",
     "redux": "^3.6.0",
     "redux-file-upload": "0.0.18",
+    "redux-logger": "^3.0.1",
     "redux-saga": "^0.14.3",
     "redux-thunk": "^2.2.0",
     "reselect": "^2.5.4",
@@ -74,7 +75,6 @@
     "nodemon": "^1.11.0",
     "npm-run-all": "^4.0.1",
     "parallelshell": "^2.0.0",
-    "redux-logger": "^2.7.4",
     "sass-loader": "^4.1.1",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"

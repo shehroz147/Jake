@@ -47,15 +47,15 @@ const ChangeTrendButton = props => (
         &larr;
       </button>
     </div>
-    <div className="o-flex-layout__item o-flex-layout__item--grow u-text-center">
+    <div className="o-flex-layout__item o-flex-layout__item--grow u-text-center u-p0">
       <TrendSelect {...props} />
     </div>
-    <div className="o-flex-layout__item o-flex-layout__item--shrink">
+    <div className="o-flex-layout__item o-flex-layout__item--shrink u-p0">
       <button
         className="c-button"
         onClick={() => {
           let index = trends.indexOf(props.trend) + 1;
-          if (index >= trends.length - 1) {
+          if (index >= trends.length) {
             index = 0;
           }
 

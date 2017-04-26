@@ -203,6 +203,7 @@ img[height] {
 .c-button {
   background: #44CBFF;
   border: 0;
+  border-radius: 2px;
   color: #F7F7F7;
   cursor: pointer;
   font-size: 16px;
@@ -2195,7 +2196,6 @@ img[height] {
 .c-select {
   background-color: #F7F7F7;
   border: 1px solid #BFBFBF;
-  border-radius: 2px;
   display: block;
   font: inherit;
   line-height: normal;
@@ -2204,7 +2204,8 @@ img[height] {
   width: 100%;
   padding: 16px;
   margin-top: 16px;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  height: 50px; }
   .c-select:focus {
     outline: none; }
   .c-select:hover, .c-select:focus {

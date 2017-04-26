@@ -1,13 +1,16 @@
+/* global window */
+
 import { applyMiddleware, createStore } from 'redux';
-// import createSagaMiddleware from 'redux-saga';
-import { logger } from 'redux-logger'; // eslint-disable-line
+import logger from 'redux-logger'; // eslint-disable-line
 import thunk from 'redux-thunk';
 
 import rootReducer from './rootReducer';
-// import uploadSaga from './Sagas/uploadSaga';
 
-// const sagaMiddleware = createSagaMiddleware();
 const middleware = [thunk];
+
+if (typeof window !== 'undefined') {
+  middleware.push(logger);
+}
 
 export default (initialState = {}) => {
   const store = createStore(
@@ -22,9 +25,6 @@ export default (initialState = {}) => {
       store.replaceReducer(nextReducer);
     });
   }
-
-  // Run Saga
-  // sagaMiddleware.run(uploadSaga);
 
   return store;
 };

@@ -1,6 +1,7 @@
 .c-button {
   background: $color-accent;
   border: 0;
+  border-radius: $base-radius;
   color: $color-type--inverse;
   cursor: pointer;
   font-size: $font-size;

@@ -1,7 +1,6 @@
 .c-select {
   background-color: $color-ui-white;
   border: 1px solid $color-ui-medium;
-  border-radius: $base-radius;
   display: block;
   font: inherit;
   line-height: normal;
@@ -11,6 +10,7 @@
   padding: $spacing;
   margin-top: $spacing;
   margin-bottom: $spacing;
+  height: 50px;
 
   &:focus{
     outline: none;

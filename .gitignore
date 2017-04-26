@@ -30,6 +30,8 @@ logs
 
 # Directories
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+public
+static
 build
 uploads
 babel_cache

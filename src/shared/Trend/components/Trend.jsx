@@ -3,9 +3,10 @@ import React, { PropTypes } from 'react';
 import BarGraph from '../../Graph/components/BarGraph';
 import Chart from '../../Graph/components/Chart';
 import NoTrend from './NoTrend';
-import StateSelect from '../../Select/components/StateSelect';
-import YearSelect from '../../Select/components/YearSelect';
-import TrendSelect from '../../Select/components/TrendSelect';
+import ChangeStateButton from '../../Select/components/ChangeStateButton';
+
+import CompareSelect from '../../Select/components/CompareSelect';
+
 
 import AllChart from '../../Graph/components/AllChart';
 
@@ -43,7 +44,6 @@ const Trend = (props) => {
     state2,
     changeState1,
     changeState2,
-    chart,
   } = props;
 
   if (!state1[TREND_PERCENT[trend]] || !state2[TREND_PERCENT[trend]]) {
@@ -55,12 +55,7 @@ const Trend = (props) => {
   return (
     <div className="o-layout">
       <div className="o-layout__item">
-        <h2 className="u-mb-">Change the year below to see other results by Year</h2>
-        <YearSelect {...props} />
-      </div>
-      <div className="o-layout__item">
-        <h2 className="u-mb-">Change the trend below to see more results by Trend</h2>
-        <TrendSelect {...props} />
+        <CompareSelect {...props} />
       </div>
       <div className="o-layout__item">
         <Chart {...props} />
@@ -86,7 +81,7 @@ const Trend = (props) => {
         <div className="c-panel">
           <div className="c-panel__head">
             <h2 className="c-panel__heading">
-              <StateSelect
+              <ChangeStateButton
                 changeState={changeState1}
                 state={state1.state}
               />
@@ -105,7 +100,7 @@ const Trend = (props) => {
         <div className="c-panel">
           <div className="c-panel__head">
             <h2 className="c-panel__heading">
-              <StateSelect
+              <ChangeStateButton
                 changeState={changeState2}
                 state={state2.state}
               />
