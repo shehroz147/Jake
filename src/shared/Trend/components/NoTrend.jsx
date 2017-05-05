@@ -6,7 +6,7 @@ const NoTrend = props => (
   <div>
     <CompareSelect {...props} />
     <h1 className="o-heading-sub u-text-center u-mv+">
-      No Data Try Selecting another Trend
+      No Data Try Selecting another Trend or Year
     </h1>
   </div>
 );

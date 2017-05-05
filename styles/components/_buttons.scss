@@ -1,5 +1,5 @@
 .c-button {
-  background: $color-accent;
+  background: linear-gradient($color-accent, $color-primary);
   border: 0;
   border-radius: $base-radius;
   color: $color-type--inverse;

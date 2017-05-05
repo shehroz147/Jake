@@ -1,14 +1,17 @@
-$color-ui-white: #F7F7F7;
-$color-ui-light: #E5E5E5;
+$color-ui-white: #fefefe;
+$color-ui-light: #F7F7F7;
 $color-ui-medium: #BFBFBF;
 $color-ui-dark: #404040;
 $color-ui-black: #222222;
 
-$color-primary: #2A78FF;
-$color-secondary: #FFC944;
-$color-accent: #44CBFF;
+// linear-gradient(to bottom right, $color-primary, $color-accent);
+
+$color-primary: #2C4257;
+$color-accent: lighten($color-primary, 20%);
+$color-secondary: desaturate($color-accent, 20%);
 
 $color-background: $color-ui-white;
+
 
 $color-type: $color-ui-black;
 $color-type--inverse: $color-ui-white;

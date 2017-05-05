@@ -40,7 +40,7 @@ const Chart = (props) => {
     <ResponsiveContainer width="100%" height={300}>
       <LineChart
         data={chart}
-        margin={{ top: 5, right: 10, left: 10, bottom: 5 }}
+        margin={{ top: 5, right: 0, left: -35, bottom: 5 }}
         height={400}
         width={400}
       >

@@ -8,7 +8,7 @@
     "js": "babel-node",
     "jsx": "babel-node"
   },
-  "ext": "js jsx json ejs",
+  "ext": "js jsx json hbs",
   "ignore": [
     ".git/",
     "node_modules/"

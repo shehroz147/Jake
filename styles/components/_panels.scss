@@ -2,10 +2,10 @@
   margin:$spacing 0;
   padding: $spacing 0;
   position: relative;
+  width: 100%;
 }
 
 .c-panel__head {
-  background-color: $color-ui-white;
   color: $color-type;
   margin-bottom: $spacing--small;
 
@@ -20,7 +20,6 @@
 }
 
 .c-panel__content {
-  background-color: $color-ui-light;
   padding: $spacing--large;
 
   .c-panel--small & { padding: $spacing--small; }
@@ -28,7 +27,7 @@
 }
 
 .c-panel__content--alt {
-  background-color: $color-ui-light;
+
 }
 
 .c-panel__content:last-child {
@@ -38,5 +37,4 @@
 
 .c-select-panel{
   padding: $spacing--large;
-  background-color: $color-ui-light;
 }

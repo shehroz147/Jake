@@ -76,7 +76,7 @@ const Trend = (props) => {
           </div>
         </div>
       </div>
-      <h3 className="o-layout__item">Change States with drop downs</h3>
+      <h3 className="o-layout__item u-text-center">Change States with drop downs or buttons</h3>
       <div className="o-layout__item">
         <div className="c-panel">
           <div className="c-panel__head">
@@ -106,12 +106,11 @@ const Trend = (props) => {
               />
             </h2>
           </div>
-          <div className="">
             {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
             <h3 className="c-panel__heading">
               Rank - {state2[TREND_RANK[trend]]}
             </h3>
-          </div>
+
         </div>
       </div>
     </div>

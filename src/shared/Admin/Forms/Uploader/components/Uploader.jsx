@@ -1,7 +1,5 @@
 import Link from 'react-router/lib/Link';
 import React, { PropTypes } from 'react';
-import { FileUpload } from 'redux-file-upload';
-// import Dropzone from 'react-dropzone';
 
 const Uploader = (props) => {
   const { handleUpload } = props;
@@ -13,10 +11,7 @@ const Uploader = (props) => {
           <h1 className="o-heading-sub">Uploader</h1>
         </div>
         <div className="c-panel__content">
-          <FileUpload
-            url="/uploader"
-            dropzoneId="fileUpload"
-          >
+
             {/* <p>
               <input className="c-form-input" type="text" placeholder="Report Title" />
             </p>
@@ -26,7 +21,6 @@ const Uploader = (props) => {
             <button>
               Click or Drag here to Upload
             </button>
-          </FileUpload>
           <p>
             <button
               className="c-button"

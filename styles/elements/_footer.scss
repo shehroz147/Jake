@@ -1,8 +1,13 @@
+html {
+  min-height: 100%;
+}
+
 html,
 body,
 #main,
 .root {
   height: 100%;
+  background-attachment: fixed;
 }
 
 .root {
@@ -13,4 +18,8 @@ body,
 .c-footer {
   display: table-row;
   height: 1px;
+}
+
+.c-footer-links {
+  
 }
