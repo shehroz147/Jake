@@ -7,9 +7,6 @@ import ChangeStateButton from '../../Select/components/ChangeStateButton';
 
 import CompareSelect from '../../Select/components/CompareSelect';
 
-
-import AllChart from '../../Graph/components/AllChart';
-
 const TREND_PERCENT = {
   volunteer: 'volunteerPercent',
   volunteerHours: 'volunteerHours',
@@ -61,11 +58,7 @@ const Trend = (props) => {
         <Chart {...props} />
       </div>
       <div className="o-layout__item">
-        <AllChart {...props} />
-      </div>
-      <div className="o-layout__item">
         <div className="c-panel">
-
           <div className="c-panel__head">
             <h1 className="c-panel__heading">
               National Average
@@ -93,7 +86,6 @@ const Trend = (props) => {
               Rank - {state1[TREND_RANK[trend]]}
             </h3>
           </div>
-
         </div>
       </div>
       <div className="o-layout__item">
@@ -106,11 +98,10 @@ const Trend = (props) => {
               />
             </h2>
           </div>
-            {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
-            <h3 className="c-panel__heading">
-              Rank - {state2[TREND_RANK[trend]]}
-            </h3>
-
+          {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
+          <h3 className="c-panel__heading">
+            Rank - {state2[TREND_RANK[trend]]}
+          </h3>
         </div>
       </div>
     </div>
