@@ -1,11 +1,10 @@
 .c-navbar {
   display: block;
-  background-color: $color-background;
-  color: $color-primary;
-  width: 90%;
-  max-width:960px;
+  background: linear-gradient($color-accent, $color-primary);
   margin: 0 auto;
-  padding: $spacing--large;
+  padding: $spacing--small 0;
+  border-bottom: 1px solid #E7E7E7;
+  box-shadow: 0 8px 8px #f3f3f3;
 }
 
 .c-navbar-side {

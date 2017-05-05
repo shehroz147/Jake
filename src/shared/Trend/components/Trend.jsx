@@ -54,10 +54,10 @@ const Trend = (props) => {
       <div className="o-layout__item">
         <CompareSelect {...props} />
       </div>
-      <div className="o-layout__item">
+      <div className="o-layout__item u-p0">
         <Chart {...props} />
       </div>
-      <div className="o-layout__item">
+      <div className="o-layout__item u-p0">
         <div className="c-panel">
           <div className="c-panel__head">
             <h1 className="c-panel__heading">
@@ -70,7 +70,7 @@ const Trend = (props) => {
         </div>
       </div>
       <h3 className="o-layout__item u-text-center">Change States with drop downs or buttons</h3>
-      <div className="o-layout__item">
+      <div className="o-layout__item u-p0">
         <div className="c-panel">
           <div className="c-panel__head">
             <h2 className="c-panel__heading">
@@ -88,7 +88,7 @@ const Trend = (props) => {
           </div>
         </div>
       </div>
-      <div className="o-layout__item">
+      <div className="o-layout__item u-p0">
         <div className="c-panel">
           <div className="c-panel__head">
             <h2 className="c-panel__heading">

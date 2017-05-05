@@ -1,5 +1,4 @@
 .o-wrapper {
-  background-color: $color-background;
   margin-left: auto;
   margin-right: auto;
   padding-left: $spacing--large;
@@ -10,14 +9,8 @@
 }
 
 .o-wrapper--sidenav {
-  background-color: $color-ui-white;
+  // background-color: $color-ui-white;
   width: 25%;
   padding-left: $spacing--large;
   padding-right: $spacing--large;
-}
-
-.o-wrapper--box {
-  background-color: $color-ui-medium;
-  width: 100%;
-  height: 100%;
 }

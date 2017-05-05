@@ -1,9 +1,13 @@
 .c-panel {
-  padding: $spacing 0;
+  padding: $spacing;
+  margin: $spacing;
   position: relative;
   width: 100%;
   font-weight: $font-weight--bold;
   font-size: $font-size * 1.25;
+  background-color: #FCFCFC;
+  border: 1px solid #E7E7E7;
+  box-shadow: -4px 8px 16px #f3f3f3;
 }
 
 .c-panel__head {

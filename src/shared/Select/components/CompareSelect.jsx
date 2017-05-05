@@ -15,7 +15,7 @@ const CompareSelect = (props) => {
   } = props;
 
   return (
-    <div className="o-layout u-pb">
+    <div className="o-layout">
       <div className="c-panel">
         <div className="o-layout__item">
           <h1 className="o-heading-section">
@@ -23,8 +23,6 @@ const CompareSelect = (props) => {
           </h1>
           <ChangeYearButton changeYear={changeYear} year={year} />
         </div>
-      </div>
-      <div className="c-panel">
         <div className="o-layout__item">
           <h1 className="o-heading-section">
             Trend Select

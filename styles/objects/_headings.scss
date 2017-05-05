@@ -1,7 +1,7 @@
 .o-heading-main {
   font-size: $font-size * 2;
   font-weight: $font-weight--bold;
-  margin-bottom: $spacing;
+  margin: $spacing 0;
   // padding-top: $spacing;
 }
 
@@ -14,14 +14,14 @@
 .o-heading-section {
   font-size: $font-size * 1.25;
   font-weight: $font-weight--semibold;
-  margin-bottom: $spacing--small;
+  margin-top: $spacing--small;
 }
 
 .o-heading-nav {
   font-size: $font-size * 1.5;
   font-weight: $font-weight--bold;
   margin-bottom: $spacing--small;
-  color: $color-primary;
+  color: $color-ui-light;
   margin-right: $spacing;
   text-decoration: none;
 }

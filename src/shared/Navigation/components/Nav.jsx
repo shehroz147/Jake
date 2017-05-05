@@ -3,6 +3,7 @@ import React from 'react';
 
 const Nav = ({ authenticated, logout }) => (
   <nav className="c-navbar">
+    <div className="o-wrapper">
       <div className="o-flex-layout">
         <ul className="c-nav-list o-list-inline">
           <div className="o-flex-layout__item">
@@ -47,6 +48,7 @@ const Nav = ({ authenticated, logout }) => (
           </div>
         </ul>
       </div>
+    </div>
   </nav>
 );
 
