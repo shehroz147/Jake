@@ -2156,10 +2156,11 @@ img[height] {
   z-index: 0; }
 
 .c-panel {
-  margin: 16px 0;
   padding: 16px 0;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px; }
 
 .c-panel__head {
   color: #222222;

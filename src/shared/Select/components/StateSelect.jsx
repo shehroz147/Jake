@@ -55,28 +55,24 @@ const states = [
 ];
 
 const StateSelect = props => (
-  <div className="">
-    <div className="">
-      <select
-        className="c-select"
-        name="state"
-        onChange={(event) => {
-          const state = event.target.value;
-          props.changeState(state);
-        }}
-        value={props.state}
+  <select
+    className="c-select"
+    name="state"
+    onChange={(event) => {
+      const state = event.target.value;
+      props.changeState(state);
+    }}
+    value={props.state}
+  >
+    {states.map(state => (
+      <option
+        key={state}
+        value={state}
       >
-        {states.map(state => (
-          <option
-            key={state}
-            value={state}
-          >
-            {state}
-          </option>
-          ))}
-      </select>
-    </div>
-  </div>
+        {state}
+      </option>
+      ))}
+  </select>
 );
 
 StateSelect.propTypes = {

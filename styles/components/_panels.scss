@@ -1,8 +1,9 @@
 .c-panel {
-  margin:$spacing 0;
   padding: $spacing 0;
   position: relative;
   width: 100%;
+  font-weight: $font-weight--bold;
+  font-size: $font-size * 1.25;
 }
 
 .c-panel__head {
