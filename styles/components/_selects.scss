@@ -9,9 +9,9 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding: $spacing;
-  margin-top: $spacing;
-  margin-bottom: $spacing;
+  padding: 0 $spacing;
+  margin: $spacing 0;
+  
   height: 50px;
 
   &:focus{

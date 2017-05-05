@@ -2200,9 +2200,8 @@ img[height] {
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding: 16px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding: 0 16px;
+  margin: 16px 0;
   height: 50px; }
   .c-select:focus {
     outline: none; }
