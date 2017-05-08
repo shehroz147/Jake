@@ -23,7 +23,7 @@ $border-radius: 8px;
 .c-bar{
   border: 3px solid $border;
   border-radius: $border-radius + 4px;
-  margin: 10px 0;
+  margin: $spacing--small 0;
   position: relative;
   width: $width;
 }

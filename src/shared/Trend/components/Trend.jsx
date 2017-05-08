@@ -67,41 +67,34 @@ const Trend = (props) => {
           <div className="">
             <BarGraph percentage={state[TREND_PERCENT[trend]]} />
           </div>
-        </div>
-      </div>
-      <h3 className="o-layout__item u-text-center">Change States with drop downs or buttons</h3>
-      <div className="o-layout__item u-p0">
-        <div className="c-panel">
-          <div className="c-panel__head">
-            <h2 className="c-panel__heading">
-              <ChangeStateButton
-                changeState={changeState1}
-                state={state1.state}
-              />
-            </h2>
-          </div>
-          <div className="">
+          <div className="o-layout__item u-p0">
+            <div className="c-panel__head">
+              <h2 className="c-panel__heading">
+                <ChangeStateButton
+                  changeState={changeState1}
+                  state={state1.state}
+                />
+              </h2>
+            </div>
             <BarGraph percentage={state1[TREND_PERCENT[trend]]} />
             <h3 className="c-panel__heading">
               Rank - {state1[TREND_RANK[trend]]}
             </h3>
           </div>
-        </div>
-      </div>
-      <div className="o-layout__item u-p0">
-        <div className="c-panel">
-          <div className="c-panel__head">
-            <h2 className="c-panel__heading">
-              <ChangeStateButton
-                changeState={changeState2}
-                state={state2.state}
-              />
-            </h2>
+          <div className="o-layout__item u-p0">
+            <div className="c-panel__head">
+              <h2 className="c-panel__heading">
+                <ChangeStateButton
+                  changeState={changeState2}
+                  state={state2.state}
+                />
+              </h2>
+            </div>
+            {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
+            <h3 className="c-panel__heading">
+              Rank - {state2[TREND_RANK[trend]]}
+            </h3>
           </div>
-          {state2 && <BarGraph percentage={state2[TREND_PERCENT[trend]]} />}
-          <h3 className="c-panel__heading">
-            Rank - {state2[TREND_RANK[trend]]}
-          </h3>
         </div>
       </div>
     </div>
