@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'react-router/lib/Link';
 
 import PartnersFooter from './PartnersFooter';
 
@@ -10,7 +11,7 @@ const Footer = () => (
           <h3 className="o-heading-section u-text--inverse">Additional Links</h3>
           <ul className="c-footer-links">
             <li>Archive Reports</li>
-            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><Link className="c-nav__link u-m0" to="privacy">Privacy Policy</Link></li>
             <li>Post a Comment</li>
           </ul>
         </div>

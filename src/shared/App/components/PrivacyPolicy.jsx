@@ -1,4 +1,5 @@
-import React from  'react';
+import React from 'react';
+import Link from 'react-router/lib/Link';
 
 const PrivacyPolicy = () => (
   <div className="o-wrapper">
@@ -73,21 +74,23 @@ const PrivacyPolicy = () => (
     <div className="c-panel">
       <h1 className="o-heading-sub u-mb0">Terms and Conditions</h1>
       <p>
-        Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at
+        Please also visit our <Link to="terms">Terms and Conditions</Link> section establishing the use, disclaimers, and limitations of liability governing the use of our website at
         Terms and Conditions
         Your Consent
         By using our site, you consent to our privacy policy.
         Changes to our Privacy Policy
         If we decide to change our privacy policy, we will post those changes on this page.
         Contacting Us
-        If there are any questions regarding this privacy policy you may contact us using the information below. Subject to change without notice at any time.
-        LouFreyInstitute.org
-        12443 Research Parkway OTC3 Suite 406
-        Orlando, Florida 32826
-        USA
-        web@loufreyinstitute.org
-        (407)823-0813
+        If there are any questions regarding this privacy policy you may contact us using the information below.
       </p>
+      <p className="u-pt u-text--">Subject to change without notice at any time.</p>
+      <ul>
+        <li>LouFreyInstitute.org</li>
+        <li>12443 Research Parkway OTC3 Suite 406</li>
+        <li>Orlando, Florida 32826 USA</li>
+        <li>web@loufreyinstitute.org</li>
+        <li>(407)823-0813</li>
+      </ul>
     </div>
   </div>
 );

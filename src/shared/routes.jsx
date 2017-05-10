@@ -1,12 +1,14 @@
 import React from 'react';
 import IndexRoute from 'react-router/lib/IndexRoute';
 import Route from 'react-router/lib/Route';
+
 import Layout from './App/components/Layout';
 import IndexPage from './App/components/IndexPage';
 import Reports from './Reports/components/Reports';
 import CompareContainer from './Compare/containers/CompareContainer';
 import NotFoundPage from './App/components/NotFoundPage';
 import PrivacyPolicy from './App/components/PrivacyPolicy';
+import TermsConditions from './App/components/TermsConditions';
 
 // ADMIN
 import Dashboard from './Admin/Dashboards/components/Dashboard';
@@ -17,7 +19,15 @@ import Uploader from './Admin/Forms/Uploader/containers/UploaderContainer';
 import Profile from './Admin/Profile/components/Profile';
 
 const routes = (
-  <Route path="/" component={Layout}>
+  <Route
+    path="/"
+    component={Layout}
+    onChange={(prevState, nextState) => {
+      if (nextState.location.action !== 'POP') {
+        window.scrollTo(0, 0);
+      }
+    }}
+  >
     <IndexRoute component={IndexPage} />
     <Route path="/compare" component={CompareContainer} />
     <Route path="/dashboard" component={Dashboard} />
@@ -28,6 +38,7 @@ const routes = (
     <Route path="/profile" component={Profile} />
     <Route path="/reports" component={Reports} />
     <Route path="/privacy" component={PrivacyPolicy} />
+    <Route path="/terms" component={TermsConditions} />
     <Route path="*" component={NotFoundPage} />
   </Route>
 );
