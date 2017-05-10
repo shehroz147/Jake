@@ -8,7 +8,7 @@ $color-ui-black: #222222;
 
 $color-primary: #2C4257;
 $color-accent: lighten($color-primary, 20%);
-$color-secondary: desaturate($color-accent, 20%);
+$color-secondary: adjust-color($color-accent, $lightness: 5%, $saturation: 5%);
 
 $color-background: $color-ui-white;
 

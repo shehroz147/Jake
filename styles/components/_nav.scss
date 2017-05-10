@@ -6,8 +6,8 @@
   text-decoration: none;
 
   &:hover,
-  &:focus {
-    color: $color-secondary;
+  {
+    color: $color-ui-medium;
   }
 
   .c-nav--right & {

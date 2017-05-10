@@ -77,7 +77,7 @@ body,
 .c-footer {
   display: table-row;
   height: 1px;
-  background: #2C4257;
+  background: #4e759b;
   color: #F7F7F7;
   border-top: 1px solid #E7E7E7;
   box-shadow: 0 8px 16px #f3f3f3; }
@@ -199,7 +199,7 @@ img[height] {
   padding-right: 32px; }
 
 .c-button {
-  background: linear-gradient(#4e759b, #2C4257);
+  background: linear-gradient(#5282b1, #4e759b);
   border: 0;
   border-radius: 2px;
   color: #fefefe;
@@ -2125,19 +2125,19 @@ img[height] {
   font-weight: 600;
   margin-right: 16px;
   text-decoration: none; }
-  .c-nav__link:hover, .c-nav__link:focus {
-    color: #667583; }
+  .c-nav__link:hover {
+    color: #BFBFBF; }
   .c-nav--right .c-nav__link {
     margin-left: 16px;
     margin-right: 0; }
 
 .c-navbar {
   display: block;
-  background: linear-gradient(#4e759b, #2C4257);
+  background: linear-gradient(#5282b1, #4e759b);
   margin: 0 auto;
   padding: 8px 0;
   border-bottom: 1px solid #E7E7E7;
-  box-shadow: 0 8px 8px #f3f3f3; }
+  box-shadow: 0 8px 16px #f3f3f3; }
 
 .c-navbar-side {
   list-style: none;
@@ -2160,7 +2160,7 @@ img[height] {
   font-size: 20px;
   background-color: #FCFCFC;
   border: 1px solid #E7E7E7;
-  box-shadow: -4px 8px 16px #f3f3f3; }
+  box-shadow: 0 8px 16px #f3f3f3; }
 
 .c-panel__head {
   color: #222222;

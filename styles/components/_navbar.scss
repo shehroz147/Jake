@@ -1,10 +1,10 @@
 .c-navbar {
   display: block;
-  background: linear-gradient($color-accent, $color-primary);
+  background: linear-gradient($color-secondary, $color-accent);
   margin: 0 auto;
   padding: $spacing--small 0;
   border-bottom: 1px solid #E7E7E7;
-  box-shadow: 0 8px 8px #f3f3f3;
+  box-shadow: 0 8px 16px #f3f3f3;
 }
 
 .c-navbar-side {
