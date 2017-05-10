@@ -10,10 +10,10 @@ const IndexPage = () => (
         </p>
       </div>
       <div className="o-layout__item u-1/2">
-      <a href="http://placehold.it" className="u-m">
-      <img src="http://placehold.it/300x150" alt="placeholder" />
-    </a>
-  </div>
+        <a href="http://placehold.it" className="u-m">
+          <img src="http://placehold.it/300x150" alt="placeholder" />
+        </a>
+      </div>
     </div>
   </div>
 );
