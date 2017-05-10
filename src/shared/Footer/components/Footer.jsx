@@ -10,7 +10,7 @@ const Footer = () => (
           <h3 className="o-heading-section u-text--inverse">Additional Links</h3>
           <ul className="c-footer-links">
             <li>Archive Reports</li>
-            <li>Privacy Policy</li>
+            <li><a href="/privacy">Privacy Policy</a></li>
             <li>Post a Comment</li>
           </ul>
         </div>

@@ -6,6 +6,7 @@ import IndexPage from './App/components/IndexPage';
 import Reports from './Reports/components/Reports';
 import CompareContainer from './Compare/containers/CompareContainer';
 import NotFoundPage from './App/components/NotFoundPage';
+import PrivacyPolicy from './App/components/PrivacyPolicy';
 
 // ADMIN
 import Dashboard from './Admin/Dashboards/components/Dashboard';
@@ -26,6 +27,7 @@ const routes = (
     <Route path="/uploader" component={Uploader} />
     <Route path="/profile" component={Profile} />
     <Route path="/reports" component={Reports} />
+    <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="*" component={NotFoundPage} />
   </Route>
 );

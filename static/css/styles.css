@@ -2153,10 +2153,9 @@ img[height] {
 
 .c-panel {
   padding: 16px;
-  margin: 16px;
+  margin: 16px 0;
   position: relative;
   width: 100%;
-  font-weight: 600;
   font-size: 20px;
   background-color: #FCFCFC;
   border: 1px solid #E7E7E7;
@@ -2202,6 +2201,7 @@ img[height] {
   width: 100%;
   padding: 0 16px;
   margin: 16px 0;
+  font-weight: 600;
   height: 50px; }
   .c-select:focus {
     outline: none; }
