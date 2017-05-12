@@ -1,5 +1,4 @@
-import Link from 'react-router/lib/Link';
-import React, { Children, PropTypes } from 'react';
+import React, { Children } from 'react';
 
 import Footer from '../../Footer/components/Footer';
 import Nav from '../../Navigation/components/Nav';

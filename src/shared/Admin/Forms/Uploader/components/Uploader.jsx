@@ -1,5 +1,6 @@
 import Link from 'react-router/lib/Link';
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Uploader = (props) => {
   const { handleUpload } = props;

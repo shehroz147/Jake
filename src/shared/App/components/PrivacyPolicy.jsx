@@ -21,8 +21,9 @@ const PrivacyPolicy = () => (
       <Accordion>
         {(active, toggle) => (
           <div>
-            <h1 className="o-heading-sub">
+            <h1 >
               <a
+                className="o-heading-sub"
                 href="#toggle"
                 onClick={(e) => {
                   e.preventDefault();

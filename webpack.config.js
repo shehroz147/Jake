@@ -15,11 +15,17 @@ if (debug) {
 var publicPath = '/js';
 
 if (debug) {
-  publicPath = 'http://localhost:3333/js';
+  publicPath = 'http://localhost:3031/js';
 }
 
 module.exports = {
   devtool: debug ? 'inline-sourcemap' : null,
+
+  devServer: {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  },
 
   entry: entry,
 
