@@ -11,6 +11,19 @@
   margin-bottom: $spacing;
 }
 
+.o-heading-link {
+  font-size: $font-size * 1.5;
+  font-weight: $font-weight--semibold;
+  margin-bottom: $spacing;
+  text-decoration: none;
+  color: $color-primary;
+
+  &:hover,
+  &:focus {
+    color: $color-accent
+  }
+}
+
 .o-heading-section {
   font-size: $font-size * 1.25;
   font-weight: $font-weight--semibold;

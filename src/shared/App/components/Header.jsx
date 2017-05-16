@@ -2,16 +2,18 @@ import React from 'react';
 
 const Header = () => (
 
-  <div className="c-header c-header-box">
-    <div className="c-header-img" />
-    <div className="c-header-container">
-      <div className="">
-        <div className="">
-          <h1>Welcome to The Civic Health Index</h1>
-          <p>
-            A place for civic trend statistics. use the nav below to compare states or view or yearly reports.
-          </p>
-        </div>
+  <div className="header">
+    <div className="center">
+      <div className="middle">
+        <h1 className="o-heading-main">Welcome to Civic Health Index</h1>
+      </div>
+      <div className="pageHr">
+        <i>V</i>
+      </div>
+      <div className="page">
+        <p className="u-text++">
+          Welcome to The Civic Health Index our mission is to keep you up to date on civic trends and how each state ranks againt the national average using our <a href="/compare">comparison system</a>. Also check out our <a href="/reports">reports</a> page to see yearly reports about our nations civic health
+        </p>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 .c-button {
-  background: linear-gradient($color-secondary, $color-accent);
+  background: $color-secondary;
   border: 0;
   border-radius: $base-radius;
   color: $color-type--inverse;
@@ -18,7 +18,7 @@
   }
 
   &:hover {
-    background-color: darken($color-accent, 7);
+    background-color: darken($color-secondary, 7);
   }
 }
  .c-button__file {

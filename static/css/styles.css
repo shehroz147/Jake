@@ -153,6 +153,15 @@ img[height] {
   font-weight: 500;
   margin-bottom: 16px; }
 
+.o-heading-link {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #2C4257; }
+  .o-heading-link:hover, .o-heading-link:focus {
+    color: #4e759b; }
+
 .o-heading-section {
   font-size: 20px;
   font-weight: 500;
@@ -199,7 +208,7 @@ img[height] {
   padding-right: 32px; }
 
 .c-button {
-  background: linear-gradient(#5282b1, #4e759b);
+  background: #5282b1;
   border: 0;
   border-radius: 2px;
   color: #fefefe;
@@ -215,7 +224,7 @@ img[height] {
   .c-button:focus {
     outline: none; }
   .c-button:hover {
-    background-color: #426383; }
+    background-color: #45709a; }
 
 .c-button__file {
   width: 300px; }
@@ -2133,7 +2142,7 @@ img[height] {
 
 .c-navbar {
   display: block;
-  background: linear-gradient(#5282b1, #4e759b);
+  background: #4e759b;
   margin: 0 auto;
   padding: 8px 0;
   border-bottom: 1px solid #E7E7E7;
