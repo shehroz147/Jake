@@ -77,10 +77,8 @@ body,
 .c-footer {
   display: table-row;
   height: 1px;
-  background: #4e759b;
-  color: #F7F7F7;
-  border-top: 1px solid #E7E7E7;
-  box-shadow: 0 8px 16px #f3f3f3; }
+  background: #46698a;
+  color: #F7F7F7; }
 
 h1,
 h2,
@@ -199,7 +197,6 @@ img[height] {
   padding-left: 32px;
   padding-right: 32px;
   width: 90%;
-  max-width: 960px;
   height: 100%; }
 
 .o-wrapper--sidenav {
@@ -2106,28 +2103,6 @@ img[height] {
   width: 20px;
   height: 20px; }
 
-.c-header-box .c-header-img {
-  margin-bottom: 0px;
-  opacity: 0.2;
-  color: #fff;
-  background: #000 url("http://placehold.it/350x150") center center;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
-.c-header {
-  position: relative;
-  padding: 32px; }
-
-.c-header .c-header-container {
-  position: relative;
-  z-index: 2; }
-
 .c-nav__link {
   color: #F7F7F7;
   font-size: 14px;
@@ -2142,11 +2117,9 @@ img[height] {
 
 .c-navbar {
   display: block;
-  background: #4e759b;
+  background: #5282b1;
   margin: 0 auto;
-  padding: 8px 0;
-  border-bottom: 1px solid #E7E7E7;
-  box-shadow: 0 8px 16px #f3f3f3; }
+  padding: 8px 0; }
 
 .c-navbar-side {
   list-style: none;
@@ -2253,6 +2226,9 @@ img[height] {
     left: 200px; }
   #sidebartoggler .page-content {
     padding-left: 180px; }
+
+.u-link- {
+  text-decoration: none; }
 
 .u-p {
   padding: 16px; }
