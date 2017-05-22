@@ -6,7 +6,7 @@ const Uploader = (props) => {
   const { handleUpload } = props;
 
   return (
-    <div className="">
+    <div className="o-wrapper">
       <div className="c-panel">
         <div className="c-panel__head">
           <h1 className="o-heading-sub">Uploader</h1>

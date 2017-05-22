@@ -1,13 +1,25 @@
 import React from 'react';
 
 import CompareSelect from '../../Select/components/CompareSelect';
+import Chart from '../../Graph/components/Chart';
 
 const NoTrend = props => (
-  <div>
-    <CompareSelect {...props} />
-    <h1 className="o-heading-sub u-text-center u-mv+">
-      No Data Try Selecting another Trend or Year
-    </h1>
+  <div className="o-layout">
+
+    <div className="o-layout__item">
+      <CompareSelect {...props} />
+    </div>
+
+    <div className="o-layout__item u-p0">
+      <Chart {...props} />
+    </div>
+
+    <div className="o-layout__item u-p0">
+      <h1 className="o-heading-sub u-text-center u-mv+">
+        Bar Graph Data Does not exist Try Selecting another Trend or Year
+      </h1>
+
+    </div>
   </div>
 );
 

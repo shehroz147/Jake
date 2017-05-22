@@ -50,9 +50,7 @@ const Chart = (props) => {
           <YAxis />
           <CartesianGrid strokeDasharray="1 1" />
           <Tooltip />
-          <Legend
-
-          />
+          <Legend />
 
           <Line
             dataKey={`${TREND_PERCENT[trend]}1`}

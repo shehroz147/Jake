@@ -44,7 +44,8 @@
     "reselect": "^2.5.4",
     "shortid": "^2.2.6",
     "util-deprecate": "^1.0.2",
-    "validator": "^7.0.0"
+    "validator": "^7.0.0",
+    "wolfshark": "^0.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
