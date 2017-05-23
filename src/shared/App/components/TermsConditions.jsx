@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'wolfshark';
 import Accordion from '../../Accordion/components/Accordion';
 
 const styles = {
@@ -11,7 +12,7 @@ const styles = {
 };
 
 const TermsConditions = () => (
-  <div className="o-wrapper">
+  <Container>
 
     <h1 className="o-heading-main">Terms and Conditions of Use of Lou Frey Institute (LFI) </h1>
 
@@ -410,7 +411,7 @@ const TermsConditions = () => (
         )}
       </Accordion>
     </div>
-  </div>
+  </Container>
 );
 
-export default TermsConditions
+export default TermsConditions;

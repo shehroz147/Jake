@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'react-router/lib/Link';
+import { Container } from 'wolfshark';
 
 import Accordion from '../../Accordion/components/Accordion';
 
@@ -14,7 +15,7 @@ const styles = {
 
 
 const PrivacyPolicy = () => (
-  <div className="o-wrapper">
+  <Container>
     <h1 className="o-heading-main">Privacy Policy</h1>
 
     <div className="c-panel">
@@ -428,8 +429,7 @@ const PrivacyPolicy = () => (
         )}
       </Accordion>
     </div>
-
-  </div>
+  </Container>
 );
 
 export default PrivacyPolicy;

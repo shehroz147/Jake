@@ -1,16 +1,17 @@
 import React from 'react';
+import { Container } from 'wolfshark';
 
 const Reports = () => (
-  <div className="o-wrapper">
+  <Container>
 
     <div className="o-layout">
 
       <h1 className="o-layout__item o-heading-main">Civic Health Reports</h1>
 
-      <div className="c-panel o-layout__item u-1/3">
+      <div className="c-panel o-layout__item">
 
         <div className="c-panel__head">
-          <h1 className="c-panel__heading">2008 Report</h1>
+          <h1 className="c-panel__heading">2008 Report: Beyond the Vote</h1>
         </div>
 
         <a
@@ -27,10 +28,10 @@ const Reports = () => (
         </a>
       </div>
 
-      <div className="c-panel o-layout__item u-1/3">
+      <div className="c-panel o-layout__item">
 
         <div className="c-panel__head">
-          <h1 className="c-panel__heading">2009 Report</h1>
+          <h1 className="c-panel__heading">2009 Report: Communities and the State's Civic Destiny</h1>
         </div>
 
         <a
@@ -48,10 +49,10 @@ const Reports = () => (
 
       </div>
 
-      <div className="c-panel o-layout__item u-1/3">
+      <div className="c-panel o-layout__item">
 
         <div className="c-panel__head">
-          <h1 className="c-panel__heading">2010 Report</h1>
+          <h1 className="c-panel__heading">2010 Report: A Tale of Two Cities</h1>
         </div>
 
         <a
@@ -69,10 +70,10 @@ const Reports = () => (
 
       </div>
 
-      <div className="c-panel o-layout__item u-1/3">
+      <div className="c-panel o-layout__item">
 
         <div className="c-panel__head">
-          <h1 className="c-panel__heading">2011 Report</h1>
+          <h1 className="c-panel__heading">2011 Report: The Next Generation</h1>
         </div>
 
         <a
@@ -90,7 +91,7 @@ const Reports = () => (
 
       </div>
     </div>
-  </div>
+  </Container>
 );
 
 export default Reports;

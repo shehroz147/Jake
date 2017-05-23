@@ -1,12 +1,13 @@
 import Link from 'react-router/lib/Link';
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Container } from 'wolfshark';
 
 const Uploader = (props) => {
   const { handleUpload } = props;
 
   return (
-    <div className="o-wrapper">
+    <Container>
       <div className="c-panel">
         <div className="c-panel__head">
           <h1 className="o-heading-sub">Uploader</h1>
@@ -39,7 +40,7 @@ const Uploader = (props) => {
           </p>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

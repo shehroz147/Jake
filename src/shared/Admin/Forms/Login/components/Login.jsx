@@ -1,8 +1,8 @@
-import Link from 'react-router/lib/Link';
 import React from 'react';
+import { Container } from 'wolfshark';
 
 const Login = () => (
-  <div className="o-wrapper">
+  <Container>
     <div className="c-panel">
       <div className="c-panel__head">
         <h1 className="o-heading-sub">Login</h1>
@@ -35,7 +35,7 @@ const Login = () => (
 
       </div>
     </div>
-  </div>
+  </Container>
 );
 
 export default Login;

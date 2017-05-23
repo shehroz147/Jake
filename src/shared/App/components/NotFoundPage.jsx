@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { Container } from 'wolfshark';
 
 const NotFoundPage = () => (
-  <div className="o-wrapper">
+  <Container>
     <div className="c-panel">
       <h1 className="o-heading-main u-m0">404</h1>
       <h2 className="o-heading-section">Page not found!</h2>
@@ -10,7 +11,7 @@ const NotFoundPage = () => (
         <Link to="/">Go back to the main page</Link>
       </p>
     </div>
-  </div>
+  </Container>
 );
 
 export default NotFoundPage;

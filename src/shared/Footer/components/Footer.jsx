@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'react-router/lib/Link';
+import { Container } from 'wolfshark';
 
 import PartnersFooter from './PartnersFooter';
 
 const Footer = () => (
   <footer className="c-footer">
-    <div className="o-wrapper u-pv+">
+    <Container>
       <div className="o-layout u-text-center">
         <div className="o-layout__item u-1/3">
           <h3 className="o-heading-section u-text--inverse">Additional Links</h3>
@@ -34,7 +35,7 @@ const Footer = () => (
         </div>
       </div>
       <PartnersFooter />
-    </div>
+    </Container>
   </footer>
 );
 

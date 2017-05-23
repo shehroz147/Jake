@@ -1,8 +1,9 @@
 import Link from 'react-router/lib/Link';
 import React from 'react';
+import { Container } from 'wolfshark';
 
 const Signup = () => (
-  <div className="o-wrapper">
+  <Container>
     <div className="c-panel">
       <div className="c-panel__head">
         <h1 className="o-heading-sub">Signup</h1>
@@ -39,7 +40,7 @@ const Signup = () => (
 
       </div>
     </div>
-  </div>
+  </Container>
 );
 
 export default Signup;
