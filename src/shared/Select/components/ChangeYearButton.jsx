@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Button } from 'wolfshark';
 import YearSelect from './YearSelect';
 
 const years = [
@@ -15,8 +16,8 @@ const years = [
 const ChangeYearButton = props => (
   <div className="o-flex-layout">
     <div className="o-flex-layout__item o-flex-layout__item--shrink">
-      <button
-        className="c-button"
+      <Button
+        color="primary"
         onClick={() => {
           let index = years.indexOf(props.year) - 1;
           if (index < 0) {
@@ -28,14 +29,14 @@ const ChangeYearButton = props => (
         }}
       >
         &larr;
-      </button>
+      </Button>
     </div>
     <div className="o-flex-layout__item o-flex-layout__item--grow u-text-center u-p0">
       <YearSelect {...props} />
     </div>
     <div className="o-flex-layout__item o-flex-layout__item--shrink u-p0">
-      <button
-        className="c-button"
+      <Button
+        color="primary"
         onClick={() => {
           let index = years.indexOf(props.year) + 1;
           if (index >= years.length) {
@@ -49,7 +50,7 @@ const ChangeYearButton = props => (
         value={props.year}
       >
         &rarr;
-      </button>
+      </Button>
     </div>
   </div>
 );

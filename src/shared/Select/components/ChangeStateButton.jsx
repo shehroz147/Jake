@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Button } from 'wolfshark';
 import StateSelect from './StateSelect';
 
 const states = [
@@ -59,8 +60,8 @@ const states = [
 const ChangeStateButton = props => (
   <div className="o-flex-layout">
     <div className="o-flex-layout__item o-flex-layout__item--shrink">
-      <button
-        className="c-button"
+      <Button
+        color="primary"
         onClick={() => {
           let index = states.indexOf(props.state) - 1;
           if (index < 0) {
@@ -72,14 +73,14 @@ const ChangeStateButton = props => (
         }}
       >
         &larr;
-      </button>
+      </Button>
     </div>
     <div className="o-flex-layout__item o-flex-layout__item--grow u-text-center u-p0">
       <StateSelect {...props} />
     </div>
     <div className="o-flex-layout__item o-flex-layout__item--shrink u-p0">
-      <button
-        className="c-button"
+      <Button
+        color="primary"
         onClick={() => {
           let index = states.indexOf(props.state) + 1;
           if (index >= states.length) {
@@ -93,7 +94,7 @@ const ChangeStateButton = props => (
         value={props.state}
       >
         &rarr;
-      </button>
+      </Button>
     </div>
   </div>
 );

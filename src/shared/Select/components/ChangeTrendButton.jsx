@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Button } from 'wolfshark';
 import TrendSelect from './TrendSelect';
+
 
 const trends = [
   'volunteer',
@@ -32,8 +34,8 @@ const trends = [
 const ChangeTrendButton = props => (
   <div className="o-flex-layout">
     <div className="o-flex-layout__item o-flex-layout__item--shrink">
-      <button
-        className="c-button"
+      <Button
+        color="primary"
         onClick={() => {
           let index = trends.indexOf(props.trend) - 1;
           if (index < 0) {
@@ -45,14 +47,14 @@ const ChangeTrendButton = props => (
         }}
       >
         &larr;
-      </button>
+      </Button>
     </div>
     <div className="o-flex-layout__item o-flex-layout__item--grow u-text-center u-p0">
       <TrendSelect {...props} />
     </div>
     <div className="o-flex-layout__item o-flex-layout__item--shrink u-p0">
-      <button
-        className="c-button"
+      <Button
+        color="primary"
         onClick={() => {
           let index = trends.indexOf(props.trend) + 1;
           if (index >= trends.length) {
@@ -66,7 +68,7 @@ const ChangeTrendButton = props => (
         value={props.trend}
       >
         &rarr;
-      </button>
+      </Button>
     </div>
   </div>
 );

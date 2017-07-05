@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'wolfshark';
+import { Container, Button, Panel, PanelContent } from 'wolfshark';
 
 const Reports = () => (
   <Container>
@@ -29,9 +29,12 @@ const Reports = () => (
               alt="Beyond the Vote Cover"
               src="/img/reports/health_civics_08.png"
             />
-            <button className="c-button c-button--block ">
-              View
-            </button>
+            <Button
+              block
+              color="primary"
+            >
+              Read More
+            </Button>
           </a>
         </div>
       </div>
@@ -57,9 +60,12 @@ const Reports = () => (
               alt="Communities and the State's Civic Destiny"
               src="/img/reports/health_civics_09.png"
             />
-            <button className="c-button c-button--block">
-              View
-            </button>
+            <Button
+              block
+              color="primary"
+            >
+              Read More
+            </Button>
           </a>
         </div>
 
@@ -86,9 +92,12 @@ const Reports = () => (
               alt="A Tale of Two Citites"
               src="/img/reports/health_civics_10.png"
             />
-            <button className="c-button c-button--block ">
-              View
-            </button>
+            <Button
+              block
+              color="primary"
+            >
+              Read More
+            </Button>
           </a>
         </div>
 
@@ -108,16 +117,20 @@ const Reports = () => (
 
         <div className="o-layout__item u-1/2">
           <a
-            href="https://drive.google.com/file/d/0B_H96_GL74SIdjFiUUJ0TktKbm8/view?usp=sharing" rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/0B_H96_GL74SIdjFiUUJ0TktKbm8/view?usp=sharing"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
               alt="The Next Generation"
               src="/img/reports/health_civics_11.png"
             />
-            <button className="c-button c-button--block">
-              View
-            </button>
+            <Button
+              block
+              color="primary"
+            >
+              Read More
+            </Button>
           </a>
         </div>
       </div>

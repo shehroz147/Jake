@@ -12,6 +12,7 @@
 img {
   font-style: italic; // [2]
   max-width: 100%; // [1]
+  height: 65px;
   vertical-align: middle; // [3]
 }
 
@@ -24,4 +25,15 @@ img {
 img[width], // [1]
 img[height] {  // [1]
   max-width: none;
+}
+
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    table-layout: auto;
+}
+
+td {
+  text-align: center;
 }
