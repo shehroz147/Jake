@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const TREND_PERCENT = {
   volunteer: 'volunteerPercent',
@@ -40,7 +40,7 @@ const Chart = (props) => {
   return (
     <div className="c-panel u-pb0">
       <ResponsiveContainer width="100%" height={300}>
-        <LineChart
+        <BarChart
           data={chart}
           margin={{ top: 5, right: 5, left: -30, bottom: 15 }}
           height={400}
@@ -52,28 +52,28 @@ const Chart = (props) => {
           <Tooltip />
           <Legend />
 
-          <Line
+          <Bar
             dataKey={`${TREND_PERCENT[trend]}1`}
             legendType="square"
             name={state1.state}
-            stroke="#D9534F"
+            fill="#D9534F"
             type="monotone"
           />
-          <Line
+          <Bar
             dataKey={`${TREND_PERCENT[trend]}2`}
             legendType="square"
             name={state2.state}
-            stroke="#F0AD4E"
+            fill="#F0AD4E"
             type="monotone"
           />
-          <Line
+          <Bar
             dataKey={`${TREND_PERCENT[trend]}n`}
             legendType="square"
             name={state.state}
-            stroke="#337AB7"
+            fill="#337AB7"
             type="monotone"
           />
-        </LineChart>
+        </BarChart>
       </ResponsiveContainer>
     </div>
   );

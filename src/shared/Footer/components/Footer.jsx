@@ -7,13 +7,14 @@ import PartnersFooter from './PartnersFooter';
 const Footer = () => (
   <footer className="c-footer">
     <Container>
-      <div className="o-layout u-text-center">
+
+      <div className="o-layout">
         <div className="o-layout__item u-1/3">
           <h3 className="o-heading-sub u-text--inverse u-pt">Additional Links</h3>
           <ul className="c-footer-links">
             <li>Archive Reports</li>
             <li><Link className="c-nav__link u-m0" to="privacy">Privacy Policy</Link></li>
-            <li>Post a Comment</li>
+            <li><Link className="c-nav__link u-m0" to="terms">Terms and Conditions</Link></li>
           </ul>
         </div>
         <div className="o-layout__item u-1/3">

@@ -4,7 +4,7 @@ import browserHistory from 'react-router/lib/browserHistory';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import polyfill from 'babel-polyfill';
+// import polyfill from 'babel-polyfill';
 
 import Root from '../shared/Redux/Root';
 import createStore from '../shared/Redux/createStore';

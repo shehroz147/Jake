@@ -7,8 +7,8 @@ import IndexPage from './App/components/IndexPage';
 import Reports from './Reports/components/Reports';
 import CompareContainer from './Compare/containers/CompareContainer';
 import NotFoundPage from './App/components/NotFoundPage';
-import PrivacyPolicy from './App/components/PrivacyPolicy';
-import TermsConditions from './App/components/TermsConditions';
+import PrivacyPolicy from './PrivacyPolicy/component';
+import TermsConditions from './TermsAndConditions/component';
 
 // ADMIN
 import Dashboard from './Admin/Dashboards/components/Dashboard';

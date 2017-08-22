@@ -2,20 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from 'wolfshark';
 import TrendSelect from './TrendSelect';
-
-
-const trends = [
-  'volunteer',
-  'volunteerHours',
-  'meeting',
-  'community',
-  'donated',
-  'voted',
-  'boycotted',
-  'registered',
-  'group',
-  'organization',
-];
+import trends from '../constants/trends';
 
 // const TREND_TITLES = {
 //   volunteer: 'Volunteered',

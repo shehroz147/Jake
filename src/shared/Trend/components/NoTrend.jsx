@@ -10,13 +10,13 @@ const NoTrend = props => (
       <CompareSelect {...props} />
     </div>
 
-    <div className="o-layout__item u-p0">
+    {/* <div className="o-layout__item u-p0">
       <Chart {...props} />
-    </div>
+    </div> */}
 
     <div className="o-layout__item u-p0">
       <h1 className="o-heading-sub u-text-center u-mv+">
-        Bar Graph Data Does not exist Try Selecting another Trend or Year
+        Our Data is incomplete for this Trend or Year. Try Selecting another Trend or Year.
       </h1>
 
     </div>

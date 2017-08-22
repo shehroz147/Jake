@@ -1,8 +1,8 @@
 import React from 'react';
 
 const PartnerFooter = () => (
-  <div className="u-mb u-text-center u-pv">
-    <h1 className="o-heading-sub u-text-center u-text--inverse">Partners in Civic Health</h1>
+  <div className="u-mb u-pv">
+    <h1 className="o-heading-section u-text--inverse">Partners in Civic Health</h1>
     <table>
       <tbody>
         <tr>

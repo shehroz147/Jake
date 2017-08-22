@@ -1,4 +1,6 @@
 .c-panel {
+  display: inline-block;
+  
   padding: $spacing;
   margin: $spacing 0;
   position: relative;
@@ -21,11 +23,11 @@
   font-size: $font-size * 1.25;
   font-weight: $font-weight--bold;
   margin: 0;
+
 }
 
 .c-panel__content {
-  padding: $spacing--large;
-
+  padding: $spacing 0;
   .c-panel--small & { padding: $spacing--small; }
   .c-panel--large & { padding: $spacing--large; }
 }

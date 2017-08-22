@@ -1,7 +1,6 @@
 import React, { Children } from 'react';
-
 import Footer from '../../Footer/components/Footer';
-import Nav from '../../Navigation/components/Nav';
+import Nav from '../../Navigation/component';
 
 const Layout = ({ authenticated, children, logout }) => (
   <div className="root">

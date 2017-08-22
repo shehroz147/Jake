@@ -1,5 +1,4 @@
-[
-  {
+[{
   "state": "Alabama",
   "year": "2008",
   "volunteerPercent": 24,
@@ -1371,7 +1370,11 @@
   "contactedPercent": 19.1,
   "contactedRank": 7,
   "productPercent": 8.3,
-  "productRank": 20
+  "productRank": 20,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alaska",
@@ -1393,7 +1396,11 @@
   "contactedPercent": 13.5,
   "contactedRank": 36,
   "productPercent": 13,
-  "productRank": 2
+  "productRank": 2,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arizona",
@@ -1415,7 +1422,11 @@
   "contactedPercent": 15.3,
   "contactedRank": 27,
   "productPercent": 8.6,
-  "productRank": 17
+  "productRank": 17,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arkansas",
@@ -1437,7 +1448,11 @@
   "contactedPercent": 11,
   "contactedRank": 48,
   "productPercent": 4,
-  "productRank": 48
+  "productRank": 48,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "California",
@@ -1459,7 +1474,11 @@
   "contactedPercent": 11.5,
   "contactedRank": 46,
   "productPercent": 5.3,
-  "productRank": 43
+  "productRank": 43,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Colorado",
@@ -1481,7 +1500,11 @@
   "contactedPercent": 22.6,
   "contactedRank": 1,
   "productPercent": 7.9,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Connecticut",
@@ -1503,7 +1526,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 31,
   "productPercent": 9.2,
-  "productRank": 12
+  "productRank": 12,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "DC",
@@ -1525,7 +1552,11 @@
   "contactedPercent": 21.3,
   "contactedRank": 5,
   "productPercent": 5.9,
-  "productRank": 40
+  "productRank": 40,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Delaware",
@@ -1547,7 +1578,11 @@
   "contactedPercent": 15,
   "contactedRank": 28,
   "productPercent": 6.5,
-  "productRank": 34
+  "productRank": 34,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Florida",
@@ -1569,7 +1604,11 @@
   "contactedPercent": 12.8,
   "contactedRank": 38,
   "productPercent": 3.8,
-  "productRank": 49
+  "productRank": 49,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Georgia",
@@ -1591,7 +1630,11 @@
   "contactedPercent": 22.1,
   "contactedRank": 2,
   "productPercent": 6.1,
-  "productRank": 38
+  "productRank": 38,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Hawaii",
@@ -1613,7 +1656,11 @@
   "contactedPercent": 12.2,
   "contactedRank": 42,
   "productPercent": 6.5,
-  "productRank": 34
+  "productRank": 34,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Idaho",
@@ -1635,7 +1682,11 @@
   "contactedPercent": 18.4,
   "contactedRank": 10,
   "productPercent": 10.7,
-  "productRank": 7
+  "productRank": 7,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Illinois",
@@ -1657,7 +1708,11 @@
   "contactedPercent": 12,
   "contactedRank": 44,
   "productPercent": 7.4,
-  "productRank": 27
+  "productRank": 27,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Indiana",
@@ -1679,7 +1734,11 @@
   "contactedPercent": 16.5,
   "contactedRank": 19,
   "productPercent": 9.8,
-  "productRank": 9
+  "productRank": 9,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Iowa",
@@ -1701,7 +1760,11 @@
   "contactedPercent": 12.9,
   "contactedRank": 37,
   "productPercent": 10.3,
-  "productRank": 8
+  "productRank": 8,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kansas",
@@ -1723,7 +1786,11 @@
   "contactedPercent": 16.9,
   "contactedRank": 17,
   "productPercent": 8.3,
-  "productRank": 20
+  "productRank": 20,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kentucky",
@@ -1745,7 +1812,11 @@
   "contactedPercent": 12.1,
   "contactedRank": 43,
   "productPercent": 5.7,
-  "productRank": 41
+  "productRank": 41,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Louisiana",
@@ -1767,7 +1838,11 @@
   "contactedPercent": 13.9,
   "contactedRank": 34,
   "productPercent": 8,
-  "productRank": 23
+  "productRank": 23,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maine",
@@ -1789,7 +1864,11 @@
   "contactedPercent": 16.8,
   "contactedRank": 18,
   "productPercent": 9,
-  "productRank": 14
+  "productRank": 14,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maryland",
@@ -1811,7 +1890,11 @@
   "contactedPercent": 17.5,
   "contactedRank": 15,
   "productPercent": 5.6,
-  "productRank": 42
+  "productRank": 42,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Massachusetts",
@@ -1833,7 +1916,11 @@
   "contactedPercent": 16.4,
   "contactedRank": 20,
   "productPercent": 7.1,
-  "productRank": 30
+  "productRank": 30,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Michigan",
@@ -1855,7 +1942,11 @@
   "contactedPercent": 16.4,
   "contactedRank": 20,
   "productPercent": 7.3,
-  "productRank": 28
+  "productRank": 28,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Minnesota",
@@ -1877,7 +1968,11 @@
   "contactedPercent": 18.7,
   "contactedRank": 9,
   "productPercent": 12,
-  "productRank": 4
+  "productRank": 4,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Mississippi",
@@ -1899,7 +1994,11 @@
   "contactedPercent": 21.8,
   "contactedRank": 4,
   "productPercent": 7.5,
-  "productRank": 26
+  "productRank": 26,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Missouri",
@@ -1921,7 +2020,11 @@
   "contactedPercent": 16.2,
   "contactedRank": 23,
   "productPercent": 6.9,
-  "productRank": 32
+  "productRank": 32,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Montana",
@@ -1943,7 +2046,11 @@
   "contactedPercent": 15.6,
   "contactedRank": 24,
   "productPercent": 10.8,
-  "productRank": 6
+  "productRank": 6,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nebraska",
@@ -1965,7 +2072,11 @@
   "contactedPercent": 16.4,
   "contactedRank": 20,
   "productPercent": 8.7,
-  "productRank": 16
+  "productRank": 16,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nevada",
@@ -1987,7 +2098,11 @@
   "contactedPercent": 9.2,
   "contactedRank": 51,
   "productPercent": 2.5,
-  "productRank": 51
+  "productRank": 51,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Hampshire",
@@ -2009,7 +2124,11 @@
   "contactedPercent": 12.4,
   "contactedRank": 41,
   "productPercent": 8.3,
-  "productRank": 20
+  "productRank": 20,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Jersey",
@@ -2031,7 +2150,11 @@
   "contactedPercent": 11.4,
   "contactedRank": 47,
   "productPercent": 4.1,
-  "productRank": 47
+  "productRank": 47,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Mexico",
@@ -2053,7 +2176,11 @@
   "contactedPercent": 21.9,
   "contactedRank": 3,
   "productPercent": 4.8,
-  "productRank": 45
+  "productRank": 45,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New York",
@@ -2075,7 +2202,11 @@
   "contactedPercent": 14,
   "contactedRank": 33,
   "productPercent": 6.8,
-  "productRank": 33
+  "productRank": 33,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Carolina",
@@ -2097,7 +2228,11 @@
   "contactedPercent": 18.2,
   "contactedRank": 12,
   "productPercent": 4.5,
-  "productRank": 46
+  "productRank": 46,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Dakota",
@@ -2119,7 +2254,11 @@
   "contactedPercent": 10.4,
   "contactedRank": 50,
   "productPercent": 11.4,
-  "productRank": 5
+  "productRank": 5,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Ohio",
@@ -2141,7 +2280,11 @@
   "contactedPercent": 15.4,
   "contactedRank": 26,
   "productPercent": 7.8,
-  "productRank": 25
+  "productRank": 25,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oklahoma",
@@ -2163,7 +2306,11 @@
   "contactedPercent": 14.9,
   "contactedRank": 29,
   "productPercent": 9,
-  "productRank": 14
+  "productRank": 14,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oregon",
@@ -2185,7 +2332,11 @@
   "contactedPercent": 17.1,
   "contactedRank": 16,
   "productPercent": 8.4,
-  "productRank": 19
+  "productRank": 19,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Pennsylvania",
@@ -2207,7 +2358,11 @@
   "contactedPercent": 12.8,
   "contactedRank": 38,
   "productPercent": 7.2,
-  "productRank": 29
+  "productRank": 29,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Rhode Island",
@@ -2229,7 +2384,11 @@
   "contactedPercent": 12.5,
   "contactedRank": 40,
   "productPercent": 6,
-  "productRank": 39
+  "productRank": 39,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Carolina",
@@ -2251,7 +2410,11 @@
   "contactedPercent": 20.2,
   "contactedRank": 6,
   "productPercent": 9.6,
-  "productRank": 11
+  "productRank": 11,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Dakota",
@@ -2273,7 +2436,11 @@
   "contactedPercent": 10.7,
   "contactedRank": 49,
   "productPercent": 9.1,
-  "productRank": 13
+  "productRank": 13,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Tennessee",
@@ -2295,7 +2462,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 31,
   "productPercent": 8.6,
-  "productRank": 17
+  "productRank": 17,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Texas",
@@ -2317,7 +2488,11 @@
   "contactedPercent": 15.5,
   "contactedRank": 25,
   "productPercent": 5,
-  "productRank": 44
+  "productRank": 44,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Utah",
@@ -2339,7 +2514,11 @@
   "contactedPercent": 18.1,
   "contactedRank": 13,
   "productPercent": 3.1,
-  "productRank": 50
+  "productRank": 50,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Vermont",
@@ -2361,7 +2540,11 @@
   "contactedPercent": 18.3,
   "contactedRank": 11,
   "productPercent": 15.2,
-  "productRank": 1
+  "productRank": 1,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Virginia",
@@ -2383,7 +2566,11 @@
   "contactedPercent": 17.9,
   "contactedRank": 14,
   "productPercent": 6.5,
-  "productRank": 34
+  "productRank": 34,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Washington",
@@ -2405,7 +2592,11 @@
   "contactedPercent": 18.9,
   "contactedRank": 8,
   "productPercent": 6.2,
-  "productRank": 37
+  "productRank": 37,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "West Virginia",
@@ -2427,7 +2618,11 @@
   "contactedPercent": 13.8,
   "contactedRank": 35,
   "productPercent": 7,
-  "productRank": 31
+  "productRank": 31,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wisconsin",
@@ -2449,7 +2644,11 @@
   "contactedPercent": 14.6,
   "contactedRank": 30,
   "productPercent": 9.8,
-  "productRank": 9
+  "productRank": 9,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wyoming",
@@ -2471,7 +2670,11 @@
   "contactedPercent": 11.6,
   "contactedRank": 45,
   "productPercent": 12.2,
-  "productRank": 3
+  "productRank": 3,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "National Average",
@@ -2493,7 +2696,11 @@
   "contactedPercent": 15.1,
   "contactedRank": 0,
   "productPercent": 6.7,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alabama",
@@ -3867,7 +4074,11 @@
   "contactedPercent": 17.5,
   "contactedRank": 13,
   "productPercent": 8.1,
-  "productRank": 28
+  "productRank": 28,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alaska",
@@ -3889,7 +4100,11 @@
   "contactedPercent": 21.6,
   "contactedRank": 2,
   "productPercent": 16.9,
-  "productRank": 1
+  "productRank": 1,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arizona",
@@ -3911,7 +4126,11 @@
   "contactedPercent": 12.8,
   "contactedRank": 42,
   "productPercent": 7.2,
-  "productRank": 33
+  "productRank": 33,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arkansas",
@@ -3933,7 +4152,11 @@
   "contactedPercent": 11.8,
   "contactedRank": 48,
   "productPercent": 7.9,
-  "productRank": 29
+  "productRank": 29,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "California",
@@ -3955,7 +4178,11 @@
   "contactedPercent": 15.8,
   "contactedRank": 22,
   "productPercent": 6,
-  "productRank": 46
+  "productRank": 46,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Colorado",
@@ -3977,7 +4204,11 @@
   "contactedPercent": 17.9,
   "contactedRank": 11,
   "productPercent": 9.6,
-  "productRank": 14
+  "productRank": 14,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Connecticut",
@@ -3999,7 +4230,11 @@
   "contactedPercent": 16.2,
   "contactedRank": 21,
   "productPercent": 9.1,
-  "productRank": 19
+  "productRank": 19,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "DC",
@@ -4021,7 +4256,11 @@
   "contactedPercent": 19.2,
   "contactedRank": 6,
   "productPercent": 7.4,
-  "productRank": 31
+  "productRank": 31,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Delaware",
@@ -4043,7 +4282,11 @@
   "contactedPercent": 18.4,
   "contactedRank": 8,
   "productPercent": 8.5,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Florida",
@@ -4065,7 +4308,11 @@
   "contactedPercent": 12.9,
   "contactedRank": 41,
   "productPercent": 6.5,
-  "productRank": 41
+  "productRank": 41,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Georgia",
@@ -4087,7 +4334,11 @@
   "contactedPercent": 18.3,
   "contactedRank": 9,
   "productPercent": 6.3,
-  "productRank": 42
+  "productRank": 42,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Hawaii",
@@ -4109,7 +4360,11 @@
   "contactedPercent": 10.9,
   "contactedRank": 50,
   "productPercent": 6.1,
-  "productRank": 44
+  "productRank": 44,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Idaho",
@@ -4131,7 +4386,11 @@
   "contactedPercent": 16.7,
   "contactedRank": 17,
   "productPercent": 9,
-  "productRank": 21
+  "productRank": 21,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Illinois",
@@ -4153,7 +4412,11 @@
   "contactedPercent": 14.8,
   "contactedRank": 29,
   "productPercent": 7.7,
-  "productRank": 30
+  "productRank": 30,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Indiana",
@@ -4175,7 +4438,11 @@
   "contactedPercent": 13,
   "contactedRank": 38,
   "productPercent": 7.4,
-  "productRank": 31
+  "productRank": 31,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Iowa",
@@ -4197,7 +4464,11 @@
   "contactedPercent": 15.1,
   "contactedRank": 27,
   "productPercent": 12.2,
-  "productRank": 6
+  "productRank": 6,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kansas",
@@ -4219,7 +4490,11 @@
   "contactedPercent": 18,
   "contactedRank": 10,
   "productPercent": 11,
-  "productRank": 8
+  "productRank": 8,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kentucky",
@@ -4241,7 +4516,11 @@
   "contactedPercent": 12.5,
   "contactedRank": 44,
   "productPercent": 7.2,
-  "productRank": 33
+  "productRank": 33,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Louisiana",
@@ -4263,7 +4542,11 @@
   "contactedPercent": 13.2,
   "contactedRank": 36,
   "productPercent": 4.7,
-  "productRank": 51
+  "productRank": 51,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maine",
@@ -4285,7 +4568,11 @@
   "contactedPercent": 15.2,
   "contactedRank": 25,
   "productPercent": 9.6,
-  "productRank": 14
+  "productRank": 14,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maryland",
@@ -4307,7 +4594,11 @@
   "contactedPercent": 21.2,
   "contactedRank": 3,
   "productPercent": 8.5,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Massachusetts",
@@ -4329,7 +4620,11 @@
   "contactedPercent": 14.9,
   "contactedRank": 28,
   "productPercent": 6.7,
-  "productRank": 38
+  "productRank": 38,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Michigan",
@@ -4351,7 +4646,11 @@
   "contactedPercent": 13,
   "contactedRank": 38,
   "productPercent": 6.3,
-  "productRank": 42
+  "productRank": 42,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Minnesota",
@@ -4373,7 +4672,11 @@
   "contactedPercent": 16.7,
   "contactedRank": 17,
   "productPercent": 12.7,
-  "productRank": 4
+  "productRank": 4,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Mississippi",
@@ -4395,7 +4698,11 @@
   "contactedPercent": 22.4,
   "contactedRank": 1,
   "productPercent": 8.5,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Missouri",
@@ -4417,7 +4724,11 @@
   "contactedPercent": 17,
   "contactedRank": 16,
   "productPercent": 9.9,
-  "productRank": 13
+  "productRank": 13,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Montana",
@@ -4439,7 +4750,11 @@
   "contactedPercent": 11.4,
   "contactedRank": 49,
   "productPercent": 10.5,
-  "productRank": 11
+  "productRank": 11,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nebraska",
@@ -4461,7 +4776,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 30,
   "productPercent": 10.7,
-  "productRank": 10
+  "productRank": 10,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nevada",
@@ -4483,7 +4802,11 @@
   "contactedPercent": 12,
   "contactedRank": 47,
   "productPercent": 6.1,
-  "productRank": 44
+  "productRank": 44,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Hampshire",
@@ -4505,7 +4828,11 @@
   "contactedPercent": 13.3,
   "contactedRank": 35,
   "productPercent": 9.2,
-  "productRank": 18
+  "productRank": 18,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Jersey",
@@ -4527,7 +4854,11 @@
   "contactedPercent": 13.7,
   "contactedRank": 34,
   "productPercent": 6.6,
-  "productRank": 40
+  "productRank": 40,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Mexico",
@@ -4549,7 +4880,11 @@
   "contactedPercent": 19.5,
   "contactedRank": 5,
   "productPercent": 5.5,
-  "productRank": 49
+  "productRank": 49,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New York",
@@ -4571,7 +4906,11 @@
   "contactedPercent": 12.8,
   "contactedRank": 42,
   "productPercent": 5.8,
-  "productRank": 48
+  "productRank": 48,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Carolina",
@@ -4593,7 +4932,11 @@
   "contactedPercent": 15.8,
   "contactedRank": 22,
   "productPercent": 6.8,
-  "productRank": 36
+  "productRank": 36,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Dakota",
@@ -4615,7 +4958,11 @@
   "contactedPercent": 12.4,
   "contactedRank": 45,
   "productPercent": 13.5,
-  "productRank": 2
+  "productRank": 2,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Ohio",
@@ -4637,7 +4984,11 @@
   "contactedPercent": 13.2,
   "contactedRank": 36,
   "productPercent": 8.9,
-  "productRank": 22
+  "productRank": 22,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oklahoma",
@@ -4659,7 +5010,11 @@
   "contactedPercent": 15.6,
   "contactedRank": 24,
   "productPercent": 8.7,
-  "productRank": 23
+  "productRank": 23,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oregon",
@@ -4681,7 +5036,11 @@
   "contactedPercent": 17.3,
   "contactedRank": 14,
   "productPercent": 11,
-  "productRank": 8
+  "productRank": 8,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Pennsylvania",
@@ -4703,7 +5062,11 @@
   "contactedPercent": 13,
   "contactedRank": 38,
   "productPercent": 9.1,
-  "productRank": 19
+  "productRank": 19,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Rhode Island",
@@ -4725,7 +5088,11 @@
   "contactedPercent": 10.8,
   "contactedRank": 51,
   "productPercent": 7.2,
-  "productRank": 33
+  "productRank": 33,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Carolina",
@@ -4747,7 +5114,11 @@
   "contactedPercent": 17.1,
   "contactedRank": 15,
   "productPercent": 6.8,
-  "productRank": 36
+  "productRank": 36,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Dakota",
@@ -4769,7 +5140,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 30,
   "productPercent": 12.4,
-  "productRank": 5
+  "productRank": 5,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Tennessee",
@@ -4791,7 +5166,11 @@
   "contactedPercent": 17.8,
   "contactedRank": 12,
   "productPercent": 5.3,
-  "productRank": 50
+  "productRank": 50,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Texas",
@@ -4813,7 +5192,11 @@
   "contactedPercent": 16.7,
   "contactedRank": 17,
   "productPercent": 5.9,
-  "productRank": 47
+  "productRank": 47,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Utah",
@@ -4835,7 +5218,11 @@
   "contactedPercent": 19,
   "contactedRank": 7,
   "productPercent": 8.5,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Vermont",
@@ -4857,7 +5244,11 @@
   "contactedPercent": 16.4,
   "contactedRank": 20,
   "productPercent": 13.1,
-  "productRank": 3
+  "productRank": 3,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Virginia",
@@ -4879,7 +5270,11 @@
   "contactedPercent": 15.2,
   "contactedRank": 25,
   "productPercent": 6.7,
-  "productRank": 38
+  "productRank": 38,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Washington",
@@ -4901,7 +5296,11 @@
   "contactedPercent": 20.9,
   "contactedRank": 4,
   "productPercent": 9.4,
-  "productRank": 16
+  "productRank": 16,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "West Virginia",
@@ -4923,7 +5322,11 @@
   "contactedPercent": 12.3,
   "contactedRank": 46,
   "productPercent": 9.4,
-  "productRank": 16
+  "productRank": 16,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wisconsin",
@@ -4945,7 +5348,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 30,
   "productPercent": 10.5,
-  "productRank": 11
+  "productRank": 11,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wyoming",
@@ -4967,7 +5374,11 @@
   "contactedPercent": 14,
   "contactedRank": 33,
   "productPercent": 11.6,
-  "productRank": 7
+  "productRank": 7,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "National Average",
@@ -4989,7 +5400,11 @@
   "contactedPercent": 15.3,
   "contactedRank": 0,
   "productPercent": 7.5,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alabama",
@@ -5007,7 +5422,18 @@
   "votePercent": 61.9,
   "voteRank": 28,
   "registeredPercent": 73.5,
-  "registeredRank": 19
+  "registeredRank": 19,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Alaska",
@@ -5025,7 +5451,18 @@
   "votePercent": 58.4,
   "voteRank": 41,
   "registeredPercent": 72.8,
-  "registeredRank": 27
+  "registeredRank": 27,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Arizona",
@@ -5043,7 +5480,18 @@
   "votePercent": 55.9,
   "voteRank": 45,
   "registeredPercent": 65.2,
-  "registeredRank": 47
+  "registeredRank": 47,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Arkansas",
@@ -5061,7 +5509,18 @@
   "votePercent": 53.3,
   "voteRank": 48,
   "registeredPercent": 65.3,
-  "registeredRank": 46
+  "registeredRank": 46,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "California",
@@ -5079,7 +5538,18 @@
   "votePercent": 57.5,
   "voteRank": 43,
   "registeredPercent": 65.6,
-  "registeredRank": 45
+  "registeredRank": 45,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Colorado",
@@ -5097,7 +5567,18 @@
   "votePercent": 70.4,
   "voteRank": 6,
   "registeredPercent": 74.4,
-  "registeredRank": 16
+  "registeredRank": 16,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Connecticut",
@@ -5115,7 +5596,18 @@
   "votePercent": 62.7,
   "voteRank": 26,
   "registeredPercent": 70.4,
-  "registeredRank": 34
+  "registeredRank": 34,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "DC",
@@ -5133,7 +5625,18 @@
   "votePercent": 75.9,
   "voteRank": 1,
   "registeredPercent": 83.4,
-  "registeredRank": 2
+  "registeredRank": 2,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Delaware",
@@ -5151,7 +5654,18 @@
   "votePercent": 67.3,
   "voteRank": 12,
   "registeredPercent": 73.3,
-  "registeredRank": 22
+  "registeredRank": 22,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Florida",
@@ -5169,7 +5683,18 @@
   "votePercent": 60.8,
   "voteRank": 36,
   "registeredPercent": 68.3,
-  "registeredRank": 40
+  "registeredRank": 40,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Georgia",
@@ -5187,7 +5712,18 @@
   "votePercent": 61.9,
   "voteRank": 28,
   "registeredPercent": 70.7,
-  "registeredRank": 33
+  "registeredRank": 33,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Hawaii",
@@ -5205,7 +5741,18 @@
   "votePercent": 51.6,
   "voteRank": 50,
   "registeredPercent": 58.9,
-  "registeredRank": 51
+  "registeredRank": 51,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Idaho",
@@ -5223,7 +5770,18 @@
   "votePercent": 63.9,
   "voteRank": 20,
   "registeredPercent": 70,
-  "registeredRank": 35
+  "registeredRank": 35,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Illinois",
@@ -5241,7 +5799,18 @@
   "votePercent": 61.5,
   "voteRank": 34,
   "registeredPercent": 72.7,
-  "registeredRank": 28
+  "registeredRank": 28,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Indiana",
@@ -5259,7 +5828,18 @@
   "votePercent": 59.3,
   "voteRank": 37,
   "registeredPercent": 69.2,
-  "registeredRank": 37
+  "registeredRank": 37,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Iowa",
@@ -5277,7 +5857,18 @@
   "votePercent": 69.4,
   "voteRank": 7,
   "registeredPercent": 78.2,
-  "registeredRank": 6
+  "registeredRank": 6,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Kansas",
@@ -5295,7 +5886,18 @@
   "votePercent": 63.3,
   "voteRank": 23,
   "registeredPercent": 74.4,
-  "registeredRank": 16
+  "registeredRank": 16,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Kentucky",
@@ -5313,7 +5915,18 @@
   "votePercent": 59.3,
   "voteRank": 37,
   "registeredPercent": 72.1,
-  "registeredRank": 29
+  "registeredRank": 29,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Louisiana",
@@ -5331,7 +5944,18 @@
   "votePercent": 66.3,
   "voteRank": 15,
   "registeredPercent": 77.1,
-  "registeredRank": 9
+  "registeredRank": 9,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Maine",
@@ -5349,7 +5973,18 @@
   "votePercent": 68.6,
   "voteRank": 10,
   "registeredPercent": 77.1,
-  "registeredRank": 9
+  "registeredRank": 9,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Maryland",
@@ -5367,7 +6002,18 @@
   "votePercent": 65.1,
   "voteRank": 18,
   "registeredPercent": 72.1,
-  "registeredRank": 29
+  "registeredRank": 29,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Massachusetts",
@@ -5385,7 +6031,18 @@
   "votePercent": 70.8,
   "voteRank": 5,
   "registeredPercent": 78.7,
-  "registeredRank": 5
+  "registeredRank": 5,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Michigan",
@@ -5403,7 +6060,18 @@
   "votePercent": 66.8,
   "voteRank": 14,
   "registeredPercent": 77.8,
-  "registeredRank": 8
+  "registeredRank": 8,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Minnesota",
@@ -5421,7 +6089,18 @@
   "votePercent": 73.2,
   "voteRank": 4,
   "registeredPercent": 79,
-  "registeredRank": 3
+  "registeredRank": 3,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Mississippi",
@@ -5439,7 +6118,18 @@
   "votePercent": 74.5,
   "voteRank": 2,
   "registeredPercent": 84.2,
-  "registeredRank": 1
+  "registeredRank": 1,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Missouri",
@@ -5457,7 +6147,18 @@
   "votePercent": 63.9,
   "voteRank": 20,
   "registeredPercent": 76.7,
-  "registeredRank": 11
+  "registeredRank": 11,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Montana",
@@ -5475,7 +6176,18 @@
   "votePercent": 65.7,
   "voteRank": 16,
   "registeredPercent": 73.3,
-  "registeredRank": 22
+  "registeredRank": 22,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Nebraska",
@@ -5493,7 +6205,18 @@
   "votePercent": 61.6,
   "voteRank": 31,
   "registeredPercent": 69.5,
-  "registeredRank": 36
+  "registeredRank": 36,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Nevada",
@@ -5511,7 +6234,18 @@
   "votePercent": 57.9,
   "voteRank": 42,
   "registeredPercent": 65,
-  "registeredRank": 48
+  "registeredRank": 48,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "New Hampshire",
@@ -5529,7 +6263,18 @@
   "votePercent": 69.4,
   "voteRank": 7,
   "registeredPercent": 75.9,
-  "registeredRank": 12
+  "registeredRank": 12,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "New Jersey",
@@ -5547,7 +6292,18 @@
   "votePercent": 61.9,
   "voteRank": 28,
   "registeredPercent": 73,
-  "registeredRank": 26
+  "registeredRank": 26,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "New Mexico",
@@ -5565,7 +6321,18 @@
   "votePercent": 61.6,
   "voteRank": 31,
   "registeredPercent": 68.6,
-  "registeredRank": 38
+  "registeredRank": 38,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "New York",
@@ -5583,7 +6350,18 @@
   "votePercent": 58.7,
   "voteRank": 40,
   "registeredPercent": 67.9,
-  "registeredRank": 42
+  "registeredRank": 42,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "North Carolina",
@@ -5601,7 +6379,18 @@
   "votePercent": 68.9,
   "voteRank": 9,
   "registeredPercent": 78.9,
-  "registeredRank": 4
+  "registeredRank": 4,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "North Dakota",
@@ -5619,7 +6408,18 @@
   "votePercent": 63.9,
   "voteRank": 20,
   "registeredPercent": 74.5,
-  "registeredRank": 15
+  "registeredRank": 15,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Ohio",
@@ -5637,7 +6437,18 @@
   "votePercent": 63.1,
   "voteRank": 25,
   "registeredPercent": 71.1,
-  "registeredRank": 32
+  "registeredRank": 32,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Oklahoma",
@@ -5655,7 +6466,18 @@
   "votePercent": 52.4,
   "voteRank": 49,
   "registeredPercent": 66.1,
-  "registeredRank": 44
+  "registeredRank": 44,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Oregon",
@@ -5673,7 +6495,18 @@
   "votePercent": 67.6,
   "voteRank": 11,
   "registeredPercent": 74.3,
-  "registeredRank": 18
+  "registeredRank": 18,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Pennsylvania",
@@ -5691,7 +6524,18 @@
   "votePercent": 61.6,
   "voteRank": 31,
   "registeredPercent": 71.9,
-  "registeredRank": 31
+  "registeredRank": 31,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Rhode Island",
@@ -5709,7 +6553,18 @@
   "votePercent": 62.5,
   "voteRank": 27,
   "registeredPercent": 73.5,
-  "registeredRank": 19
+  "registeredRank": 19,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "South Carolina",
@@ -5727,7 +6582,18 @@
   "votePercent": 64.7,
   "voteRank": 19,
   "registeredPercent": 73.3,
-  "registeredRank": 22
+  "registeredRank": 22,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "South Dakota",
@@ -5745,7 +6611,18 @@
   "votePercent": 61,
   "voteRank": 35,
   "registeredPercent": 74.8,
-  "registeredRank": 13
+  "registeredRank": 13,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Tennessee",
@@ -5763,7 +6640,18 @@
   "votePercent": 55.7,
   "voteRank": 46,
   "registeredPercent": 68.6,
-  "registeredRank": 38
+  "registeredRank": 38,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Texas",
@@ -5781,7 +6669,18 @@
   "votePercent": 53.8,
   "voteRank": 47,
   "registeredPercent": 66.9,
-  "registeredRank": 43
+  "registeredRank": 43,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Utah",
@@ -5799,7 +6698,18 @@
   "votePercent": 57,
   "voteRank": 44,
   "registeredPercent": 63.5,
-  "registeredRank": 50
+  "registeredRank": 50,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Vermont",
@@ -5817,7 +6727,18 @@
   "votePercent": 63.3,
   "voteRank": 23,
   "registeredPercent": 73.4,
-  "registeredRank": 21
+  "registeredRank": 21,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Virginia",
@@ -5835,7 +6756,18 @@
   "votePercent": 66.9,
   "voteRank": 13,
   "registeredPercent": 74.6,
-  "registeredRank": 14
+  "registeredRank": 14,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Washington",
@@ -5853,7 +6785,18 @@
   "votePercent": 65.6,
   "voteRank": 17,
   "registeredPercent": 73.1,
-  "registeredRank": 25
+  "registeredRank": 25,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "West Virginia",
@@ -5871,7 +6814,18 @@
   "votePercent": 47.8,
   "voteRank": 51,
   "registeredPercent": 68.1,
-  "registeredRank": 41
+  "registeredRank": 41,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Wisconsin",
@@ -5889,7 +6843,18 @@
   "votePercent": 73.6,
   "voteRank": 3,
   "registeredPercent": 78.1,
-  "registeredRank": 7
+  "registeredRank": 7,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Wyoming",
@@ -5907,7 +6872,18 @@
   "votePercent": 58.9,
   "voteRank": 39,
   "registeredPercent": 63.9,
-  "registeredRank": 49
+  "registeredRank": 49,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "National Average",
@@ -5925,7 +6901,18 @@
   "votePercent": 61.8,
   "voteRank": 0,
   "registeredPercent": 71.2,
-  "registeredRank": 0
+  "registeredRank": 0,
+  "contactedPercent": 0,
+  "contactedRank": 0,
+  "productPercent": 0,
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank Voted": 0,
+  "Voted_rank": 0,
+  "Percent Registered to Vote": 0,
+  "Registered to Vote_rank": 0
 },
 {
   "state": "Alabama",
@@ -5947,7 +6934,11 @@
   "contactedPercent": 17.1,
   "contactedRank": 10,
   "productPercent": 6.3,
-  "productRank": 35
+  "productRank": 35,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alaska",
@@ -5969,7 +6960,11 @@
   "contactedPercent": 18.2,
   "contactedRank": 7,
   "productPercent": 13.8,
-  "productRank": 1
+  "productRank": 1,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arizona",
@@ -5991,7 +6986,11 @@
   "contactedPercent": 9.9,
   "contactedRank": 48,
   "productPercent": 4.5,
-  "productRank": 48
+  "productRank": 48,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arkansas",
@@ -6013,7 +7012,11 @@
   "contactedPercent": 12,
   "contactedRank": 38,
   "productPercent": 6.5,
-  "productRank": 33
+  "productRank": 33,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "California",
@@ -6035,7 +7038,11 @@
   "contactedPercent": 12,
   "contactedRank": 38,
   "productPercent": 4.7,
-  "productRank": 46
+  "productRank": 46,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Colorado",
@@ -6057,7 +7064,11 @@
   "contactedPercent": 16,
   "contactedRank": 15,
   "productPercent": 7.4,
-  "productRank": 26
+  "productRank": 26,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Connecticut",
@@ -6079,7 +7090,11 @@
   "contactedPercent": 11.1,
   "contactedRank": 42,
   "productPercent": 7.4,
-  "productRank": 26
+  "productRank": 26,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "DC",
@@ -6101,7 +7116,11 @@
   "contactedPercent": 24.3,
   "contactedRank": 1,
   "productPercent": 7.7,
-  "productRank": 23
+  "productRank": 23,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Delaware",
@@ -6123,7 +7142,11 @@
   "contactedPercent": 19.2,
   "contactedRank": 4,
   "productPercent": 7.5,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Florida",
@@ -6145,7 +7168,11 @@
   "contactedPercent": 9.6,
   "contactedRank": 51,
   "productPercent": 3.7,
-  "productRank": 49
+  "productRank": 49,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Georgia",
@@ -6167,7 +7194,11 @@
   "contactedPercent": 16.7,
   "contactedRank": 12,
   "productPercent": 5.9,
-  "productRank": 39
+  "productRank": 39,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Hawaii",
@@ -6189,7 +7220,11 @@
   "contactedPercent": 13.6,
   "contactedRank": 24,
   "productPercent": 5.3,
-  "productRank": 44
+  "productRank": 44,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Idaho",
@@ -6211,7 +7246,11 @@
   "contactedPercent": 17.8,
   "contactedRank": 8,
   "productPercent": 6.3,
-  "productRank": 35
+  "productRank": 35,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Illinois",
@@ -6233,7 +7272,11 @@
   "contactedPercent": 12.5,
   "contactedRank": 33,
   "productPercent": 5.8,
-  "productRank": 41
+  "productRank": 41,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Indiana",
@@ -6255,7 +7298,11 @@
   "contactedPercent": 10.8,
   "contactedRank": 44,
   "productPercent": 10.4,
-  "productRank": 9
+  "productRank": 9,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Iowa",
@@ -6277,7 +7324,11 @@
   "contactedPercent": 10,
   "contactedRank": 47,
   "productPercent": 9.4,
-  "productRank": 15
+  "productRank": 15,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kansas",
@@ -6299,7 +7350,11 @@
   "contactedPercent": 16.6,
   "contactedRank": 13,
   "productPercent": 9.4,
-  "productRank": 15
+  "productRank": 15,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kentucky",
@@ -6321,7 +7376,11 @@
   "contactedPercent": 12.1,
   "contactedRank": 35,
   "productPercent": 8,
-  "productRank": 21
+  "productRank": 21,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Louisiana",
@@ -6343,7 +7402,11 @@
   "contactedPercent": 9.7,
   "contactedRank": 49,
   "productPercent": 2.9,
-  "productRank": 50
+  "productRank": 50,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maine",
@@ -6365,7 +7428,11 @@
   "contactedPercent": 14.3,
   "contactedRank": 20,
   "productPercent": 9.8,
-  "productRank": 12
+  "productRank": 12,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maryland",
@@ -6387,7 +7454,11 @@
   "contactedPercent": 18.4,
   "contactedRank": 6,
   "productPercent": 6.8,
-  "productRank": 30
+  "productRank": 30,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Massachusetts",
@@ -6409,7 +7480,11 @@
   "contactedPercent": 10.3,
   "contactedRank": 45,
   "productPercent": 5.9,
-  "productRank": 39
+  "productRank": 39,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Michigan",
@@ -6431,7 +7506,11 @@
   "contactedPercent": 13.3,
   "contactedRank": 27,
   "productPercent": 6.7,
-  "productRank": 31
+  "productRank": 31,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Minnesota",
@@ -6453,7 +7532,11 @@
   "contactedPercent": 14,
   "contactedRank": 23,
   "productPercent": 10.7,
-  "productRank": 7
+  "productRank": 7,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Mississippi",
@@ -6475,7 +7558,11 @@
   "contactedPercent": 20.6,
   "contactedRank": 3,
   "productPercent": 9.7,
-  "productRank": 13
+  "productRank": 13,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Missouri",
@@ -6497,7 +7584,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 18,
   "productPercent": 8.7,
-  "productRank": 19
+  "productRank": 19,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Montana",
@@ -6519,7 +7610,11 @@
   "contactedPercent": 12.5,
   "contactedRank": 33,
   "productPercent": 12.1,
-  "productRank": 3
+  "productRank": 3,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nebraska",
@@ -6541,7 +7636,11 @@
   "contactedPercent": 12.8,
   "contactedRank": 31,
   "productPercent": 11.9,
-  "productRank": 4
+  "productRank": 4,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nevada",
@@ -6563,7 +7662,11 @@
   "contactedPercent": 11.4,
   "contactedRank": 40,
   "productPercent": 5.1,
-  "productRank": 45
+  "productRank": 45,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Hampshire",
@@ -6585,7 +7688,11 @@
   "contactedPercent": 13.3,
   "contactedRank": 27,
   "productPercent": 7.9,
-  "productRank": 22
+  "productRank": 22,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Jersey",
@@ -6607,7 +7714,11 @@
   "contactedPercent": 12.1,
   "contactedRank": 35,
   "productPercent": 6.5,
-  "productRank": 33
+  "productRank": 33,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Mexico",
@@ -6629,7 +7740,11 @@
   "contactedPercent": 12.9,
   "contactedRank": 30,
   "productPercent": 2.6,
-  "productRank": 51
+  "productRank": 51,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New York",
@@ -6651,7 +7766,11 @@
   "contactedPercent": 13.5,
   "contactedRank": 25,
   "productPercent": 4.6,
-  "productRank": 47
+  "productRank": 47,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Carolina",
@@ -6673,7 +7792,11 @@
   "contactedPercent": 16.8,
   "contactedRank": 11,
   "productPercent": 6,
-  "productRank": 38
+  "productRank": 38,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Dakota",
@@ -6695,7 +7818,11 @@
   "contactedPercent": 10.9,
   "contactedRank": 43,
   "productPercent": 11.4,
-  "productRank": 6
+  "productRank": 6,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Ohio",
@@ -6717,7 +7844,11 @@
   "contactedPercent": 10.1,
   "contactedRank": 46,
   "productPercent": 7.1,
-  "productRank": 28
+  "productRank": 28,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oklahoma",
@@ -6739,7 +7870,11 @@
   "contactedPercent": 16.2,
   "contactedRank": 14,
   "productPercent": 10,
-  "productRank": 10
+  "productRank": 10,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oregon",
@@ -6761,7 +7896,11 @@
   "contactedPercent": 14.3,
   "contactedRank": 20,
   "productPercent": 10,
-  "productRank": 10
+  "productRank": 10,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Pennsylvania",
@@ -6783,7 +7922,11 @@
   "contactedPercent": 9.7,
   "contactedRank": 49,
   "productPercent": 7.5,
-  "productRank": 24
+  "productRank": 24,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Rhode Island",
@@ -6805,7 +7948,11 @@
   "contactedPercent": 12.1,
   "contactedRank": 35,
   "productPercent": 7,
-  "productRank": 29
+  "productRank": 29,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Carolina",
@@ -6827,7 +7974,11 @@
   "contactedPercent": 13.4,
   "contactedRank": 26,
   "productPercent": 6.7,
-  "productRank": 31
+  "productRank": 31,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Dakota",
@@ -6849,7 +8000,11 @@
   "contactedPercent": 11.3,
   "contactedRank": 41,
   "productPercent": 9.5,
-  "productRank": 14
+  "productRank": 14,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Tennessee",
@@ -6871,7 +8026,11 @@
   "contactedPercent": 13,
   "contactedRank": 29,
   "productPercent": 5.8,
-  "productRank": 41
+  "productRank": 41,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Texas",
@@ -6893,7 +8052,11 @@
   "contactedPercent": 14.1,
   "contactedRank": 22,
   "productPercent": 5.5,
-  "productRank": 43
+  "productRank": 43,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Utah",
@@ -6915,7 +8078,11 @@
   "contactedPercent": 21.8,
   "contactedRank": 2,
   "productPercent": 8.1,
-  "productRank": 20
+  "productRank": 20,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Vermont",
@@ -6937,7 +8104,11 @@
   "contactedPercent": 17.2,
   "contactedRank": 9,
   "productPercent": 13.1,
-  "productRank": 2
+  "productRank": 2,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Virginia",
@@ -6959,7 +8130,11 @@
   "contactedPercent": 15.2,
   "contactedRank": 16,
   "productPercent": 6.1,
-  "productRank": 37
+  "productRank": 37,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Washington",
@@ -6981,7 +8156,11 @@
   "contactedPercent": 18.5,
   "contactedRank": 5,
   "productPercent": 9.1,
-  "productRank": 17
+  "productRank": 17,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "West Virginia",
@@ -7003,7 +8182,11 @@
   "contactedPercent": 14.5,
   "contactedRank": 18,
   "productPercent": 9.1,
-  "productRank": 17
+  "productRank": 17,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wisconsin",
@@ -7025,7 +8208,11 @@
   "contactedPercent": 14.9,
   "contactedRank": 17,
   "productPercent": 10.6,
-  "productRank": 8
+  "productRank": 8,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wyoming",
@@ -7047,7 +8234,11 @@
   "contactedPercent": 12.7,
   "contactedRank": 32,
   "productPercent": 11.8,
-  "productRank": 5
+  "productRank": 5,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "National Average",
@@ -7069,7 +8260,11 @@
   "contactedPercent": 13.2,
   "contactedRank": 0,
   "productPercent": 6.4,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alabama",
@@ -7091,7 +8286,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alaska",
@@ -7113,7 +8312,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arizona",
@@ -7135,7 +8338,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Arkansas",
@@ -7157,7 +8364,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "California",
@@ -7179,7 +8390,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Colorado",
@@ -7201,7 +8416,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Connecticut",
@@ -7223,7 +8442,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "DC",
@@ -7245,7 +8468,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Delaware",
@@ -7267,7 +8494,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Florida",
@@ -7289,7 +8520,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Georgia",
@@ -7311,7 +8546,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Hawaii",
@@ -7333,7 +8572,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Idaho",
@@ -7355,7 +8598,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Illinois",
@@ -7377,7 +8624,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Indiana",
@@ -7399,7 +8650,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Iowa",
@@ -7421,7 +8676,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kansas",
@@ -7443,7 +8702,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Kentucky",
@@ -7465,7 +8728,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Louisiana",
@@ -7487,7 +8754,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maine",
@@ -7509,7 +8780,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Maryland",
@@ -7531,7 +8806,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Massachusetts",
@@ -7553,7 +8832,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Michigan",
@@ -7575,7 +8858,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Minnesota",
@@ -7597,7 +8884,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Mississippi",
@@ -7619,7 +8910,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Missouri",
@@ -7641,7 +8936,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Montana",
@@ -7663,7 +8962,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nebraska",
@@ -7685,7 +8988,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Nevada",
@@ -7707,7 +9014,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Hampshire",
@@ -7729,7 +9040,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Jersey",
@@ -7751,7 +9066,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New Mexico",
@@ -7773,7 +9092,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "New York",
@@ -7795,7 +9118,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Carolina",
@@ -7817,7 +9144,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "North Dakota",
@@ -7839,7 +9170,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Ohio",
@@ -7861,7 +9196,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oklahoma",
@@ -7883,7 +9222,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Oregon",
@@ -7905,7 +9248,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Pennsylvania",
@@ -7927,7 +9274,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Rhode Island",
@@ -7949,7 +9300,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Carolina",
@@ -7971,7 +9326,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "South Dakota",
@@ -7993,7 +9352,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Tennessee",
@@ -8015,7 +9378,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Texas",
@@ -8037,7 +9404,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Utah",
@@ -8059,7 +9430,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Vermont",
@@ -8081,7 +9456,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Virginia",
@@ -8103,7 +9482,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Washington",
@@ -8125,7 +9508,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "West Virginia",
@@ -8147,7 +9534,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wisconsin",
@@ -8169,7 +9560,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Wyoming",
@@ -8191,7 +9586,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "National Average",
@@ -8213,7 +9612,11 @@
   "contactedPercent": 0,
   "contactedRank": 0,
   "productPercent": 0,
-  "productRank": 0
+  "productRank": 0,
+  "groupPercent": 0,
+  "groupRank": 0,
+  "organizationPercent": 0,
+  "organizationRank": 0
 },
 {
   "state": "Alabama",

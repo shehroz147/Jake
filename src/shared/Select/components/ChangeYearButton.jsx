@@ -2,16 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from 'wolfshark';
 import YearSelect from './YearSelect';
+import years from '../constants/years';
 
-const years = [
-  '2008',
-  '2009',
-  '2010',
-  '2011',
-  '2012',
-  '2013',
-  '2014',
-];
 
 const ChangeYearButton = props => (
   <div className="o-flex-layout">

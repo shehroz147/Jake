@@ -15,4 +15,4 @@ const mapStateToProps = ({ auth }) => {
   };
 };
 
-export default connect(mapStateToProps, { logout })(Layout);
+export default connect(mapStateToProps)(Layout);

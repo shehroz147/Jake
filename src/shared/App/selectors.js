@@ -15,6 +15,11 @@ import {
   yearSelector,
 } from '../Select/selectors';
 
+import {
+  TREND_PERCENT,
+  TREND_RANK,
+} from '../Trend/components/Trend';
+
 export const dataSelector = state => state.data;
 
 export const filteredStateSelector = createSelector(
@@ -42,58 +47,59 @@ export const filteredState2Selector = createSelector(
 );
 
 export const chartSelector = createSelector(
-  [state1Selector, state2Selector, dataSelector],
-  (state1, state2, data) => {
+  [state1Selector, state2Selector, dataSelector, trendSelector],
+  (state1, state2, data, trend) => {
     const chartData = filter(data, (d) => {
-        if (d.state === state1) {
-          return true;
-        }
+      if (d.state === state1 && d[TREND_PERCENT[trend]]) {
+        return true;
+      }
 
-        if (d.state === state2) {
-          return true;
-        }
+      if (d.state === state2 && d[TREND_PERCENT[trend]]) {
+        return true;
+      }
 
-        if (d.state === 'National Average') {
-          return true;
-        }
+      if (d.state === 'National Average' && d[TREND_PERCENT[trend]]) {
+        return true;
+      }
 
-        return false;
-      })
-      .reduce((result, d, index) => {
-        result[index] = {};
-        if (d.state === state1) {
-          forEach(keys(d), (key) => {
-            if (key === 'year') {
-              result[index]['year'] = d['year'];
-            } else {
-              result[index][`${key}1`] = d[key];
-            }
-          });
-        } else if (d.state === state2) {
-          forEach(keys(d), (key) => {
-            if (key === 'year') {
-              result[index]['year'] = d['year'];
-            } else {
-              result[index][`${key}2`] = d[key];
-            }
-          });
-        } else if (d.state === 'National Average') {
-          forEach(keys(d), (key) => {
-            if (key === 'year') {
-              result[index]['year'] = d['year'];
-            } else {
-              result[index][`${key}n`] = d[key];
-            }
-          });
-        }
+      return false;
+    })
+    .reduce((result, d, index) => {
+      result[index] = {};
+      if (d.state === state1) {
+        forEach(keys(d), (key) => {
+          if (key === 'year') {
+            result[index]['year'] = d['year'];
+          } else {
+            result[index][`${key}1`] = d[key];
+          }
+        });
+      } else if (d.state === state2) {
+        forEach(keys(d), (key) => {
+          if (key === 'year') {
+            result[index]['year'] = d['year'];
+          } else {
+            result[index][`${key}2`] = d[key];
+          }
+        });
+      } else if (d.state === 'National Average') {
+        forEach(keys(d), (key) => {
+          if (key === 'year') {
+            result[index]['year'] = d['year'];
+          } else {
+            result[index][`${key}n`] = d[key];
+          }
+        });
+      }
 
-        return result;
-      }, []);
+      return result;
+    }, []);
 
     const groupedChartData = groupBy(chartData, 'year');
     const finalChartData = [];
     let i = 0;
     forEach(groupedChartData, (year) => {
+      // console.log(year);
       finalChartData[i] = Object.assign(
         {},
         year[0],

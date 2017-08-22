@@ -35,8 +35,8 @@ const stateReducer2 = (state, action) => {
 
 const initialState = {
   state: 'National Average',
-  state1: 'Florida',
-  state2: 'Texas',
+  state1: 'National Average',
+  state2: 'Florida',
   trend: 'volunteer',
   year: '2014',
 };
