@@ -1,18 +1,23 @@
 {
   "env": {
-    "DEBUG": "server:*,client:*",
     "NODE_ENV": "development",
-    "PORT": "3001"
+    "PORT": "3000"
   },
+
   "execMap": {
     "js": "babel-node",
     "jsx": "babel-node"
   },
-  "ext": "js jsx json hbs",
+
+  "ext": "js jsx",
+
   "ignore": [
     ".git/",
     "node_modules/"
   ],
+
+  "verbose": false,
+
   "watch": [
     "src"
   ]

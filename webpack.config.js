@@ -1,74 +1,39 @@
-const debug = process.env.NODE_ENV !== 'production';
-
-const webpack = require('webpack');
 const path = require('path');
-
-var entry = [
-  'babel-polyfill',
-  path.resolve(__dirname, 'src/client/client.jsx'),
-];
-
-if (debug) {
-  entry.unshift('react-hot-loader/patch');
-}
-
-var publicPath = '/js';
-
-if (debug) {
-  publicPath = 'http://localhost:3031/js';
-}
+const webpack = require('webpack');
 
 module.exports = {
-  devtool: debug ? 'inline-sourcemap' : null,
-
   devServer: {
     headers: {
-      'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Origin": "*",
     },
   },
 
-  entry: entry,
-
-  output: {
-    path: path.resolve(__dirname, 'src', 'static', 'js'),
-    publicPath: publicPath,
-    filename: 'bundle.js',
-  },
+  entry: [
+    'babel-polyfill',
+    'react-hot-loader/patch',
+    path.join(__dirname, 'src', 'client'),
+  ],
 
   module: {
     rules: [
       {
         exclude: /node_modules/,
         loader: 'babel-loader',
-        test: /.jsx?$/,
-      },
-      {
-        loaders: ['style-loader', 'css-loader', 'sass-loader'],
-        test: /\.scss$/,
-      },
+        test: /\.js$/,
+      }
     ],
   },
 
-  // sassLoader: {
-  //   includePaths: [path.resolve(__dirname, "./styles")]
-  // },
+  output: {
+    filename: 'bundle.js',
+    publicPath: 'http://localhost:8080/js/',
+  },
 
-  plugins: debug ? [] : [
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    }),
-    new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false },
-      mangle: true,
-      sourcemap: false,
-      beautify: false,
-      dead_code: true,
-    }),
+  plugins: [
+    new webpack.NamedModulesPlugin(),
   ],
 
   resolve: {
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: ['.js'],
   },
 };
