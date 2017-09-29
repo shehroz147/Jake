@@ -19,6 +19,11 @@ const MetroSelect = (props) => {
     <div>
       <div>
         <div>
+          <input type="checkbox" value="1">1</input>
+          <input type="checkbox" value="2">2</input>
+          <input type="checkbox" value="3">3</input>
+        </div>
+        <div>
           <h1>Metro1 Select</h1>
           <select
             onChange={selectPrimary}
