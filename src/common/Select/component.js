@@ -19,7 +19,7 @@ const Select = (props) => {
 
   return (
     <div>
-      <h1>{(type === 'state') ? 'Compare Metro' : 'Compare State'}</h1>
+      <h1>{(type === 'state') ? 'Compare State' : 'Compare Metro'}</h1>
       <Component />
 
       <div>

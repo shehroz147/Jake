@@ -11,6 +11,7 @@ import {
 
 export const primaryMetroSelector = state => state.metro.primary;
 export const secondaryMetroSelector = state => state.metro.secondary;
+export const metroSizeSelector = state => state.metro.size; 
 
 export const filteredPrimaryMetroSelector = createSelector(
   [primaryMetroSelector, yearSelector, dataSelector],

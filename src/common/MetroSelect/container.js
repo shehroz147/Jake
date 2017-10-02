@@ -6,6 +6,7 @@ import MetroSelect from './component';
 import {
   selectPrimary,
   selectSecondary,
+  selectMetroSize,
 } from './actions';
 
 import {
@@ -25,6 +26,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => bindActionCreators({
   selectPrimary: ({ target }) => selectPrimary(target.value),
   selectSecondary: ({ target }) => selectSecondary(target.value),
+  selectMetroSize: ({ target }) => selectMetroSize(target.value),
 }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(MetroSelect);

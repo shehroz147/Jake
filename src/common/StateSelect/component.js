@@ -62,11 +62,12 @@ const StateSelect = (props) => {
       </div>
       <div>
         <h2>Volunteer</h2>
-        <YearSelect />
 
         <Volunteer state={primary} filter={filteredPrimary}  {...props} />
         <Volunteer state={secondary} filter={filteredSecondary} {...props} />
         <Volunteer state={tertiary} filter={filteredTertiary} {...props} />
+        <YearSelect />
+        
       </div>
     </div>
   );

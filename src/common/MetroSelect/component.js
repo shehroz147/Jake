@@ -13,15 +13,17 @@ const MetroSelect = (props) => {
     selectPrimary,
     selectSecondary,
     selectYear,
+    selectMetroSize,
   } = props;
 
   return (
     <div>
       <div>
         <div>
-          <input type="checkbox" value="1">1</input>
-          <input type="checkbox" value="2">2</input>
-          <input type="checkbox" value="3">3</input>
+          <h2>Filter by Metro Size</h2>
+          <button value="1" onClick={selectMetroSize}>Large</button>
+          <button value="2" onClick={selectMetroSize}>Medium</button>
+          <button value="3" onClick={selectMetroSize}>Small</button>
         </div>
         <div>
           <h1>Metro1 Select</h1>
