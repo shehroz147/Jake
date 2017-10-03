@@ -13,7 +13,11 @@ render(
   <Provider store={store}>
     <Router routes={routes} history={browserHistory} />
   </Provider>,
-  document.getElementById('app')
+  document.getElementById('app'),
+  () => {
+    const serverSideStyles = document.getElementById('js-server-side-styles');
+    serverSideStyles.parentNode.removeChild(serverSideStyles);
+  }
 );
 
 if (module.hot) {
