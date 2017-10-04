@@ -1,17 +1,18 @@
+import compression from 'compression';
+import configureStore from '../common/Redux/configureStore';
 import Express from  'express';
+import path from 'path';
 import React from 'react';
-import { renderToString } from 'react-dom/server';
+import rootReducer from '../common/Redux/rootReducer';
+import routes from '../common/routes';
+import { JssProvider, SheetsRegistry } from 'react-jss';
 import { match, RouterContext } from 'react-router';
 import { Provider } from 'react-redux';
-import routes from '../common/routes';
-import compression from 'compression';
-import path from 'path';
-import configureStore from '../common/Redux/configureStore';
-import rootReducer from '../common/Redux/rootReducer';
+import { renderToString } from 'react-dom/server';
 
-import { retrieveData } from '../common/Data/actions';
-import stateData from '../common/Data/stateData.json';
 import metroData from '../common/Data/metroData.json';
+import stateData from '../common/Data/stateData.json';
+import { retrieveData } from '../common/Data/actions';
 
 const server = new Express();
 
@@ -25,33 +26,38 @@ server.use((req, res) => {
       res.redirect(redirect.pathname + redirect.search)
     } else if (props) {
       const store = configureStore();
+      const sheets = new SheetsRegistry();
 
       store.dispatch(retrieveData(stateData));
       store.dispatch(retrieveData(metroData));
 
       const markup = renderToString(
-        <Provider store={store}>
-          <RouterContext {...props} />
-        </Provider>
+        <JssProvider registry={sheets}>
+          <Provider store={store}>
+            <RouterContext {...props} />
+          </Provider>
+        </JssProvider>
       );
 
       const preloadedState = store.getState();
 
-      res.send(renderPage(markup, preloadedState));
+      res.send(renderPage(markup, preloadedState, sheets));
     } else {
       res.status(404).send('Not Found');
     }
   })
 })
 
-const renderPage = (markup, preloadedState) => {
+const renderPage = (markup, preloadedState, sheets) => {
   return `
     <!DOCTYPE html>
     <html>
       <head>
         <meta charset="utf-8" />
         <title>Boilerplate</title>
-        <link rel="stylesheet" href="" />
+        <style id="js-server-side-styles" type="text/css">
+          ${sheets.toString()}
+        </style>
       </head>
       <body>
         <div id="app">${markup}</div>
