@@ -22,7 +22,7 @@ const selectMetroSize = (state, action) => {
 const initialState = {
   primary: 'Orlando FL',
   secondary: 'Sarasota-Bradenton-Venice FL',
-  size: 1,
+  size: "1",
 };
 
 export default (state = initialState, action) => ({
