@@ -20,9 +20,9 @@ const selectMetroSize = (state, action) => {
 };
 
 const initialState = {
-  primary: 'Orlando FL',
-  secondary: 'Sarasota-Bradenton-Venice FL',
-  size: "1",
+  primary: 'Atlanta-Sandy Springs-Roswell GA',
+  secondary: 'Austin-Round Rock TX',
+  size: '3',
 };
 
 export default (state = initialState, action) => ({

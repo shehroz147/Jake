@@ -5,7 +5,6 @@ import stateList from './constants';
 import Volunteer from '../Trends/components/Volunteer';
 import YearSelect from '../YearSelect/container';
 
-
 const StateSelect = (props) => {
   const {
     filteredPrimary,
@@ -62,11 +61,10 @@ const StateSelect = (props) => {
       </div>
       <div>
         <h2>Volunteer</h2>
-
+        <YearSelect trend="volunteer_percent" />
         <Volunteer state={primary} filter={filteredPrimary}  {...props} />
         <Volunteer state={secondary} filter={filteredSecondary} {...props} />
         <Volunteer state={tertiary} filter={filteredTertiary} {...props} />
-        <YearSelect />
 
       </div>
     </div>

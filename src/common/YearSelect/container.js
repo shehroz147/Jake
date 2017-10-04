@@ -9,14 +9,23 @@ import {
 
 import {
   yearSelector,
+  yearListSelector,
+  makeYearListSelector,
 } from './selectors';
 
-const mapStateToProps = state => ({
-  year: yearSelector(state),
-});
+const makeMapStateToProps = (initialState, initialProps) => {
+  const yearListSelector = makeYearListSelector(initialProps.trend);
+
+  const mapStateToProps = (state, ownProps) => ({
+    year: yearSelector(state),
+    yearList: yearListSelector(state, ownProps.trend),
+  });
+
+  return mapStateToProps;
+};
 
 const mapDispatchToProps = dispatch => bindActionCreators({
   selectYear: ({ target }) => selectYear(target.value),
 }, dispatch);
 
-export default connect(mapStateToProps, mapDispatchToProps)(YearSelect);
+export default connect(makeMapStateToProps, mapDispatchToProps)(YearSelect);

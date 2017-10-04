@@ -20,15 +20,15 @@ const Select = (props) => {
   return (
     <div>
       <h1>{(type === 'state') ? 'Compare State' : 'Compare Metro'}</h1>
-      <Component />
-
       <div>
         <button
           onClick={() => changeType(nextType)}
-        >
-          {(type === 'state') ? 'Compare Metro' : 'Compare State'}
-        </button>
-      </div>
+          >
+            {(type === 'state') ? 'Compare Metro' : 'Compare State'}
+          </button>
+        </div>
+      <Component />
+
     </div>
   )
 }

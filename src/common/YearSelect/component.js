@@ -1,38 +1,19 @@
 import React from 'react';
 
-const years = [
-  '2017',
-  '2016',
-  '2015',
-  '2014',
-  '2013',
-  '2012',
-  '2011',
-  '2010',
-  '2009',
-  '2008',
-  'All Years'
-];
-
-const YearSelect = (props) => {
+const Year = (props) => {
   const {
     selectYear,
     year,
+    yearList,
   } = props;
-
-  // if (year === 'All Years') {
-  //   return (
-  //     <LineGraph trend={} {...props} />
-  //   )
-  // }
 
   return (
     <div>
       <select
         onChange={selectYear}
-        value={year}
+        value={year.year}
       >
-        {years.map(
+        {yearList.map(
           (year, key) =>
             <option
               key={key}
@@ -46,4 +27,4 @@ const YearSelect = (props) => {
   )
 }
 
-export default YearSelect;
+export default Year;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Volunteer from '../Trends/components/Volunteer';
+import YearSelect from '../YearSelect/container';
 
 const MetroSelect = (props) => {
   const {
@@ -13,6 +14,7 @@ const MetroSelect = (props) => {
     selectYear,
     selectMetroSize,
     metroList,
+    volunteer
   } = props;
 
   return (
@@ -64,6 +66,7 @@ const MetroSelect = (props) => {
       </div>
       <div>
         <h2>Volunteer</h2>
+        <YearSelect trend="volunteer_percent" />
         <Volunteer state={primary} filter={filteredPrimary} {...props} />
         <Volunteer state={secondary} filter={filteredSecondary} {...props} />
       </div>
