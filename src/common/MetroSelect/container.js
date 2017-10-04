@@ -14,6 +14,7 @@ import {
   secondaryMetroSelector,
   filteredPrimaryMetroSelector,
   filteredSecondaryMetroSelector,
+  metroListSelector,
 } from './selectors';
 
 const mapStateToProps = state => ({
@@ -21,6 +22,7 @@ const mapStateToProps = state => ({
   secondary: state.metro.secondary,
   filteredPrimary: filteredPrimaryMetroSelector(state),
   filteredSecondary: filteredSecondaryMetroSelector(state),
+  metroList: metroListSelector(state),
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
