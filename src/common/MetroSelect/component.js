@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import metroData from '../Data/metroData.json';
-
 import Volunteer from '../Trends/components/Volunteer';
 
 const MetroSelect = (props) => {
@@ -14,6 +12,7 @@ const MetroSelect = (props) => {
     selectSecondary,
     selectYear,
     selectMetroSize,
+    metroList,
   } = props;
 
   return (
@@ -21,9 +20,9 @@ const MetroSelect = (props) => {
       <div>
         <div>
           <h2>Filter by Metro Size</h2>
-          <button value="1" onClick={selectMetroSize}>Large</button>
+          <button value="3" onClick={selectMetroSize}>Large</button>
           <button value="2" onClick={selectMetroSize}>Medium</button>
-          <button value="3" onClick={selectMetroSize}>Small</button>
+          <button value="1" onClick={selectMetroSize}>Small</button>
         </div>
         <div>
           <h1>Metro1 Select</h1>
@@ -31,13 +30,13 @@ const MetroSelect = (props) => {
             onChange={selectPrimary}
             value={primary}
           >
-            {metroData.map(
-              (data, key) =>
+            {metroList.map(
+              (metro, key) =>
                 <option
                   key={key}
-                  value={data.metro}
+                  value={metro.metro}
                 >
-                  {data.metro}
+                  {metro.metro}
                 </option>
             )}
           </select>
@@ -51,13 +50,13 @@ const MetroSelect = (props) => {
             onChange={selectSecondary}
             value={secondary}
           >
-            {metroData.map(
-              (data, key) =>
+            {metroList.map(
+              (metro, key) =>
                 <option
                   key={key}
-                  value={data.metro}
+                  value={metro.metro}
                 >
-                  {data.metro}
+                  {metro.metro}
                 </option>
             )}
           </select>
