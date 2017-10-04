@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import stateData from '../Data/stateData.json';
+import stateList from './constants';
 
 import Volunteer from '../Trends/components/Volunteer';
 import YearSelect from '../YearSelect/container';
@@ -29,13 +29,13 @@ const StateSelect = (props) => {
             onChange={selectPrimary}
             value={primary}
           >
-            {stateData.map(
-              (data, key) =>
+            {stateList.map(
+              (state, key) =>
                 <option
                   key={key}
-                  value={data.state}
+                  value={state}
                 >
-                  {data.state}
+                  {state}
                 </option>
             )}
           </select>
@@ -48,13 +48,13 @@ const StateSelect = (props) => {
             onChange={selectSecondary}
             value={secondary}
           >
-            {stateData.map(
-              (data, key) =>
+            {stateList.map(
+              (state, key) =>
                 <option
                   key={key}
-                  value={data.state}
+                  value={state}
                 >
-                  {data.state}
+                  {state}
                 </option>
             )}
           </select>
@@ -67,7 +67,7 @@ const StateSelect = (props) => {
         <Volunteer state={secondary} filter={filteredSecondary} {...props} />
         <Volunteer state={tertiary} filter={filteredTertiary} {...props} />
         <YearSelect />
-        
+
       </div>
     </div>
   );
