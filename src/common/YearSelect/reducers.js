@@ -3,7 +3,7 @@ const selectYear = (state, action) => {
     case 'SELECT_YEAR': return action.payload;
     default: return state;
   }
-}
+};
 
 const initialState = {
   year: '2011',

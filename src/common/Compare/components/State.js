@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
-import stateList from './constants';
+import stateList from '../constants';
 
-import Volunteer from '../Trends/components/Volunteer';
-import Voted from '../Trends/components/Voted';
-import YearSelect from '../YearSelect/container';
+import Volunteer from '../../Trends/components/Volunteer';
+import Voted from '../../Trends/components/Voted';
+import YearSelect from './Year';
 
 const StateSelect = (props) => {
   const {
-    filteredPrimary,
-    filteredSecondary,
-    filteredTertiary,
+    primaryData,
+    secondaryData,
+    tertiaryData,
     primary,
     secondary,
     tertiary,
@@ -62,16 +62,16 @@ const StateSelect = (props) => {
       </div>
       <div>
         <h2>Volunteer</h2>
-        <YearSelect trend="volunteer_percent" />
-        <Volunteer state={primary} filter={filteredPrimary}  {...props} />
-        <Volunteer state={secondary} filter={filteredSecondary} {...props} />
-        <Volunteer state={tertiary} filter={filteredTertiary} {...props} />
+        <YearSelect trend="volunteer_percent" {...props} />
+        <Volunteer state={primary} filter={primaryData}  {...props} />
+        <Volunteer state={secondary} filter={secondaryData} {...props} />
+        <Volunteer state={tertiary} filter={tertiaryData} {...props} />
 
         <h2>Voted</h2>
-        <YearSelect trend="voted_percent" />
-        <Voted state={primary} filter={filteredPrimary}  {...props} />
-        <Voted state={secondary} filter={filteredSecondary} {...props} />
-        <Voted state={tertiary} filter={filteredTertiary} {...props} />
+        <YearSelect trend="voted_percent" {...props} />
+        <Voted state={primary} filter={primaryData}  {...props} />
+        <Voted state={secondary} filter={secondaryData} {...props} />
+        <Voted state={tertiary} filter={tertiaryData} {...props} />
 
       </div>
     </div>

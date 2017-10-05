@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
 
-import Volunteer from '../Trends/components/Volunteer';
-import Voted from '../Trends/components/Voted';
-import YearSelect from '../YearSelect/container';
+import Volunteer from '../../Trends/components/Volunteer';
+import Voted from '../../Trends/components/Voted';
+import YearSelect from './Year';
 
 const MetroSelect = (props) => {
   const {
     primary,
     secondary,
-    filteredPrimary,
-    filteredSecondary,
+    primaryData,
+    secondaryData,
     selectPrimary,
     selectSecondary,
     selectYear,
     selectMetroSize,
     metroList,
-    volunteer
   } = props;
 
   return (
@@ -67,14 +66,14 @@ const MetroSelect = (props) => {
       </div>
       <div>
         <h2>Volunteer</h2>
-        <YearSelect trend="volunteer_percent" />
-        <Volunteer state={primary} filter={filteredPrimary} {...props} />
-        <Volunteer state={secondary} filter={filteredSecondary} {...props} />
+        <YearSelect trend="volunteer_percent" {...props} />
+        <Volunteer state={primary} filter={primaryData} {...props} />
+        <Volunteer state={secondary} filter={secondaryData} {...props} />
 
         <h2>Volunteer</h2>
-        <YearSelect trend="voted_percent" />
-        <Voted state={primary} filter={filteredPrimary} {...props} />
-        <Voted state={secondary} filter={filteredSecondary} {...props} />
+        <YearSelect trend="voted_percent" {...props} />
+        <Voted state={primary} filter={primaryData} {...props} />
+        <Voted state={secondary} filter={secondaryData} {...props} />
       </div>
     </div>
   )

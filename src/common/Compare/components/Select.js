@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import StateSelect from '../StateSelect/container';
-import MetroSelect from '../MetroSelect/container';
+import StateSelect from './State';
+import MetroSelect from './Metro';
 
 const Select = (props) => {
   const {
-    changeType,
+    selectType,
     type,
   } = props;
 
@@ -22,12 +22,12 @@ const Select = (props) => {
       <h1>{(type === 'state') ? 'Compare State' : 'Compare Metro'}</h1>
       <div>
         <button
-          onClick={() => changeType(nextType)}
+          onClick={() => selectType(nextType)}
           >
             {(type === 'state') ? 'Compare Metro' : 'Compare State'}
           </button>
         </div>
-      <Component />
+      <Component {...props} />
 
     </div>
   )

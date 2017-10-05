@@ -29,6 +29,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => bindActionCreators({
   selectPrimary: ({ target }) => selectPrimary(target.value),
   selectSecondary: ({ target }) => selectSecondary(target.value),
+  selectYear: ({ target }) => selectYear(target.value),
 }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(StateSelect);
