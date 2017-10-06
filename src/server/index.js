@@ -1,17 +1,19 @@
 import compression from 'compression';
-import configureStore from '../common/Redux/configureStore';
 import Express from  'express';
 import path from 'path';
 import React from 'react';
-import rootReducer from '../common/Redux/rootReducer';
-import routes from '../common/routes';
+
 import { JssProvider, SheetsRegistry } from 'react-jss';
 import { match, RouterContext } from 'react-router';
 import { Provider } from 'react-redux';
 import { renderToString } from 'react-dom/server';
 
+import configureStore from '../common/Redux/configureStore';
 import metroData from '../common/Data/metroData.json';
+import routes from '../common/routes';
+import rootReducer from '../common/Redux/rootReducer';
 import stateData from '../common/Data/stateData.json';
+
 import { retrieveData } from '../common/Data/actions';
 
 const server = new Express();
