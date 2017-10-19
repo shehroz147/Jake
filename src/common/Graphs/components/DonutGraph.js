@@ -17,7 +17,7 @@ const DonutGraph = (props) => {
   }
 
   return (
-    <div>
+    <div className={classes['donut-chart']}>
       <svg
         width="100%"
         height="100%"
@@ -50,23 +50,29 @@ const DonutGraph = (props) => {
           strokeLinecap="round"
           strokeWidth="4"
         />
-
-        <g className={classes.text}>
-          <text x="50%" y="50%" className="chart-number">
-            {`${percent}%`}
-          </text>
-        </g>
       </svg>
+
+      <div className={classes.percent}>
+        {`${percent}%`}
+      </div>
     </div>
   );
 };
 
 const styles = {
-  text: {
-    fontSize: "0.5em",
-    textAnchor: "middle",
-    transform: "translateY(25%)",
-  }
+  'donut-chart': {
+    position: 'relative',
+  },
+
+  percent: {
+    fontSize: '40px',
+    fontWeight: '600',
+    left: '50%',
+    position: 'absolute',
+    textAlign: 'center',
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
+  },
 }
 
 export default injectSheet(styles)(DonutGraph);
