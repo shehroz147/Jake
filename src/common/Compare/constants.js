@@ -1,4 +1,4 @@
-export default [
+export const states = [
   "Alabama",
   "Alaska",
   "Arizona",
@@ -51,4 +51,4 @@ export default [
   "Wisconsin",
   "Wyoming",
   "National Average",
-]
+];

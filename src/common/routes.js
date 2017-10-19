@@ -1,13 +1,15 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import App from './App/component';
-import Home from './Home/component';
-import SelectContainer from './Compare/containers/Select';
+import App from './App';
+import Index from './Index';
+import Compare from './Compare';
+import Reports from './Reports';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={Home} />
-    <Route path="/compare" component={SelectContainer} />
+    <IndexRoute component={Index} />
+    <Route path="/compare" component={Compare} />
+    <Route path="/reports" component={Reports} />
   </Route>
 );

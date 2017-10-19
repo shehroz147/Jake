@@ -1,6 +1,5 @@
 /* global window */
 
-import logger from 'redux-logger'; // eslint-disable-line
 import thunk from 'redux-thunk';
 import { applyMiddleware, createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
@@ -10,7 +9,11 @@ import rootReducer from './rootReducer';
 const middleware = [thunk];
 
 if (typeof window !== 'undefined') {
-  middleware.push(logger);
+  const { createLogger } = require('redux-logger');
+  middleware.push(createLogger({
+    collapsed: true,
+    duration: false,
+  }));
 }
 
 export default (initialState = {}) => {

@@ -12,23 +12,31 @@ const DonutGraph = (props) => {
     percent,
   } = props;
 
+  if (!percent) {
+    return <p>No data available.</p>;
+  }
+
   return (
     <div>
       <svg
-        width="125px"
-        height="125px"
+        width="100%"
+        height="100%"
         viewBox="0 0 42 42"
         className="donut"
         aria-labelledby=""
         role="img"
+        style={{
+          maxHeight: '12rem',
+          maxWidth: '12rem',
+        }}
       >
 
         <circle
           className="donut-ring"
           cx="21" cy="21" r="15.91549430918954"
           fill="transparent"
-          stroke="#f7f7f7"
-          strokeWidth="3"
+          stroke="whitesmoke"
+          strokeWidth="4"
           role="presentation"
         />
 
@@ -36,10 +44,11 @@ const DonutGraph = (props) => {
           className="donut-segment"
           cx="21" cy="21" r="15.91549430918954"
           fill="transparent"
-          stroke="#c0ffee"
-          strokeWidth="3"
+          stroke="mediumturquoise"
           strokeDasharray={formatStrokeDashArray(percent)}
           strokeDashoffset="25"
+          strokeLinecap="round"
+          strokeWidth="4"
         />
 
         <g className={classes.text}>
@@ -54,10 +63,9 @@ const DonutGraph = (props) => {
 
 const styles = {
   text: {
-    fontSize: "0.4em",
-    lineHeight: "1",
+    fontSize: "0.5em",
     textAnchor: "middle",
-    transform: "translateY(-0.25em)",
+    transform: "translateY(25%)",
   }
 }
 

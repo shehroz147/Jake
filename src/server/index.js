@@ -1,17 +1,15 @@
 import compression from 'compression';
 import Express from  'express';
-import path from 'path';
 import React from 'react';
-
 import { JssProvider, SheetsRegistry } from 'react-jss';
 import { match, RouterContext } from 'react-router';
 import { Provider } from 'react-redux';
 import { renderToString } from 'react-dom/server';
+import { resolve } from 'path';
 
-import configureStore from '../common/Redux/configureStore';
+import createStore from '../common/Redux/createStore';
 import metroData from '../common/Data/metroData.json';
 import routes from '../common/routes';
-import rootReducer from '../common/Redux/rootReducer';
 import stateData from '../common/Data/stateData.json';
 
 import { retrieveData } from '../common/Data/actions';
@@ -20,6 +18,8 @@ const server = new Express();
 
 server.use(compression());
 
+server.use(Express.static(resolve(__dirname, '../../static'), { maxAge: '1y' }));
+
 server.use((req, res) => {
   match({ routes: routes, location: req.url }, (err, redirect, props) => {
     if (err){
@@ -27,7 +27,7 @@ server.use((req, res) => {
     } else if (redirect) {
       res.redirect(redirect.pathname + redirect.search)
     } else if (props) {
-      const store = configureStore();
+      const store = createStore();
       const sheets = new SheetsRegistry();
 
       store.dispatch(retrieveData(stateData));
@@ -62,7 +62,7 @@ const renderPage = (markup, preloadedState, sheets) => {
         </style>
       </head>
       <body>
-        <div id="app">${markup}</div>
+        <div id="js-react">${markup}</div>
         <script>
           window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(/</g, '\\u003c')}
         </script>
