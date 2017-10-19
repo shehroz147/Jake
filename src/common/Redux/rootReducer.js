@@ -1,13 +1,11 @@
 import { combineReducers } from 'redux';
 
-import dataReducers from '../Data/reducers';
-import compareReducers from '../Compare/reducers';
+import compare from '../Compare/reducer';
+import data from '../Data/reducer';
+import trends from '../Trends/reducer';
 
 export default combineReducers({
-  data: dataReducers,
-  // metro: metroReducers,
-  // state: stateReducers,
-  // type: typeReducer,
-  // year: yearReducers,
-  selection: compareReducers,
+  compare,
+  data,
+  trends,
 });

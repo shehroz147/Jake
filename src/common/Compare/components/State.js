@@ -1,81 +1,131 @@
-import React, { Component } from 'react';
+import injectSheet from 'react-jss';
+import Link from 'react-router/lib/Link';
+import React from 'react';
+import {
+  Column,
+  Columns,
+  Container,
+  Heading,
+  Hero,
+  HeroBody,
+  HeroFooter,
+  HeroHeader,
+  Section,
+  Select,
+} from 'react-mako';
 
-import stateList from '../constants';
+import Navigation from '../../Navigation';
+import * as CompareConstants from '../constants';
 
-import Volunteer from '../../Trends/components/Volunteer';
-import Voted from '../../Trends/components/Voted';
-import YearSelect from './Year';
+const styles = {
+  container: {
+    position: 'relative',
+
+    '&:after': {
+      border: `1px solid rgba(255, 255, 255, 0.64)`,
+      borderLeft: 0,
+      borderTop: 0,
+      content: '""',
+      display: 'block',
+      height: '.5em',
+      position: 'absolute',
+      pointerEvents: 'none',
+      right: '1.25em',
+      top: '1.25em',
+      transform: 'rotate(45deg)',
+      width: '.5em',
+    },
+
+    '&:hover:after': {
+      borderColor: 'white',
+    },
+  },
+
+  select: {
+    appearance: 'none',
+    backgroundColor: 'transparent',
+    border: `1px solid rgba(255, 255, 255, 0.64)`,
+    borderRadius: '.125rem',
+    color: 'white',
+    font: 'inherit',
+    margin: 0,
+    padding: '.75rem 2.5rem .75rem 1rem',
+    width: '100%',
+
+    '&:focus': {
+      outline: 'none',
+    },
+
+    '&:hover': {
+      borderColor: 'white',
+    },
+
+    fallbacks: {
+      '-moz-appearance': 'none',
+      '-webkit-appearance': 'none',
+    },
+  },
+};
 
 const StateSelect = (props) => {
   const {
-    primaryData,
-    secondaryData,
-    tertiaryData,
+    classes,
     primary,
     secondary,
-    tertiary,
     selectPrimary,
     selectSecondary,
-    volunteer,
-    trend,
+    selectType,
+    type,
   } = props;
 
+  const nextType = type === 'state' ? 'metro' : 'state';
+
   return (
-    <div>
-      <div>
-        <div>
-          <h1>State1 select</h1>
-          <select
-            onChange={selectPrimary}
-            value={primary}
-          >
-            {stateList.map(
-              (state, key) =>
-                <option
-                  key={key}
-                  value={state}
-                >
-                  {state}
-                </option>
-            )}
-          </select>
-        </div>
-      </div>
-      <div>
-        <div>
-          <h1>State2 select</h1>
-          <select
-            onChange={selectSecondary}
-            value={secondary}
-          >
-            {stateList.map(
-              (state, key) =>
-                <option
-                  key={key}
-                  value={state}
-                >
-                  {state}
-                </option>
-            )}
-          </select>
-        </div>
-      </div>
-      <div>
-        <h2>Volunteer</h2>
-        <YearSelect trend="volunteer_percent" {...props} />
-        <Volunteer state={primary} filter={primaryData}  {...props} />
-        <Volunteer state={secondary} filter={secondaryData} {...props} />
-        <Volunteer state={tertiary} filter={tertiaryData} {...props} />
+    <Hero color="primary">
+      <HeroHeader>
+        <Navigation />
+      </HeroHeader>
+      <HeroBody>
+        <Container size="small">
+          <Heading style={{ textAlign: 'center' }}>Compare States</Heading>
+          <Heading type="sub-title" style={{ textAlign: 'center' }}>Pick two states to compare civic health data.</Heading>
 
-        <h2>Voted</h2>
-        <YearSelect trend="voted_percent" {...props} />
-        <Voted state={primary} filter={primaryData}  {...props} />
-        <Voted state={secondary} filter={secondaryData} {...props} />
-        <Voted state={tertiary} filter={tertiaryData} {...props} />
-
-      </div>
-    </div>
+          <Columns>
+            <Column>
+              <div className={classes.container}>
+                <select className={classes.select} onChange={selectPrimary} value={primary}>
+                  {CompareConstants.states.map((state, key) => <option key={key} value={state}>{state}</option>)}
+                </select>
+              </div>
+            </Column>
+            <Column>
+              <div className={classes.container}>
+                <select className={classes.select} onChange={selectSecondary} value={secondary}>
+                  {CompareConstants.states.map((state, key) => <option key={key} value={state}>{state}</option>)}
+                </select>
+              </div>
+            </Column>
+          </Columns>
+        </Container>
+      </HeroBody>
+      <HeroFooter>
+        <Container>
+          <p style={{ textAlign: 'center' }}>
+            {'Looking to compare MSA data? '}
+            <a
+              href="#switch-to-msa"
+              onClick={(event) => {
+                event.preventDefault();
+                selectType(nextType);
+              }}
+            >
+              Switch to MSA mode!
+            </a>
+          </p>
+        </Container>
+      </HeroFooter>
+    </Hero>
   );
 }
 
-export default StateSelect;
+export default injectSheet(styles)(StateSelect);
