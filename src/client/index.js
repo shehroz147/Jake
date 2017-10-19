@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import createStore from '../common/Redux/createStore';
 import routes from '../common/routes';
 
-const store = createStore(window.__PRELOADED_STATE__);
+const store = createStore(window.__INITIAL_STATE__);
 
 render(
   <Provider store={store}>
