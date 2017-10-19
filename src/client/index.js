@@ -1,7 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { browserHistory, Router } from 'react-router';
+import { applyRouterMiddleware, browserHistory, Router } from 'react-router';
 import { Provider } from 'react-redux';
+import { useScroll } from 'react-router-scroll';
 
 import createStore from '../common/Redux/createStore';
 import routes from '../common/routes';
@@ -10,7 +11,7 @@ const store = createStore(window.__INITIAL_STATE__);
 
 render(
   <Provider store={store}>
-    <Router routes={routes} history={browserHistory} />
+    <Router history={browserHistory} render={applyRouterMiddleware(useScroll())} routes={routes} />
   </Provider>,
   document.getElementById('js-react'),
   () => {
@@ -25,7 +26,7 @@ if (module.hot) {
 
     render(
       <Provider store={store}>
-        <Router routes={nextRoutes} history={browserHistory} />
+        <Router history={browserHistory} render={applyRouterMiddleware(useScroll())} routes={nextRoutes} />
       </Provider>,
       document.getElementById('js-react')
     );

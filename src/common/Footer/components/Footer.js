@@ -23,22 +23,22 @@ const Footer = () => (
           <Columns style={{ alignItems: 'center' }}>
             <Column>
               <a href="http://loufreyinstitute.org" rel="noopener noreferrer" target="_blank" title="Lou Frey Institute">
-                <img alt="Lou Frey Institute Logo" src="/images/lou-frey-institute.png" />
+                <img alt="Lou Frey Institute Logo" src="/images/lou-frey-institute.png" width="52" />
               </a>
             </Column>
             <Column>
               <a href="http://floridacitizen.org" rel="noopener noreferrer" target="_blank" title="Florida Joint Center for Citizenship">
-                <img alt="Florida Joint Center for Citizenship Logo" src="/images/florida-joint-center-citizenship.png" width="128" />
+                <img alt="Florida Joint Center for Citizenship Logo" src="/images/florida-joint-center-citizenship.png" width="52" />
               </a>
             </Column>
             <Column>
               <a href="https://www.ncoc.org/" rel="noopener noreferrer" target="_blank" title="National Conference on Citizenship">
-                <img alt="National Conference on Citizenship Logo" src="/images/national-conference-citizenship.png" />
+                <img alt="National Conference on Citizenship Logo" src="/images/national-conference-citizenship.png" width="88" />
               </a>
             </Column>
             <Column>
               <a href="http://www.bobgrahamcenter.ufl.edu/" rel="noopener noreferrer" target="_blank" title="Bob Graham Center for Public Service">
-                <img alt="Bob Graham Center for Public Service Logo" src="/images/bob-graham-center-public-service.png" />
+                <img alt="Bob Graham Center for Public Service Logo" src="/images/bob-graham-center-public-service.png" width="175" />
               </a>
             </Column>
           </Columns>
