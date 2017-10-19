@@ -60,6 +60,11 @@ const styles = {
       borderColor: 'white',
     },
 
+    '& option': {
+      color: 'black',
+      font: 'inherit',
+    },
+
     fallbacks: {
       '-moz-appearance': 'none',
       '-webkit-appearance': 'none',
@@ -94,6 +99,7 @@ const StateSelect = (props) => {
             <Column>
               <div className={classes.container}>
                 <select className={classes.select} onChange={selectPrimary} value={primary}>
+                  <option disabled selected>Select State</option>
                   {CompareConstants.states.map((state, key) => <option key={key} value={state}>{state}</option>)}
                 </select>
               </div>
@@ -101,6 +107,7 @@ const StateSelect = (props) => {
             <Column>
               <div className={classes.container}>
                 <select className={classes.select} onChange={selectSecondary} value={secondary}>
+                  <option disabled selected>Select State</option>
                   {CompareConstants.states.map((state, key) => <option key={key} value={state}>{state}</option>)}
                 </select>
               </div>

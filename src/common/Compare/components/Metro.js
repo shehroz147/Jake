@@ -65,6 +65,11 @@ const styles = {
       borderColor: 'white',
     },
 
+    '& option': {
+      color: 'black',
+      font: 'inherit',
+    },
+
     fallbacks: {
       '-moz-appearance': 'none',
       '-webkit-appearance': 'none',
@@ -100,6 +105,7 @@ const Metro = (props) => {
             <Column>
               <div className={classes.container}>
                 <select className={classes.select} onChange={selectPrimary} value={primary}>
+                  <option disabled selected>Select State</option>
                   {metros.map((metro, key) => <option key={key} value={metro}>{metro}</option>)}
                 </select>
               </div>
@@ -107,6 +113,7 @@ const Metro = (props) => {
             <Column>
               <div className={classes.container}>
                 <select className={classes.select} onChange={selectSecondary} value={secondary}>
+                  <option disabled selected>Select State</option>
                   {metros.map((metro, key) => <option key={key} value={metro}>{metro}</option>)}
                 </select>
               </div>
