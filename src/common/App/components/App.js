@@ -6,6 +6,8 @@ import {
   WolfsharkThemeProvider as MakoThemeProvider,
 } from 'react-mako';
 
+import Footer from '../../Footer';
+
 const App = (props) => {
   const {
     children,
@@ -15,6 +17,7 @@ const App = (props) => {
     <MakoThemeProvider theme={defaultTheme}>
       <GlobalStyles>
         {children}
+        <Footer />
       </GlobalStyles>
     </MakoThemeProvider>
   );
