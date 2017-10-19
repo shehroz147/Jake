@@ -66,6 +66,7 @@ const styles = {
     },
 
     '& option': {
+      backgroundColor: 'white',
       color: 'black',
       font: 'inherit',
     },
