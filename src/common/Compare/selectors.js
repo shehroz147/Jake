@@ -1,7 +1,7 @@
 // import find from 'lodash/find';
 import filter from 'lodash/filter';
 import get from 'lodash/get';
-// import uniq from 'lodash/uniq';
+import uniq from 'lodash/uniq';
 import { createSelector } from 'reselect';
 
 import {
@@ -73,6 +73,6 @@ export const listMetros = createSelector(
       metros = filter(data, { metro_size: size });
     }
 
-    return metros.map(metro => metro.metro);
+    return uniq(metros.map(metro => metro.metro)).sort();
   }
 );
