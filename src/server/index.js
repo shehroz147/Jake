@@ -10,4 +10,4 @@ server
   .use(compression())
   .use(express.static(path.join(__dirname, '../..', 'static'), { maxAge: '1y' }))
   .use(match)
-  .listen(3000, () => console.log('> Express running.'));
+  .listen(3001, () => console.log('> Express running.'));
