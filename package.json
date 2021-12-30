@@ -11,6 +11,9 @@
     "build:server": "babel src --out-dir build --copy-files",
     "build:scripts": "webpack -p --config webpack.production.config.js"
   },
+  "engines" : {
+    "node" : "12.19.0"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
